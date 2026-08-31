@@ -41,7 +41,7 @@ export const brand = {
 	heroImage: '/images/sea-of-thieves-cheats-hero-1600w.webp',
 	/** Product demo clip — lazy-loaded on homepage; fetched only after play */
 	demoVideoUrl: 'https://seaofthievescheats.com/videos/hero.webm',
-	demoVideoPoster: '/images/sot-screenshot-06.webp',
+	demoVideoPoster: '/images/sea-of-thieves-cheats-aimbot-cannon.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },
@@ -180,44 +180,34 @@ export const brand = {
 		reviewsImageCaption: 'Sea of Thieves cheats & Sea of Thieves hacks — what buyers say about {primaryKeyword}',
 		images: [
 			{
-				src: '/images/sot-screenshot-01.webp',
-				title: 'Sea of Thieves ESP loot and item detection',
-				caption: 'Sea of Thieves ESP wallhack with distance-tagged loot boxes and weapons',
+				src: '/images/sea-of-thieves-cheats-esp-player-skeleton.webp',
+				title: 'Sea of Thieves ESP player skeleton and bone ESP',
+				caption:
+					'Sea of Thieves cheats ESP showing player skeleton boxes, crew list, and ship approaching alerts',
 			},
 			{
-				src: '/images/sot-screenshot-02.webp',
-				title: 'Sea of Thieves wallhack ESP overlay',
-				caption: 'Sea of Thieves wallhack ESP with loot tags visible through walls',
+				src: '/images/sea-of-thieves-cheats-ship-tracking-esp.webp',
+				title: 'Sea of Thieves ship tracking ESP and distance radar',
+				caption:
+					'Sea of Thieves cheats ship ESP with brigantine distance markers and crew player tags',
 			},
 			{
-				src: '/images/sot-screenshot-03.webp',
-				title: 'Sea of Thieves cheats in-match view',
-				caption: 'Sea of Thieves gameplay session with cheats running on Windows PC',
+				src: '/images/sea-of-thieves-cheats-aimbot-cannon.webp',
+				title: 'Sea of Thieves aimbot cannon and trajectory ESP',
+				caption:
+					'Sea of Thieves cheats aimbot cannon view with red trajectory line, outpost distances, and ship alerts',
 			},
 			{
-				src: '/images/sot-screenshot-04.webp',
-				title: 'Sea of Thieves ESP player tracking',
-				caption: 'Sea of Thieves ESP showing enemy names, health, and distance through the map',
+				src: '/images/sea-of-thieves-cheats-esp-ship-approach.webp',
+				title: 'Sea of Thieves ESP ship approach and cannon aimbot',
+				caption:
+					'Sea of Thieves cheats ESP showing ship approaching warnings, hull damage, and outpost distance readouts',
 			},
 			{
-				src: '/images/sot-screenshot-05.webp',
-				title: 'Sea of Thieves ESP threat markers',
-				caption: 'Sea of Thieves ESP distance markers for players and loot in live matches',
-			},
-			{
-				src: '/images/sot-screenshot-06.webp',
-				title: 'Sea of Thieves cheats combat ESP',
-				caption: 'Sea of Thieves cheats ESP active during a live Sea of Thieves match',
-			},
-			{
-				src: '/images/sot-screenshot-07.webp',
-				title: 'Sea of Thieves wallhack player ESP',
-				caption: 'Sea of Thieves wallhack ESP with player outlines and distance tags',
-			},
-			{
-				src: '/images/sot-screenshot-08.webp',
-				title: 'Sea of Thieves ESP and loot ESP gameplay',
-				caption: 'Sea of Thieves ESP loot tags and wallhack overlay during ranked gameplay',
+				src: '/images/sea-of-thieves-cheats-esp-island-overlay.webp',
+				title: 'Sea of Thieves ESP island overlay and mod menu features',
+				caption:
+					'Sea of Thieves cheats ESP island markers, skeleton fleet alerts, and in-game feature hotkey overlay',
 			},
 		],
 	},

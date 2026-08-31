@@ -13,44 +13,29 @@ export type BrandSitemapImage = {
 
 const defaultImages: BrandSitemapImage[] = [
 	{
-		src: '/images/sot-screenshot-01.webp',
-		title: 'sea of thieves cheats esp',
-		caption: 'sea of thieves cheats esp wallhack player boxes',
+		src: '/images/sea-of-thieves-cheats-esp-player-skeleton.webp',
+		title: 'sea of thieves cheats esp player skeleton',
+		caption: 'sea of thieves cheats esp bone overlay and ship approaching alerts',
 	},
 	{
-		src: '/images/sot-screenshot-02.webp',
-		title: 'sea of thieves cheats wallhack',
-		caption: 'sea of thieves cheats wallhack esp through walls',
+		src: '/images/sea-of-thieves-cheats-ship-tracking-esp.webp',
+		title: 'sea of thieves cheats ship tracking esp',
+		caption: 'sea of thieves cheats ship esp brigantine distance markers',
 	},
 	{
-		src: '/images/sot-screenshot-03.webp',
-		title: 'sea of thieves cheats aimbot',
-		caption: 'sea of thieves cheats aimbot soft aim in match',
+		src: '/images/sea-of-thieves-cheats-aimbot-cannon.webp',
+		title: 'sea of thieves cheats aimbot cannon',
+		caption: 'sea of thieves cheats aimbot cannon trajectory and outpost esp',
 	},
 	{
-		src: '/images/sot-screenshot-04.webp',
-		title: 'sea of thieves cheats mod menu',
-		caption: 'sea of thieves cheats mod menu with ESP and radar toggles',
+		src: '/images/sea-of-thieves-cheats-esp-ship-approach.webp',
+		title: 'sea of thieves cheats esp ship approach',
+		caption: 'sea of thieves cheats esp ship approaching warning and cannon aimbot',
 	},
 	{
-		src: '/images/sot-screenshot-05.webp',
-		title: 'sea of thieves cheats radar',
-		caption: 'sea of thieves cheats 2d radar hack overlay',
-	},
-	{
-		src: '/images/sot-screenshot-06.webp',
-		title: 'sea of thieves cheats overlay',
-		caption: 'sea of thieves cheats esp and aimbot in match',
-	},
-	{
-		src: '/images/sot-screenshot-07.webp',
-		title: 'sea of thieves cheats player esp',
-		caption: 'sea of thieves cheats wallhack player outlines',
-	},
-	{
-		src: '/images/sot-screenshot-08.webp',
-		title: 'sea of thieves cheats gameplay',
-		caption: 'sea of thieves cheats aimbot and esp ranked gameplay',
+		src: '/images/sea-of-thieves-cheats-esp-island-overlay.webp',
+		title: 'sea of thieves cheats esp island overlay',
+		caption: 'sea of thieves cheats esp island markers and mod menu features',
 	},
 ];
 

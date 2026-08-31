@@ -1,6 +1,7 @@
 /**
  * Responsive image helpers — prefer compressed WebP for LCP and below-fold media.
  */
+import { PRODUCT_SCREENSHOT_SLUGS } from '../data/product-images';
 
 export interface ResponsiveWidth {
 	src: string;
@@ -22,7 +23,8 @@ function hasWidthSuffix(name: string): boolean {
  * Other assets (pirate banners, feature art) do not — skip srcset for those.
  */
 function hasContentVariants(name: string): boolean {
-	return /^(sot-screenshot-\d{2}|reviews-banner)$/i.test(name);
+	if (name === 'reviews-banner') return true;
+	return PRODUCT_SCREENSHOT_SLUGS.some((slug) => slug === name);
 }
 
 /** Build srcset for content images that have -480w / -960w variants. */
