@@ -1,0 +1,11 @@
+{
+  "remote.autoForwardPorts": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "remote.portsAttributes": {
+    "5173": {
+      "label": "Sea of Thieves Cheats",
+      "onAutoForward": "openBrowser",
+      "protocol": "http"
+    }
+  }
+}

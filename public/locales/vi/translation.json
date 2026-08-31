@@ -1,0 +1,426 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "hacks": "Cheats",
+    "aimbot": "Aimbot",
+    "esp": "ESP",
+    "features": "Tính năng",
+    "pricing": "Giá",
+    "setup": "Cài đặt",
+    "updates": "Cập nhật",
+    "faq": "FAQ",
+    "buyNow": "Mua ngay",
+    "preview": "Cheats",
+    "store": "Giá",
+    "status": "Cập nhật",
+    "reviews": "Người chơi nói gì",
+    "primaryAria": "Primary",
+    "mobileAria": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "accent": "Cheat Sea of Thieves undetected",
+    "accentShort": "Sea of Thieves Cheats",
+    "title": "Sea of Thieves Cheats",
+    "subtitle": "ESP wallhack, radar hack và Aimbot cho Sea of Thieves trên PC Windows — bảo trì EAC bao gồm.",
+    "subtitleShort": "ESP, radar & Aimbot cho Sea of Thieves PC",
+    "buyNow": "Mua ngay",
+    "seeFeatures": "Xem tính năng",
+    "priceFrom": "from",
+    "imageAlt": "{{brand}} — Sea of Thieves ESP and aimbot overlay",
+    "chipEsp": "ESP / wallhack",
+    "chipAim": "Soft aim",
+    "chipRadar": "2D radar",
+    "chipUpdates": "Cập nhật"
+  },
+  "cta": {
+    "buy": "Mua ngay",
+    "buyShort": "Mua ngay"
+  },
+  "trust": {
+    "status": "Trực tuyến",
+    "statusNote": "Gói Sea of Thieves Cheats đang hoạt động cho Sea of Thieves trên PC Windows.",
+    "statusShort": "Hoạt động",
+    "delivery": "Giao hàng kỹ thuật số tức thì",
+    "platform": "Windows 10 & 11",
+    "antiCheat": "Hỗ trợ bảo trì EAC",
+    "antiCheatShort": "Hỗ trợ EAC"
+  },
+  "product": {
+    "title": "Sea of Thieves Cheats",
+    "addToCart": "Thêm vào giỏ",
+    "monthly": "Hàng tháng",
+    "lifetime": "Trọn đời",
+    "available": "Có sẵn ngay",
+    "gameBadge": "Sea of Thieves",
+    "platformBadge": "Windows PC",
+    "statusBadge": "Gói undetected",
+    "days30": "30",
+    "oneTime": "Trọn đời",
+    "plans": "Giá",
+    "perMonth": "/",
+    "once": "",
+    "buyMonthly": "Hàng tháng",
+    "buyLifetime": "Trọn đời"
+  },
+  "reviews": {
+    "title": "Người chơi nói gì",
+    "subtitle": "Phản hồi gần đây từ người mua Sea of Thieves Cheats",
+    "outOf": "/5",
+    "countLabel": "đánh giá",
+    "eyebrow": "Người chơi nói gì",
+    "homeTitle": "Sea of Thieves Cheats Người chơi nói gì",
+    "buyerReviews": "đánh giá",
+    "averageAria": "Người chơi nói gì",
+    "outOfFiveAria": "/5",
+    "readAll": "→"
+  },
+  "common": {
+    "buyNow": "Buy Sea of Thieves Cheats",
+    "readGuide": "Read guide",
+    "language": "Language",
+    "officialLanguageNote": "English is official; other locales are translated.",
+    "relatedPages": "Related pages",
+    "selectLanguage": "Ngôn ngữ",
+    "englishOfficial": "Tiếng Anh là ngôn ngữ chính thức",
+    "englishIsOfficial": "Tiếng Anh là ngôn ngữ chính thức. Các ngôn ngữ khác được dịch cho SEO toàn cầu.",
+    "languageSuggestion": "Ngôn ngữ",
+    "dismiss": "Dismiss",
+    "localeVersion": "{{name}} version",
+    "localeSuggestLead": "{{nativeName}} ({{region}}) — ",
+    "breadcrumb": "Breadcrumb",
+    "gallery": "Gallery",
+    "inGameLook": "In-game look",
+    "allQuestions": "FAQ",
+    "openAnyQuestion": "Đọc hướng dẫn",
+    "packageStatus": "Cập nhật",
+    "productDetails": "Tính năng",
+    "browse": "Trang liên quan",
+    "featured": "Featured",
+    "share": "Share",
+    "shareX": "Share on X",
+    "shareReddit": "Share on Reddit",
+    "shareFacebook": "Share on Facebook",
+    "blog": "Blog",
+    "guides": "Guides",
+    "home": "Home",
+    "support": "Support",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "featureList": "Tính năng",
+    "pricingPlans": "Giá",
+    "buyerReviewsNav": "Người chơi nói gì",
+    "copyright": "© {{year}} {{brand}}",
+    "refundPolicy": "Refund policy"
+  },
+  "footer": {
+    "explore": "Khám phá",
+    "help": "Trợ giúp & pháp lý",
+    "tagline": "ESP, wallhack, radar và Aimbot undetected cho Sea of Thieves — thanh toán qua Zadeyo."
+  },
+  "home": {
+    "aboutTitle": "cheat undetected cho Sea of Thieves",
+    "aboutP1": "Gói undetected Sea of Thieves trên Windows PC: ESP wallhack, radar, Aimbot với bảo trì EAC. Giá · Cập nhật.",
+    "aboutPricingCta": "So sánh giá",
+    "aboutP2Before": "Bắt đầu với",
+    "aboutPillar": "trụ cột Sea of Thieves Cheats",
+    "aboutEsp": "hướng dẫn ESP",
+    "aboutAimbot": "điều khiển aimbot",
+    "aboutUndetected": "trạng thái undetected",
+    "aboutP2Mid": ", ",
+    "aboutP2Or": ", hoặc ",
+    "aboutP2After": " nếu bạn vẫn đang so sánh công cụ.",
+    "playDemoVideo": "Play Sea of Thieves cheats demo video",
+    "pauseDemoVideo": "Pause Sea of Thieves cheats demo video",
+    "demoVideoCaption": "Sea of Thieves Cheats — ESP, aimbot & radar in match",
+    "volumeLabel": "Volume",
+    "muteVideo": "Mute video",
+    "unmuteVideo": "Unmute video",
+    "seekLabel": "Video progress"
+  },
+  "homeSeo": {
+    "eyebrow": "Guides",
+    "title": "Trang liên quan by category",
+    "lede": "Tính năng, Cập nhật, Giá, FAQ.",
+    "catFeatures": "Tính năng",
+    "catFeaturesHint": "Tính năng",
+    "catStatus": "Cập nhật",
+    "catStatusHint": "Cập nhật",
+    "catStore": "Giá",
+    "catStoreHint": "Giá",
+    "catHelp": "FAQ",
+    "catHelpHint": "FAQ",
+    "linkAllFeatures": "Tính năng",
+    "linkEsp": "ESP",
+    "linkAimbot": "Aimbot",
+    "linkRadar": "Radar",
+    "linkLiveStatus": "Cập nhật",
+    "linkUndetected": "Gói undetected",
+    "linkEAC": "EAC",
+    "linkSetup": "Cài đặt",
+    "linkPlans": "Giá",
+    "linkReviews": "Người chơi nói gì",
+    "linkFinalsCheats": "Sea of Thieves Cheats",
+    "linkFaq": "FAQ",
+    "linkSupport": "Support",
+    "linkSetupGuide": "Cài đặt",
+    "linkBlog": "Blog",
+    "linkRefunds": "Refunds",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "FAQ",
+    "faqLede": "Giao hàng kỹ thuật số tức thì",
+    "allAnswers": "FAQ",
+    "openFullPage": "Đọc hướng dẫn"
+  },
+  "deals": {
+    "pricing": "Giá",
+    "chooseLicense": "Giá",
+    "features": "Tính năng",
+    "featEsp": "ESP / wallhack",
+    "featAim": "Aimbot",
+    "featRadar": "2D radar",
+    "featUpdates": "Cập nhật"
+  },
+  "trustStrip": {
+    "instantDelivery": "Giao hàng kỹ thuật số tức thì",
+    "secureCheckout": "Mua ngay",
+    "support247": "24/7"
+  },
+  "categoryRow": {
+    "hacks": "Cheats",
+    "esp": "ESP",
+    "aimbot": "Aimbot",
+    "radar": "Radar",
+    "wallhack": "Wallhack",
+    "undetected": "Gói undetected",
+    "features": "Tính năng",
+    "pricing": "Giá",
+    "setup": "Cài đặt",
+    "blog": "Blog"
+  },
+  "internalLinks": {
+    "relatedLede": "Sea of Thieves Cheats — Trang liên quan.",
+    "topicsTitle": "Tính năng",
+    "topicsLabel": "Tính năng",
+    "topicsLede": "ESP, Aimbot, Giá, Cài đặt, Cập nhật.",
+    "overview": "Sea of Thieves Cheats",
+    "esp": "ESP & wallhack",
+    "aimbot": "Aimbot",
+    "radar": "Radar",
+    "features": "Tính năng",
+    "pricing": "Giá",
+    "setup": "Cài đặt",
+    "status": "Cập nhật",
+    "faq": "FAQ",
+    "support": "Support",
+    "blog": "Blog",
+    "reviews": "Người chơi nói gì",
+    "hacks": "Cheats",
+    "undetected": "Gói undetected"
+  },
+  "externalResources": {
+    "title": "Guías oficiales del juego y recursos",
+    "lede": "Enlazamos fuentes de confianza para verificar parches, estadísticas y mapas fuera de nuestro sitio.",
+    "pillsTitle": "Guías oficiales del juego y recursos",
+    "pillsLabel": "Guías oficiales del juego y recursos",
+    "steam": {
+      "label": "Sea of Thieves en PC",
+      "note": "Página oficial de la tienda, requisitos y reseñas."
+    },
+    "patch": {
+      "label": "Parches y noticias de Sea of Thieves",
+      "note": "Lee actualizaciones oficiales antes de cambiar tu loadout."
+    },
+    "official": {
+      "label": "Sitio oficial de Sea of Thieves",
+      "note": "Resumen del juego de Rare."
+    },
+    "wiki": {
+      "label": "Wiki de Sea of Thieves (Fandom)",
+      "note": "Estadísticas, mapas y mecánicas de supervivencia."
+    },
+    "community": {
+      "label": "Hub de Sea of Thieves community",
+      "note": "Anuncios y debates de la comunidad."
+    }
+  },
+  "images": {
+    "hero": "Sea of Thieves Cheats pirate — ESP and aimbot overlay in Sea of Thieves",
+    "espWallhack": "Wallhack outlines showing agents through walls",
+    "aimbotCombat": "Soft aim assist overlay during a Sea of Thieves match",
+    "squadFight": "Sea of Thieves Cheats combat overlay during a team fight",
+    "playerEsp": "Player ESP boxes and distance readouts in a Sea of Thieves match",
+    "headerArt": "Aimbot view and bone priority controls for Sea of Thieves",
+    "hacksPackage": "2D radar threat overlay for Sea of Thieves",
+    "raidFight": "Aimbot assist during a Sea of Thieves naval combat",
+    "battleRoyale": "Sea of Thieves Cheats in-session overview for Windows PC",
+    "raidMap": "ESP markers for pirate skills and POIs in Sea of Thieves"
+  },
+  "guides": {
+    "hubTitle": "Game Guides Hub",
+    "hubIntro": "Sea of Thieves Cheats product guides sit at the top. Scroll down for dedicated PC game guides — each with its own article and resources.",
+    "nativeTitle": "Sea of Thieves Cheats guides",
+    "nativeLede": "Our primary guides for ESP, aimbot, radar, setup, and pricing on seaofthievescheats.com.",
+    "gameTitle": "Other Games Guides",
+    "gameLede": "Dedicated articles for Fortnite, Tarkov, Warzone, Marvel Rivals, and more — mixed across titles below.",
+    "readGuide": "Read guide",
+    "published": "Published",
+    "updated": "Updated"
+  },
+  "blog": {
+    "blogTitle": "Sea of Thieves Cheats Blog | Guides & Patch Tips",
+    "blogDescription": "Sea of Thieves guides — sailing and PvP tips, ESP, aimbot notes, sailing routes, and EAC update coverage. English blog at seaofthievescheats.com/blog/.",
+    "blogH1": "Sea of Thieves Cheats Intel",
+    "blogIntro": "Actionable Sea of Thieves guides for ranked and Quick Match sessions — meta breakdowns, sailing routes, ship tiers, and pro warmup routines. Pair these tips with our Sea of Thieves Cheats pages for ESP, soft aim, and radar when you need in-match tools.",
+    "readMore": "Read guide",
+    "published": "Published",
+    "updated": "Updated",
+    "relatedPosts": "Related Sea of Thieves guides",
+    "allPosts": "All blog posts",
+    "home": "Sea of Thieves Cheats home",
+    "language": "Language",
+    "label": "Sea of Thieves Intel"
+  },
+  "gallery": {
+    "eyebrow": "Sea of Thieves Cheats",
+    "title": "Sea of Thieves Cheats gallery",
+    "subtitle": "Sea of Thieves Cheats visuals — ESP, wallhack, aimbot, and radar for Sea of Thieves on PC.",
+    "lead": "Sea of Thieves Cheats helps you spot enemy pirates, loot, and high-traffic POIs with ESP, aimbot, and radar in one license.",
+    "highlightEspTitle": "Sea of Thieves Cheats ESP",
+    "highlightEspCopy": "See enemy pirates through walls with Sea of Thieves Cheats ESP and wallhack overlays.",
+    "highlightRadarTitle": "Sea of Thieves Cheats radar",
+    "highlightRadarCopy": "Track nearby threats with Sea of Thieves Cheats radar before you push or rotate.",
+    "highlightAimbotTitle": "Sea of Thieves Cheats aimbot",
+    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Sea of Thieves matches on Windows PC.",
+    "updatesLabel": "Sea of Thieves Cheats updates",
+    "updatesShort": "Updates"
+  },
+  "faq": {
+    "items": {
+      "what-are-sea-of-thieves-cheats": {
+        "q": "¿Qué es Sea of Thieves Cheats?",
+        "a": "Sea of Thieves Cheats es un paquete de cheats undetected para Sea of Thieves en PC Windows. Incluye ESP wallhack, radar 2D y controles de aimbot, con mantenimiento EAC y soporte de instalación."
+      },
+      "are-sea-of-thieves-cheats-undetected-in-2026": {
+        "q": "¿Los Sea of Thieves Cheats son undetected en 2026?",
+        "a": "Sea of Thieves Cheats se mantiene para Sea of Thieves con reconstrucciones tras parches de EAC y del juego. Revisa la Trạng thái antes de entrar en match. Ningún cheat puede garantizar indetectabilidad permanente."
+      },
+      "solo-farmer-and-raider-sessions": {
+        "q": "Có hoạt động trong vòng battle royale và trận ranked không?",
+        "a": "Có. ESP, radar và aimbot được thiết kế cho luồng trận Sea of Thieves — đọc tướng địch, theo dõi loot và soul jades, và giữ nhận thức gần POI và khu chiến đấu trong Quick Match và Ranked."
+      },
+      "esp-wallhack-radar-or-aimbot": {
+        "q": "¿Qué incluye: ESP, wallhack, radar o Aimbot?",
+        "a": "Sea of Thieves Cheats agrupa ESP wallhack, marcadores de loot, radar 2D y Aimbot configurable en una licencia. Consulta Tính năng para la lista completa."
+      },
+      "how-are-licenses-delivered": {
+        "q": "¿Cómo se entregan las licencias?",
+        "a": "Tras confirmar el pago, los datos de la licencia se entregan digitalmente en el checkout. El tiempo puede variar según el método de pago. Guarda la confirmación del pedido si contactas soporte."
+      },
+      "where-to-check-updates": {
+        "q": "¿Dónde reviso actualizaciones tras un parche de Sea of Thieves o EAC?",
+        "a": "Las notas de mantenimiento se publican en la Trạng thái cuando un parche afecta al paquete. Es el lugar más rápido para confirmar si hay una nueva build."
+      },
+      "how-to-contact-support": {
+        "q": "¿Cómo contacto soporte?",
+        "a": "Usa la página de Hỗ trợ o escribe a support@seaofthievescheats.com. Incluye los datos del pedido y una descripción clara del problema de instalación."
+      },
+      "what-is-a-sea-of-thieves-wallhack": {
+        "q": "Wallhack Sea of Thieves là gì?",
+        "a": "Wallhack Sea of Thieves là overlay ESP hiển thị tướng địch qua địa hình. Sea of Thieves Cheats gồm khoảng cách, tín hiệu grapple và ultimate, và danh mục bật tắt."
+      },
+      "does-sea-of-thieves-cheats-include-radar-hack": {
+        "q": "¿Sea of Thieves Cheats incluye radar hack?",
+        "a": "Sí. Sea of Thieves Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de zone."
+      },
+      "eac-anti-cheat-and-sea-of-thieves-cheats": {
+        "q": "¿Cómo afecta EAC a los Sea of Thieves Cheats?",
+        "a": "EAC monitoriza Sea of Thieves en PC Windows. Sea of Thieves Cheats publica notas de mantenimiento tras parches que pueden requerir una nueva build. Revisa Estado antes de jugar."
+      },
+      "buy-undetected-sea-of-thieves-cheats-windows-pc": {
+        "q": "¿Puedo comprar trucos undetected de Sea of Thieves para PC Windows?",
+        "a": "Sí: Sea of Thieves Cheats vende licencias mensuales y de por vida para PC Windows con ESP, radar y aimbot en un solo paquete. Compara planes en la Cửa hàng antes del checkout."
+      },
+      "how-much-do-sea-of-thieves-cheats-cost": {
+        "q": "How much do sea of thieves cheats cost in 2026?",
+        "a": "Sea of Thieves Cheats is $35 per month or $150 lifetime USD on Windows PC. Both plans include ESP wallhack, 2D radar, soft aim, and EAC maintenance rebuilds. See Pricing for the latest plan details before checkout."
+      },
+      "what-is-sea-of-thieves-esp-hack": {
+        "q": "ESP hack Sea of Thieves là gì?",
+        "a": "ESP hack Sea of Thieves là overlay tầm nhìn hiển thị tướng địch, vũ khí và loot qua tường. Sea of Thieves Cheats ESP gồm hộp người chơi, thẻ khoảng cách, tín hiệu grapple và ultimate, và danh mục cho Quick Match và Ranked."
+      },
+      "what-is-sea-of-thieves-aimbot-hack": {
+        "q": "Aimbot hack Sea of Thieves là gì?",
+        "a": "Aimbot hack Sea of Thieves cung cấp aim assist với FOV, độ mượt và ưu tiên xương có thể cấu hình. Sea of Thieves Cheats dùng hồ sơ soft aim tự nhiên trong team fight và đấu tay đôi — chỉnh trong menu mod trước hàng đợi Ranked."
+      },
+      "how-to-install-sea-of-thieves-cheats": {
+        "q": "How do I install sea of thieves cheats on Windows PC?",
+        "a": "After checkout, follow the Setup guide: download the loader, disable conflicting overlays, launch Sea of Thieves Cheats, and enable ESP, radar, or aimbot toggles in the mod menu. Most buyers finish first launch in under 15 minutes. Email support@seaofthievescheats.com if activation fails."
+      },
+      "best-sea-of-thieves-cheats-in-2026": {
+        "q": "What are the best sea of thieves cheats in 2026?",
+        "a": "Top sea of thieves cheats in 2026 combine undetected ESP, soft aim, 2D radar, and fast EAC maintenance after patches. Sea of Thieves Cheats bundles all three in one license with status notes, setup support, and monthly or lifetime pricing — compare Features and Reviews before you buy."
+      },
+      "monthly-vs-lifetime-sea-of-thieves-cheats": {
+        "q": "Should I buy monthly or lifetime sea of thieves cheats?",
+        "a": "Choose monthly ($35) if you want a lower entry cost or only play a few seasons. Choose lifetime ($150) if you plan long-term Sea of Thieves play and want one payment for ESP, radar, aimbot, and future maintenance rebuilds. Both plans ship the same feature set."
+      },
+      "sea-of-thieves-cheats-windows-11": {
+        "q": "Do sea of thieves cheats work on Windows 11?",
+        "a": "Yes. Sea of Thieves Cheats supports Windows 10 and Windows 11 on PC. Use a clean install path from the Setup guide, keep EAC status green on the Updates page, and avoid running outdated builds after major patches."
+      },
+      "what-is-sea-of-thieves-soft-aim": {
+        "q": "Soft aim Sea of Thieves là gì?",
+        "a": "Soft aim Sea of Thieves nhẹ nhàng hướng ngắm tới mục tiêu trong FOV đã đặt thay vì snap ngay. Sea of Thieves Cheats cho phép chỉnh độ mượt, ưu tiên xương và hồ sơ theo loại vũ khí trong Quick Match và Ranked."
+      },
+      "free-sea-of-thieves-cheat-download": {
+        "q": "Is there a free Sea of Thieves hack download?",
+        "a": "Sea of Thieves Cheats is a paid license — there is no official free download. Avoid random “free sea of thieves cheat” sites; they often ship malware or detected loaders. Compare monthly and lifetime plans on Pricing for legitimate ESP, radar, and aimbot access with support."
+      },
+      "sot-eac-bypass": {
+        "q": "EAC bypass cho sea of thieves cheats hoạt động thế nào?",
+        "a": "Không có EAC bypass vĩnh viễn. Sea of Thieves Cheats được duy trì bằng rebuild sau bản vá Sea of Thieves và EAC — kiểm tra trang Cập nhật trước khi vào hàng đợi. Cài đặt có trách nhiệm và build mới nhất quan trọng hơn mọi tuyên bố “bypass”."
+      },
+      "sea-of-thieves-cheats-for-ranked": {
+        "q": "Sea of Thieves cheats có hoạt động trong ranked cạnh tranh không?",
+        "a": "Có. ESP, radar và soft aim được thiết kế cho Ranked và Quick Match Sea of Thieves trên PC Windows. Dùng cài đặt overlay thận trọng, đọc ghi chú bảo trì sau bản vá, và xác nhận trạng thái undetected trên trang Cập nhật trước hàng đợi cạnh tranh."
+      },
+      "what-is-sea-of-thieves-mod-menu": {
+        "q": "What is a Sea of Thieves mod menu?",
+        "a": "A Sea of Thieves mod menu is an in-game overlay to toggle ESP wallhack, radar, aimbot, and visual settings without alt-tabbing. Sea of Thieves Cheats ships a lightweight mod menu for Windows PC — see Features for the full toggle list."
+      },
+      "external-vs-internal-sea-of-thieves-cheats": {
+        "q": "What is the difference between external and internal sea of thieves cheats?",
+        "a": "External hacks read game memory from outside the client; internal hooks run inside the process. Sea of Thieves Cheats is built as an external-style package for easier setup on Windows PC, bundling ESP, radar, and soft aim with EAC maintenance after patches."
+      },
+      "how-long-sea-of-thieves-cheat-setup-takes": {
+        "q": "How long does sea of thieves cheats setup take?",
+        "a": "Most buyers finish Sea of Thieves Cheats setup in 10–20 minutes on Windows PC: install the loader, activate the license, and enable ESP or aimbot in the mod menu. If Windows Defender or another AV blocks the loader, follow Setup troubleshooting or email support@seaofthievescheats.com with your order ID."
+      },
+      "does-sea-of-thieves-cheats-include-triggerbot": {
+        "q": "Does Sea of Thieves Cheats include triggerbot?",
+        "a": "Sea of Thieves Cheats focuses on ESP wallhack, 2D radar, and soft aim profiles. Triggerbot is not advertised as a standalone module — review the Features page for the current toggle list before checkout."
+      }
+    }
+  },
+  "media": {
+    "demoVideoTitle": "Sea of Thieves Cheats ESP, Aimbot demo",
+    "playVideo": "Play video"
+  },
+  "pirate": {
+    "accent": "2026 — Undetected ESP, Aimbot & Wallhack",
+    "accentShort": "Undetected sea of thieves cheats 2026",
+    "title": "Sea of Thieves Cheats",
+    "subtitle": "sea of thieves cheats with Sea of Thieves ESP, radar hack and Sea of Thieves Aimbot for Windows PC — EAC maintenance included.",
+    "subtitleShort": "Sea of Thieves ESP, radar & aimbot for PC",
+    "buyNow": "Buy Sea of Thieves Cheats",
+    "seeFeatures": "See Features",
+    "priceFrom": "from",
+    "imageAlt": "{{brand}} — Sea of Thieves ESP and aimbot overlay",
+    "chipEsp": "ESP / wallhack",
+    "chipAim": "Soft aim",
+    "chipRadar": "2D radar",
+    "chipUpdates": "Patch updates"
+  }
+}

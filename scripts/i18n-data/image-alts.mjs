@@ -1,0 +1,42 @@
+/** Descriptive image alts — Google rejects empty or keyword-only alts. */
+export const DESCRIPTIVE_IMAGE_ALTS = {
+	hero: 'Sea of Thieves Cheats pirate — ESP and aimbot overlay in Sea of Thieves',
+	espWallhack: 'Wallhack outlines showing enemy pirates through walls',
+	aimbotCombat: 'Soft aim assist overlay during a Sea of Thieves match',
+	squadFight: 'Sea of Thieves Cheats combat overlay during a team fight',
+	playerEsp: 'Player ESP boxes and distance readouts in a Sea of Thieves match',
+	headerArt: 'Aimbot view and bone priority controls for Sea of Thieves',
+	hacksPackage: '2D radar threat overlay for Sea of Thieves',
+	raidFight: 'Aimbot assist during a Sea of Thieves naval combat',
+	battleRoyale: 'Sea of Thieves Cheats in-session overview for Windows PC',
+	raidMap: 'ESP markers for pirate skills and POIs in Sea of Thieves',
+};
+
+/** Page-level image alt by pageId (EN source of truth). */
+export const PAGE_IMAGE_ALTS = {
+	home: 'Sea of Thieves Cheats homepage pirate — ESP and aimbot for Sea of Thieves',
+	'sea-of-thieves-esp': 'Sea of Thieves ESP player boxes and distance readouts in a match',
+	'sea-of-thieves-aimbot': 'Sea of Thieves Aimbot and soft aim controls on Windows PC',
+	features: 'Sea of Thieves Cheats features — ESP, soft aim, and radar screenshots',
+	pricing: 'Sea of Thieves Cheats store plans for monthly and lifetime licenses',
+	setup: 'Sea of Thieves Cheats setup guide screenshot for Windows PC',
+	updates: 'Sea of Thieves Cheats live status after EAC and game patches',
+	faq: 'Sea of Thieves Cheats FAQ — delivery, setup, and update answers',
+	support: 'Sea of Thieves Cheats support page for license and setup help',
+	undetected: 'Sea of Thieves Cheats undetected status overview for Windows PC',
+	wallhack: 'sea of thieves wallhack visibility through walls in a match',
+	radar: 'Sea of Thieves 2D radar overlay showing nearby threats',
+	eac: 'Sea of Thieves Cheats maintenance after a EAC patch',
+	'cheats-2026': 'Sea of Thieves Cheats product overview for Sea of Thieves',
+	hacks: 'Sea of Thieves Cheats product page — ESP, aimbot, and radar',
+	'cheat-download': 'Sea of Thieves Cheats download and install delivery flow',
+	'mod-menu': 'Sea of Thieves Cheats in-game menu controls',
+	'soft-aim': 'Sea of Thieves soft aim FOV and smoothness settings',
+	'best-cheats': 'Sea of Thieves Cheats overview for Sea of Thieves on PC',
+	'aimbot-hack': 'Sea of Thieves Aimbot hack controls and bone priority',
+	'esp-hack': 'Sea of Thieves ESP hack boxes and ship and player markers',
+	'unlock-all': 'Sea of Thieves Cheats license features overview',
+	privacy: 'Sea of Thieves Cheats privacy policy page',
+	refund: 'Sea of Thieves Cheats refund policy page',
+	terms: 'Sea of Thieves Cheats terms of use page',
+};
