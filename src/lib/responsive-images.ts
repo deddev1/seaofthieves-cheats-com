@@ -52,13 +52,13 @@ export const heroResponsive: ResponsiveWidth[] = [
 	{ src: '/images/sea-of-thieves-cheats-hero-1024w.webp', width: 1024 },
 	{ src: '/images/sea-of-thieves-cheats-hero-1199w.webp', width: 1199 },
 	{ src: '/images/sea-of-thieves-cheats-hero-1536w.webp', width: 1536 },
-	{ src: '/images/sea-of-thieves-cheats-hero-1920w.webp', width: 1920 },
+	{ src: '/images/sea-of-thieves-cheats-hero-1600w.webp', width: 1600 },
 ];
 
 export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive;
 
 /** Default LCP src — full native-width WebP for retina desktops. */
-export const heroSrc = '/images/sea-of-thieves-cheats-hero-1920w.webp';
+export const heroSrc = '/images/sea-of-thieves-cheats-hero-1600w.webp';
 export const heroSrcSet = buildSrcSet(heroResponsive);
 export const heroSizes = '100vw';
 
@@ -66,9 +66,9 @@ export const heroSizes = '100vw';
 export const heroPreloadSrc = heroSrc;
 export const heroMimeType = 'image/webp';
 
-/** Intrinsic dimensions of the default LCP asset (1920w variant). */
-export const heroWidth = 1920;
-export const heroHeight = 810;
+/** Intrinsic dimensions of the default LCP asset (1600w variant). */
+export const heroWidth = 1600;
+export const heroHeight = 792;
 
 /** Responsive widths for below-fold content images. */
 export const contentWidths = [480, 960] as const;
