@@ -14,7 +14,7 @@ const locale = Astro.props.locale ?? defaultLocale;
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 ---
 
-<div class="hero-stage" style={`--hero-aspect-w: ${heroWidth}; --hero-aspect-h: ${heroHeight};`}>
+<div class="hero-stage">
 	<HeroApp
 		client:idle
 		locale={locale}
@@ -39,18 +39,17 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	.hero {
 		--hero-pad-y: clamp(1rem, 2vw, 1.75rem);
 		--hero-stack: clamp(0.5rem, 1.1vw, 0.75rem);
-		/* Match LCP asset dimensions from src/lib/responsive-images.ts */
-		--hero-ratio: var(--hero-aspect-w) / var(--hero-aspect-h);
+		/* Tall fold hero — matches narakacheats.org (~75–80vh below nav). */
+		--hero-min-h: clamp(34rem, 78vh, 52rem);
 		position: relative;
 		isolation: isolate;
 		display: grid;
 		align-items: center;
 		overflow: hidden;
 		background: var(--bg);
-		aspect-ratio: var(--hero-ratio);
 		width: 100%;
-		height: auto;
-		min-height: 0;
+		min-height: var(--hero-min-h);
+		height: var(--hero-min-h);
 		max-height: none;
 	}
 
@@ -69,8 +68,8 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 
 	.hero__media img {
 		object-fit: cover;
-		/* Character sits on the right; keep left dark for headline copy */
-		object-position: 72% center;
+		/* Art anchored right; left stays dark for headline copy */
+		object-position: 68% center;
 		image-rendering: auto;
 		transform: translateZ(0);
 		filter: brightness(0.72) saturate(0.85) contrast(0.96);
@@ -300,8 +299,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	 */
 	@media (max-width: 900px) {
 		.hero {
-			aspect-ratio: auto;
-			min-height: clamp(22rem, 88vw, 28rem);
+			--hero-min-h: clamp(26rem, 82svh, 36rem);
 			height: auto;
 		}
 
@@ -427,7 +425,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 
 	@media (max-width: 900px) and (orientation: landscape) and (max-height: 480px) {
 		.hero {
-			min-height: min(70svh, 16.5rem);
+			--hero-min-h: min(72svh, 18rem);
 		}
 
 		.hero__content {
