@@ -63,6 +63,12 @@ Disallow: /brand-studio
 Disallow: /__brand/
 Disallow: /__brand
 
+# Cross-game guide posts are noindex with outbound competitor links — block crawlers.
+Disallow: /guides/
+Allow: /guides/
+Allow: /guides/sea-of-thieves-seaofthievescheats-net-guide/
+Allow: /guides/sea-of-thieves-seaofthievescheats-org-guide/
+
 # Primary sitemap for Google Search Console — index covers EN, locale, and image sitemaps.
 Sitemap: ${brand.url}/sitemap.xml
 `,

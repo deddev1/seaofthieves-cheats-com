@@ -11,13 +11,13 @@ export type StandaloneSitemapEntry = {
 export const standaloneEnSitemapEntries: StandaloneSitemapEntry[] = [
 	{
 		path: '/about/',
-		lastmod: '2026-08-25',
+		lastmod: '2026-08-31',
 		changefreq: 'monthly',
 		priority: 0.65,
 	},
 	{
 		path: '/compare/',
-		lastmod: '2026-08-25',
+		lastmod: '2026-08-31',
 		changefreq: 'weekly',
 		priority: 0.88,
 	},

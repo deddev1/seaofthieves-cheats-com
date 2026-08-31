@@ -55,8 +55,8 @@ const IMAGE_SITEMAP_ENTRIES = countBrandSitemapImages();
 const BLOG_PAGES = 18; // /blog/ index + 17 posts
 const REVIEW_PAGES = 11; // /reviews/ index + 10 review detail pages
 const FAQ_PAGES = 26; // standalone FAQ answer pages (index is in product pages)
-const GUIDE_SITEMAP_PAGES = 1; // /guides/ hub only (competitor guide posts are noindex)
-const GUIDE_HTML_PAGES = 82; // /guides/ hub + 81 posts (all built)
+const GUIDE_SITEMAP_PAGES = 3; // /guides/ hub + 2 indexable SOT guide posts
+const GUIDE_HTML_PAGES = 116; // /guides/ hub + 115 posts (all built)
 const STANDALONE_PAGES = 3; // /about/ /compare/ /write-for-us/
 /** Product pages in sitemap — excludes cannibal EN URLs that 301 to stronger pillars */
 const ENGLISH_PRODUCT_PAGES = 18;
@@ -190,6 +190,8 @@ const ENGLISH_PATHS = [
 	'/compare/',
 	'/write-for-us/',
 	'/guides/',
+	'/guides/sea-of-thieves-seaofthievescheats-net-guide/',
+	'/guides/sea-of-thieves-seaofthievescheats-org-guide/',
 ];
 
 const LOCALE_CODES = [
@@ -528,6 +530,25 @@ async function main() {
 		}
 	}
 	if (errors === 0) ok('robots.txt lists sitemap.xml only (primary GSC submission path)');
+
+	if (!robots.includes('Disallow: /guides/')) {
+		fail('robots.txt must Disallow: /guides/ (cross-game posts are noindex)');
+		bump();
+	}
+	const guideAllows = [
+		'Allow: /guides/',
+		'Allow: /guides/sea-of-thieves-seaofthievescheats-net-guide/',
+		'Allow: /guides/sea-of-thieves-seaofthievescheats-org-guide/',
+	];
+	for (const rule of guideAllows) {
+		if (!robots.includes(rule)) {
+			fail(`robots.txt missing ${rule}`);
+			bump();
+		}
+	}
+	if (errors === 0) {
+		ok('robots.txt blocks cross-game guides while allowing hub + SOT guide posts');
+	}
 
 	// Built HTML vs sitemap total
 	const htmlPaths = await collectHtmlPaths(DIST);

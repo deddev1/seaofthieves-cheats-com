@@ -309,7 +309,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		slug: 'what-is-sea-of-thieves-mod-menu',
 		seoTitle: 'What Is a {game} Mod Menu? | FAQ',
 		seoDescription:
-			'{game} mod menu with ESP, radar, and aimbot toggles — included in {brand} for Windows PC.',
+			'{game} mod menu with ESP overlays, 2D radar, and soft aim toggles — included in {brand} for Windows PC voyages and PvP at seaofthievescheats.com.',
 	}),
 	faq({
 		question: 'What is the difference between external and internal {primaryKeyword}?',

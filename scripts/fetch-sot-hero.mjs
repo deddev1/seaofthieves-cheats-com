@@ -5,10 +5,11 @@ import sharp from 'sharp';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HERO_URL =
+	process.env.SOT_HERO_URL ??
 	process.env.FINALS_HERO_URL ??
 	process.env.VALORANT_HERO_URL ??
 	process.env.RUST_HERO_URL ??
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valorant/ChatGPT%20Image%20Aug%2024,%202026,%2007_13_59%20PM.png';
+	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/sea/2923ded6-cc75-473a-b322-a2290d7dd6ca.jpg';
 const imagesDir = path.resolve('public/images');
 /** High-quality WebP — pirate is LCP; prioritize clarity over file size. */
 const HERO_WEBP = { quality: 100, effort: 6, smartSubsample: false, alphaQuality: 100 };
@@ -72,9 +73,6 @@ const canonical = await resizeHero(lcpWidth).webp(HERO_WEBP).toBuffer();
 for (const name of ['sea-of-thieves-cheats-hero.webp', 'sot-hero-banner.webp', 'hero-banner.webp']) {
 	await writeFile(path.join(imagesDir, name), canonical);
 }
-
-const png = await resizeHero(lcpWidth).png({ compressionLevel: 6 }).toBuffer();
-await writeFile(path.join(imagesDir, 'sea-of-thieves-cheats-hero.png'), png);
 
 console.log(
 	`Done — pirate banner ${BANNER_RATIO}:1 (LCP ${lcpWidth}x${canonicalHeight}), fit: cover, quality ${HERO_WEBP.quality}`,

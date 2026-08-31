@@ -81,7 +81,7 @@ const LEGACY_GUIDE_SLUGS = new Set([
 export function getGuidesSitemapEntries(): GuideSitemapEntry[] {
 	const hub: GuideSitemapEntry = {
 		path: getGuidesBasePath(),
-		lastmod: '2026-08-25',
+		lastmod: '2026-08-31',
 		changefreq: 'weekly',
 		priority: 0.75,
 		images: [],
