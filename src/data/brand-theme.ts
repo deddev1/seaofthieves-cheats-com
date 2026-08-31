@@ -170,13 +170,13 @@ export function deriveBrandTheme(input: Partial<BrandThemeInput> = {}): BrandThe
 	const line = normalizeHex(input.line) ?? mixHex(bg, '#ffffff', 0.12);
 	const lineStrong = normalizeHex(input.line) ? mixHex(input.line!, '#ffffff', 0.22) : mixHex(bg, '#ffffff', 0.18);
 	const toneVoid = mixHex(bg, '#000000', 0.35);
-	const ink = normalizeHex(input.ink) ?? '#F8FAFC';
+	const ink = normalizeHex(input.ink) ?? '#FFFFFF';
 	const inkHeading = normalizeHex(input.inkHeading) ?? ink;
-	const inkMuted = normalizeHex(input.inkMuted) ?? '#A1A1AA';
-	const inkSecondary = normalizeHex(input.inkSecondary) ?? mixHex(ink, inkMuted, 0.55);
+	const inkMuted = normalizeHex(input.inkMuted) ?? '#FFFFFF';
+	const inkSecondary = normalizeHex(input.inkSecondary) ?? ink;
 	const inkFaint = normalizeHex(input.inkSecondary)
 		? mixHex(inkSecondary, inkMuted, 0.42)
-		: mixHex(inkMuted, bg, 0.35);
+		: '#F0F0F0';
 	const link = normalizeHex(input.link) ?? soft;
 
 	return {

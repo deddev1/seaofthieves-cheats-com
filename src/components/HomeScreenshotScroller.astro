@@ -1,0 +1,320 @@
+---
+import { productScreenshots } from '../data/product-images';
+import { contentSrcSet } from '../lib/responsive-images';
+import type { LocaleCode } from '../data/i18n/locales';
+import { getT } from '../i18n/server';
+
+interface Props {
+	locale: LocaleCode;
+}
+
+const { locale } = Astro.props;
+const t = getT(locale);
+const images = productScreenshots;
+const mainSizes = '(max-width: 56rem) 100vw, (max-width: 72rem) 42vw, 34rem';
+const thumbSizes = '88px';
+---
+
+<div
+	class="home-screenshots"
+	data-home-screenshots
+	aria-label={t('home.screenshotScrollerLabel')}
+>
+	<figure
+		class="home-screenshots__main media-frame"
+		itemscope
+		itemtype="https://schema.org/ImageObject"
+	>
+		<link itemprop="url" href={images[0].url} data-screenshot-url />
+		<meta itemprop="contentUrl" content={images[0].url} data-screenshot-content />
+		<img
+			class="home-screenshots__hero-img"
+			src={images[0].src}
+			srcset={contentSrcSet(images[0].src)}
+			sizes={mainSizes}
+			alt={images[0].alt}
+			title={images[0].title}
+			width="960"
+			height="539"
+			loading="eager"
+			decoding="async"
+			fetchpriority="low"
+			data-screenshot-img
+		/>
+		<figcaption class="home-screenshots__caption" data-screenshot-caption>
+			{images[0].caption}
+		</figcaption>
+	</figure>
+
+	<div class="home-screenshots__controls">
+		<button
+			type="button"
+			class="home-screenshots__nav home-screenshots__nav--prev"
+			aria-label={t('home.screenshotPrev')}
+			data-screenshot-prev
+		>
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+				<path
+					d="M15 18l-6-6 6-6"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"></path>
+			</svg>
+		</button>
+
+		<div class="home-screenshots__strip-wrap">
+			<div class="home-screenshots__strip" role="tablist" data-screenshot-strip>
+				{
+					images.map((image, index) => (
+						<button
+							type="button"
+							class:list={['home-screenshots__thumb', { 'is-active': index === 0 }]}
+							role="tab"
+							aria-selected={index === 0}
+							aria-controls="home-screenshot-main"
+							data-screenshot-index={index}
+							data-src={image.src}
+							data-srcset={contentSrcSet(image.src)}
+							data-url={image.url}
+							data-alt={image.alt}
+							data-title={image.title}
+							data-caption={image.caption}
+						>
+							<img
+								src={image.src.replace('.webp', '-480w.webp')}
+								alt=""
+								width="88"
+								height="49"
+								loading="lazy"
+								decoding="async"
+								aria-hidden="true"
+							/>
+							<span class="sr-only">{image.title}</span>
+						</button>
+					))
+				}
+			</div>
+		</div>
+
+		<button
+			type="button"
+			class="home-screenshots__nav home-screenshots__nav--next"
+			aria-label={t('home.screenshotNext')}
+			data-screenshot-next
+		>
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+				<path
+					d="M9 18l6-6-6-6"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"></path>
+			</svg>
+		</button>
+	</div>
+</div>
+
+<script>
+	document.querySelectorAll('[data-home-screenshots]').forEach((root) => {
+		const mainImg = root.querySelector('[data-screenshot-img]');
+		const caption = root.querySelector('[data-screenshot-caption]');
+		const urlLink = root.querySelector('[data-screenshot-url]');
+		const contentMeta = root.querySelector('[data-screenshot-content]');
+		const thumbs = [...root.querySelectorAll('[data-screenshot-index]')];
+		const prevBtn = root.querySelector('[data-screenshot-prev]');
+		const nextBtn = root.querySelector('[data-screenshot-next]');
+		const strip = root.querySelector('[data-screenshot-strip]');
+
+		if (!mainImg || !caption || thumbs.length === 0) return;
+
+		let active = 0;
+
+		const show = (index) => {
+			const i = ((index % thumbs.length) + thumbs.length) % thumbs.length;
+			const thumb = thumbs[i];
+			if (!thumb) return;
+
+			active = i;
+			mainImg.setAttribute('src', thumb.dataset.src ?? '');
+			const srcset = thumb.dataset.srcset;
+			if (srcset) mainImg.setAttribute('srcset', srcset);
+			else mainImg.removeAttribute('srcset');
+
+			mainImg.setAttribute('alt', thumb.dataset.alt ?? '');
+			mainImg.setAttribute('title', thumb.dataset.title ?? '');
+			caption.textContent = thumb.dataset.caption ?? '';
+
+			const url = thumb.dataset.url ?? '';
+			if (urlLink) urlLink.setAttribute('href', url);
+			if (contentMeta) contentMeta.setAttribute('content', url);
+
+			thumbs.forEach((btn, idx) => {
+				const isActive = idx === i;
+				btn.classList.toggle('is-active', isActive);
+				btn.setAttribute('aria-selected', String(isActive));
+			});
+
+			thumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+		};
+
+		thumbs.forEach((thumb, index) => {
+			thumb.addEventListener('click', () => show(index));
+		});
+
+		prevBtn?.addEventListener('click', () => show(active - 1));
+		nextBtn?.addEventListener('click', () => show(active + 1));
+
+		strip?.addEventListener('keydown', (event) => {
+			if (event.key === 'ArrowRight') {
+				event.preventDefault();
+				show(active + 1);
+			}
+			if (event.key === 'ArrowLeft') {
+				event.preventDefault();
+				show(active - 1);
+			}
+		});
+	});
+</script>
+
+<style>
+	.home-screenshots {
+		width: 100%;
+		min-width: 0;
+	}
+
+	.home-screenshots__main {
+		margin: 0;
+		aspect-ratio: 16 / 9;
+	}
+
+	.home-screenshots__hero-img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.home-screenshots__caption {
+		position: absolute;
+		inset-inline: 0;
+		bottom: 0;
+		margin: 0;
+		padding: 0.65rem 0.85rem;
+		font-size: 0.75rem;
+		line-height: 1.45;
+		color: #fff;
+		background: linear-gradient(to top, rgb(0 0 0 / 0.78), transparent);
+	}
+
+	.home-screenshots__controls {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		align-items: center;
+		gap: 0.5rem;
+		margin-top: 0.65rem;
+	}
+
+	.home-screenshots__strip-wrap {
+		min-width: 0;
+		overflow: hidden;
+	}
+
+	.home-screenshots__strip {
+		display: flex;
+		gap: 0.5rem;
+		overflow-x: auto;
+		padding-block: 0.15rem;
+		scroll-snap-type: x mandatory;
+		scrollbar-width: none;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.home-screenshots__strip::-webkit-scrollbar {
+		display: none;
+	}
+
+	.home-screenshots__thumb {
+		flex: 0 0 auto;
+		width: 5.5rem;
+		aspect-ratio: 16 / 9;
+		padding: 0;
+		border: 2px solid transparent;
+		border-radius: calc(var(--radius-md) - 2px);
+		background: var(--bg-elevated);
+		overflow: hidden;
+		cursor: pointer;
+		scroll-snap-align: center;
+		transition:
+			border-color 0.2s ease,
+			box-shadow 0.2s ease,
+			transform 0.2s ease;
+	}
+
+	.home-screenshots__thumb img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.home-screenshots__thumb:hover,
+	.home-screenshots__thumb:focus-visible {
+		border-color: color-mix(in srgb, var(--magenta) 45%, transparent);
+		transform: translateY(-1px);
+	}
+
+	.home-screenshots__thumb.is-active {
+		border-color: var(--magenta);
+		box-shadow: 0 0 0 1px color-mix(in srgb, var(--magenta) 35%, transparent);
+	}
+
+	.home-screenshots__nav {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 2rem;
+		height: 2rem;
+		padding: 0;
+		border: 1px solid var(--line);
+		border-radius: 999px;
+		background: var(--bg-elevated);
+		color: var(--ink-muted);
+		cursor: pointer;
+		transition:
+			border-color 0.2s ease,
+			color 0.2s ease,
+			background 0.2s ease;
+	}
+
+	.home-screenshots__nav:hover,
+	.home-screenshots__nav:focus-visible {
+		border-color: var(--magenta);
+		color: var(--ink);
+		background: var(--bg-hover);
+	}
+
+	.sr-only {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
+	}
+
+	@media (max-width: 56rem) {
+		.home-screenshots__thumb {
+			width: 4.75rem;
+		}
+
+		.home-screenshots__nav {
+			width: 1.85rem;
+			height: 1.85rem;
+		}
+	}
+</style>

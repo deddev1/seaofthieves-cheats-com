@@ -1,9 +1,8 @@
 ---
-import LazyDemoVideo from './LazyDemoVideo.astro';
+import HomeScreenshotScroller from './HomeScreenshotScroller.astro';
 import { getLocalizedPath } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
 import { getT } from '../i18n/server';
-import { siteConfig } from '../data/site';
 
 interface Props {
 	locale: LocaleCode;
@@ -34,17 +33,8 @@ const updatesHref = getLocalizedPath('updates', locale);
 				{t('home.aboutP2After')}
 			</p>
 		</div>
-		<div class="home__prose-video">
-			<LazyDemoVideo
-				src={siteConfig.demoVideoUrl}
-				poster={siteConfig.demoVideoPoster}
-				playLabel={t('home.playDemoVideo')}
-				pauseLabel={t('home.pauseDemoVideo')}
-				caption={t('home.demoVideoCaption')}
-				volumeLabel={t('home.volumeLabel')}
-				muteLabel={t('home.muteVideo')}
-				unmuteLabel={t('home.unmuteVideo')}
-			/>
+		<div class="home__prose-media">
+			<HomeScreenshotScroller locale={locale} />
 		</div>
 	</div>
 </section>
@@ -68,7 +58,7 @@ const updatesHref = getLocalizedPath('updates', locale);
 		border-left: 3px solid var(--magenta);
 	}
 
-	.home__prose-video {
+	.home__prose-media {
 		width: 100%;
 		min-width: 0;
 	}
@@ -111,7 +101,7 @@ const updatesHref = getLocalizedPath('updates', locale);
 			align-items: center;
 		}
 
-		.home__prose-video {
+		.home__prose-media {
 			justify-self: end;
 			max-width: 34rem;
 		}

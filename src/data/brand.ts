@@ -65,8 +65,8 @@ export const brand = {
 		line: '#1A4248',
 		ink: '#FFFFFF',
 		inkHeading: '#FFFFFF',
-		inkSecondary: '#B7C9C9',
-		inkMuted: '#B7C9C9',
+		inkSecondary: '#FFFFFF',
+		inkMuted: '#FFFFFF',
 		link: '#18B6B0',
 	},
 

@@ -15,9 +15,9 @@
 	--line-strong: #245058;
 	--ink: #ffffff;
 	--ink-heading: #ffffff;
-	--ink-secondary: #b7c9c9;
-	--ink-muted: #b7c9c9;
-	--ink-faint: #8aa3a3;
+	--ink-secondary: #ffffff;
+	--ink-muted: #ffffff;
+	--ink-faint: #f0f0f0;
 	--link: #18b6b0;
 
 	/* Brand accent — sea turquoise + treasure gold */
@@ -134,12 +134,16 @@
 		font-size: 15px;
 		line-height: 1.6;
 		font-weight: 400;
-		color: var(--ink);
+		color: #ffffff;
 		background: var(--bg);
 		-webkit-font-smoothing: antialiased;
 		overflow-x: clip;
 		scrollbar-width: none;
 		-ms-overflow-style: none;
+	}
+
+	main :where(p, li, dd, figcaption, label, small, td, th) {
+		color: var(--ink);
 	}
 
 	body::-webkit-scrollbar {
@@ -243,7 +247,7 @@
 	.section-head p {
 		margin: 0.35rem 0 0;
 		font-size: 0.875rem;
-		color: var(--ink-secondary);
+		color: var(--ink);
 	}
 
 	.section-head a {
@@ -342,7 +346,7 @@
 
 	.g2a-badge--online {
 		background: var(--bg-elevated);
-		color: var(--ink-muted);
+		color: var(--ink);
 		border: 1px solid var(--line);
 	}
 
@@ -407,7 +411,7 @@
 	.g2a-section-head p {
 		margin: 0;
 		font-size: 0.875rem;
-		color: var(--ink-faint);
+		color: var(--ink);
 	}
 
 	.g2a-see-all {

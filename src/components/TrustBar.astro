@@ -50,13 +50,13 @@ const t = getT(locale);
 	.trust-bar__text {
 		margin: 0;
 		font-size: 0.875rem;
-		color: var(--color-muted);
+		color: var(--ink);
 		text-align: center;
 		line-height: 1.5;
 	}
 
 	.trust-bar--overlay .trust-bar__text {
-		color: color-mix(in srgb, #fff 84%, transparent);
+		color: #fff;
 		text-shadow: 0 1px 10px rgba(0, 0, 0, 0.65);
 	}
 
@@ -71,11 +71,11 @@ const t = getT(locale);
 
 	.trust-bar__text span {
 		margin-inline: 0.35rem;
-		opacity: 0.4;
+		opacity: 0.9;
 	}
 
 	.trust-bar--overlay .trust-bar__text span {
-		opacity: 0.55;
+		opacity: 0.95;
 	}
 
 	@media (max-width: 900px) {
