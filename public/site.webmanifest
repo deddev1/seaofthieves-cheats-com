@@ -4,8 +4,8 @@
   "description": "Undetected sea of thieves cheats — ESP, aimbot, and radar for PC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0A1628",
-  "theme_color": "#0A1628",
+  "background_color": "#071A1F",
+  "theme_color": "#071A1F",
   "icons": [
     {
       "src": "/favicon.png",

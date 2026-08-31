@@ -5,27 +5,27 @@
 	--font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
 	--font-display: "Syne Variable", "Syne", ui-sans-serif, sans-serif;
 
-	/* Sea of Thieves dark canvas — red accent surface ladder */
-	--bg: #07090a;
-	--bg-panel: #0e1113;
-	--bg-elevated: #15191b;
-	--bg-hover: #1a1f22;
-	--line: #252a2c;
-	--line-soft: #1c2022;
-	--line-strong: #303638;
-	--ink: #f1f3f3;
+	/* Sea of Thieves — deep ocean canvas + turquoise & gold accents */
+	--bg: #071a1f;
+	--bg-panel: #102f34;
+	--bg-elevated: #0d292e;
+	--bg-hover: #123338;
+	--line: #1a4248;
+	--line-soft: #142f34;
+	--line-strong: #245058;
+	--ink: #ffffff;
 	--ink-heading: #ffffff;
-	--ink-secondary: #c5caca;
-	--ink-muted: #8d9698;
-	--ink-faint: #6f787a;
-	--link: #e50920;
+	--ink-secondary: #b7c9c9;
+	--ink-muted: #b7c9c9;
+	--ink-faint: #8aa3a3;
+	--link: #18b6b0;
 
-	/* Brand accent — red */
-	--magenta: #e50920;
-	--magenta-soft: #ffffff;
-	--magenta-deep: #8f0715;
+	/* Brand accent — sea turquoise + treasure gold */
+	--magenta: #18b6b0;
+	--magenta-soft: #d6a84f;
+	--magenta-deep: #128a86;
 	--accent: var(--magenta);
-	--accent-hover: #ff1f35;
+	--accent-hover: #22cfc8;
 	--ok: #34d399;
 	--warn: #f43f5e;
 

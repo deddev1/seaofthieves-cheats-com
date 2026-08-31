@@ -53,7 +53,7 @@ export const themeDefaults: BrandThemeInput = {
 
 export const themePresets: { id: string; label: string; accent: string; bg: string }[] = [
 	{ id: 'magenta', label: 'Magenta', accent: '#c026d3', bg: '#08090a' },
-	{ id: 'sot', label: 'Sea of Thieves', accent: '#E50920', bg: '#07090A' },
+	{ id: 'sot', label: 'Sea of Thieves', accent: '#18B6B0', bg: '#071A1F' },
 	{ id: 'fortnite', label: 'Fortnite', accent: '#2b9dff', bg: '#0a0e17' },
 	{ id: 'apex', label: 'Apex', accent: '#ff6b2c', bg: '#0c0d10' },
 	{ id: 'teal', label: 'Teal', accent: '#14b8a6', bg: '#071012' },
@@ -243,7 +243,7 @@ export function brandThemeInlineStyle(theme: BrandThemeResolved = brandTheme): s
 
 /** JS-friendly map for Brand Studio live preview + Layout injection. */
 export function brandThemeCssMap(theme: BrandThemeResolved = brandTheme): Record<string, string> {
-	const amber = mixHex(theme.accent, '#fbbf24', 0.45);
+	const amber = theme.accentSoft;
 	return {
 		'--bg': theme.bg,
 		'--bg-panel': theme.bgPanel,
