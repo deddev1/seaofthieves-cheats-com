@@ -37,8 +37,8 @@ export const brand = {
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
 	logoAlt: 'Sea of Thieves Cheats logo',
-	defaultOgImage: '/images/sea-of-thieves-cheats-hero-1199w.webp',
-	heroImage: '/images/sea-of-thieves-cheats-hero-1199w.webp',
+	defaultOgImage: '/images/sea-of-thieves-cheats-hero-1920w.webp',
+	heroImage: '/images/sea-of-thieves-cheats-hero-1920w.webp',
 	/** Product demo clip — lazy-loaded on homepage; fetched only after play */
 	demoVideoUrl: 'https://seaofthievescheats.com/videos/hero.webm',
 	demoVideoPoster: '/images/sot-screenshot-06.webp',
