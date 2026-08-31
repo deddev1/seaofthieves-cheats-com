@@ -120,6 +120,15 @@ for (let i = 0; i < SCREENSHOTS.length; i += 1) {
 		await writeFile(path.join(imagesDir, name), canonical);
 		console.log(`  ✓ ${name} (alias)`);
 	}
+
+	if (slug === 'sea-of-thieves-cheats-esp-ship-approach') {
+		await writeFile(path.join(imagesDir, 'reviews-banner.webp'), canonical);
+		for (const width of CONTENT_WIDTHS) {
+			const webp = await encodeWebp(png, width);
+			await writeFile(path.join(imagesDir, `reviews-banner-${width}w.webp`), webp);
+		}
+		console.log('  ✓ reviews-banner.webp (+ responsive variants)');
+	}
 }
 
 console.log(
