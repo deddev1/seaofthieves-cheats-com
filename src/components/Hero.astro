@@ -36,14 +36,13 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		position: relative;
 	}
 
-	.pirate {
+	.hero {
 		--hero-pad-y: clamp(1rem, 2vw, 1.75rem);
 		--hero-stack: clamp(0.5rem, 1.1vw, 0.75rem);
 		/*
-		 * Wide pirate bar (3.15:1) — matches valoranthacks.org fold height.
-		 * Character art fills the right side via cover crop.
+		 * Wide hero bar — taller ratio so the banner art reads larger on desktop.
 		 */
-		--hero-ratio: 3.15 / 1;
+		--hero-ratio: 2.35 / 1;
 		position: relative;
 		isolation: isolate;
 		display: grid;
@@ -53,7 +52,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		aspect-ratio: var(--hero-ratio);
 		width: 100%;
 		height: auto;
-		min-height: 0;
+		min-height: clamp(20rem, 40vw, 30rem);
 		max-height: none;
 	}
 
@@ -73,9 +72,9 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	.hero__media img {
 		object-fit: cover;
 		/* Character sits on the right; keep left dark for headline copy */
-		object-position: 72% center;
+		object-position: 68% center;
 		image-rendering: auto;
-		transform: translateZ(0);
+		transform: translateZ(0) scale(1.06);
 		filter: brightness(0.78) contrast(1.04);
 		animation: hero-in 0.9s ease-out both;
 	}
@@ -302,9 +301,9 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	 * Mobile: overlay copy on lower third; keep a tall enough strip for art + text.
 	 */
 	@media (max-width: 900px) {
-		.pirate {
+		.hero {
 			aspect-ratio: auto;
-			min-height: clamp(22rem, 88vw, 28rem);
+			min-height: clamp(28rem, 100vw, 36rem);
 			height: auto;
 		}
 
@@ -429,8 +428,8 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	}
 
 	@media (max-width: 900px) and (orientation: landscape) and (max-height: 480px) {
-		.pirate {
-			min-height: min(70svh, 16.5rem);
+		.hero {
+			min-height: min(78svh, 18rem);
 		}
 
 		.hero__content {
