@@ -14,7 +14,7 @@ const locale = Astro.props.locale ?? defaultLocale;
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 ---
 
-<div class="hero-stage">
+<div class="hero-stage" style={`--hero-aspect-w: ${heroWidth}; --hero-aspect-h: ${heroHeight};`}>
 	<HeroApp
 		client:idle
 		locale={locale}
@@ -39,10 +39,8 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	.hero {
 		--hero-pad-y: clamp(1rem, 2vw, 1.75rem);
 		--hero-stack: clamp(0.5rem, 1.1vw, 0.75rem);
-		/*
-		 * Wide hero bar — taller ratio so the banner art reads larger on desktop.
-		 */
-		--hero-ratio: 2.35 / 1;
+		/* Match LCP asset dimensions from src/lib/responsive-images.ts */
+		--hero-ratio: var(--hero-aspect-w) / var(--hero-aspect-h);
 		position: relative;
 		isolation: isolate;
 		display: grid;
@@ -52,7 +50,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		aspect-ratio: var(--hero-ratio);
 		width: 100%;
 		height: auto;
-		min-height: clamp(20rem, 40vw, 30rem);
+		min-height: 0;
 		max-height: none;
 	}
 
@@ -72,9 +70,9 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	.hero__media img {
 		object-fit: cover;
 		/* Character sits on the right; keep left dark for headline copy */
-		object-position: 68% center;
+		object-position: 72% center;
 		image-rendering: auto;
-		transform: translateZ(0) scale(1.06);
+		transform: translateZ(0);
 		filter: brightness(0.78) contrast(1.04);
 		animation: hero-in 0.9s ease-out both;
 	}
@@ -303,7 +301,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	@media (max-width: 900px) {
 		.hero {
 			aspect-ratio: auto;
-			min-height: clamp(28rem, 100vw, 36rem);
+			min-height: clamp(22rem, 88vw, 28rem);
 			height: auto;
 		}
 
@@ -429,7 +427,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 
 	@media (max-width: 900px) and (orientation: landscape) and (max-height: 480px) {
 		.hero {
-			min-height: min(78svh, 18rem);
+			min-height: min(70svh, 16.5rem);
 		}
 
 		.hero__content {

@@ -58,7 +58,7 @@ export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive;
 /** Default LCP src — full native-width WebP for retina desktops. */
 export const heroSrc = '/images/sea-of-thieves-cheats-hero-1199w.webp';
 export const heroSrcSet = buildSrcSet(heroResponsive);
-export const heroSizes = '(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1199px';
+export const heroSizes = '100vw';
 
 /** LCP preload — same compressed WebP. */
 export const heroPreloadSrc = heroSrc;
