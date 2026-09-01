@@ -6,7 +6,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "patch-notes-breakdown",
 		imageKey: "squadFight",
 		published: "2026-07-29",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Patch Notes",
 		featured: false,
 		translations: {
@@ -57,7 +57,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-skin-leaks",
 		imageKey: "headerArt",
 		published: "2026-07-27",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Cosmetics",
 		featured: false,
 		translations: {
@@ -106,7 +106,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-weapon-tier-list",
 		imageKey: "aimbotCombat",
 		published: "2026-07-25",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Weapons",
 		featured: true,
 		translations: {
@@ -156,7 +156,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-growth-run-meta",
 		imageKey: "raidCombat",
 		published: "2026-07-22",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Economy Rounds",
 		featured: true,
 		translations: {
@@ -205,7 +205,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-competitive-meta",
 		imageKey: "raidFight",
 		published: "2026-07-20",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Competitive",
 		featured: false,
 		translations: {
@@ -254,7 +254,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-loot-routes",
 		imageKey: "raidMapMap",
 		published: "2026-07-18",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Loot Routes",
 		featured: true,
 		translations: {
@@ -303,7 +303,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-pro-settings",
 		imageKey: "hacksPackage",
 		published: "2026-07-12",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Settings",
 		featured: false,
 		translations: {
@@ -352,7 +352,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-warmup-maps",
 		imageKey: "playerEsp",
 		published: "2026-07-10",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Warmup",
 		featured: false,
 		translations: {
@@ -401,7 +401,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sea-of-thieves-cheats-complete-guide",
 		imageKey: "espWallhack",
 		published: "2026-07-30",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Cheats Guide",
 		featured: true,
 		translations: {
@@ -457,7 +457,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sea-of-thieves-cheats-buyers-guide",
 		imageKey: "hacksPackage",
 		published: "2026-07-28",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Buyers Guide",
 		featured: true,
 		translations: {
@@ -506,7 +506,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sea-of-thieves-cheats-2026-whats-new",
 		imageKey: "hero",
 		published: "2026-07-26",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Product Updates",
 		featured: false,
 		translations: {
@@ -555,17 +555,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sea-of-thieves-aimbot-settings-guide",
 		imageKey: "aimbotCombat",
 		published: "2026-07-24",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "Aimbot",
 		featured: false,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-aimbot-settings-guide",
-		title: "Sea of Thieves Aimbot Settings: Smooth FOV Without Looking Robotic",
-		metaDescription: "How to tune Sea of Thieves Aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Sea of Thieves matches.",
+		title: "Sea of Thieves Aimbot Settings 2026 | FOV & Soft Aim",
+		metaDescription: "Sea of Thieves aimbot settings for 2026 — FOV, smoothing, bone priority, and pistol or blunderbuss profiles. Tune soft aim that looks natural and stays undetected on PC.",
 		h1: "Sea of Thieves Aimbot Settings Guide",
 		intro: "A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Sea of Thieves players actually want. Here is how to think about FOV, smoothness, and weapon profiles.",
-		keywords: ["sea of thieves aimbot","soft aim","aimbot fov"],
+		keywords: ["sea of thieves aimbot settings","sea of thieves aimbot","sea of thieves soft aim","sea of thieves aimbot hack"],
 		imageAlt: "Soft aim and FOV settings for Sea of Thieves Aimbot on Windows PC",
 		sections: [
 			{
@@ -603,17 +603,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sea-of-thieves-esp-wallhack-explained",
 		imageKey: "espWallhack",
 		published: "2026-07-21",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "ESP",
 		featured: false,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-esp-wallhack-explained",
-		title: "Sea of Thieves ESP and Wallhack Explained in Plain English",
-		metaDescription: "What Sea of Thieves ESP and wallhack actually show — players, loot, distance, vaults — and how to keep overlays readable in matches.",
+		title: "Sea of Thieves ESP Explained 2026 | Wallhack Guide",
+		metaDescription: "Sea of Thieves ESP explained — player wallhack, loot ESP, skeleton overlays, and distance tags for island PvP. Readable overlay settings and radar pairing for PC in 2026.",
 		h1: "Sea of Thieves ESP and Wallhack Guide",
 		intro: "“ESP” and “wallhack” get used interchangeably. In Sea of Thieves they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
-		keywords: ["sea of thieves esp","sea of thieves wallhack","sea of thieves cheats"],
+		keywords: ["sea of thieves esp explained","sea of thieves esp","sea of thieves wallhack","sea of thieves esp hack"],
 		imageAlt: "ESP wallhack overlay showing players and loot in Sea of Thieves",
 		sections: [
 			{
@@ -651,7 +651,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "undetected-sea-of-thieves-cheats-eac",
 		imageKey: "playerEsp",
 		published: "2026-07-19",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Undetected",
 		featured: true,
 		translations: {
@@ -699,7 +699,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sea-of-thieves-cheats-vs-cheatvault",
 		imageKey: "hacksPackage",
 		published: "2026-07-15",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Comparisons",
 		featured: false,
 		translations: {
@@ -748,7 +748,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "elitefn-two-week-test",
 		imageKey: "aimbotSkeleton",
 		published: "2026-07-08",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Comparisons",
 		featured: false,
 		translations: {
@@ -804,7 +804,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sea-of-thieves-cheats-vs-ghostware",
 		imageKey: "espWallhack",
 		published: "2026-07-05",
-		updated: "2026-08-17",
+		updated: "2026-08-13",
 		category: "Comparisons",
 		featured: false,
 		translations: {
@@ -860,17 +860,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-radar-hack-guide",
 		imageKey: "playerEsp",
 		published: "2026-08-20",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "Radar",
 		featured: false,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-radar-hack-guide",
-		title: "Sea of Thieves Radar Hack: 2D Threat Map for Ship Fights",
-		metaDescription: "How a Sea of Thieves radar hack works — off-screen ships, island flanks, and crew rotations on PC. Pair radar with ESP for voyages and PvP at seaofthievescheats.com.",
+		title: "Sea of Thieves Radar Hack 2026 | 2D Ship & Player Radar",
+		metaDescription: "Sea of Thieves radar hack guide — 2D ship blips, player dots, and island flank warnings on PC. Best radar settings, ESP pairing tips, and undetected cheat setup for 2026.",
 		h1: "Sea of Thieves Radar Hack Guide",
 		intro: "Most Sea of Thieves fights are lost before the first cannon shot because someone did not know a brig was wrapping the island. A 2D radar overlay fixes that blind spot without replacing map knowledge.",
-		keywords: ["sea of thieves radar hack","sot 2d radar","sea of thieves cheats radar"],
+		keywords: ["sea of thieves radar hack","sea of thieves 2d radar","sea of thieves cheats radar","sot radar cheat"],
 		imageAlt: "Sea of Thieves radar hack overlay showing ship and player blips on PC",
 		sections: [
 			{
@@ -912,17 +912,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-soft-aim-settings",
 		imageKey: "aimbotSkeleton",
 		published: "2026-08-22",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "Aimbot",
 		featured: false,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-soft-aim-settings",
-		title: "Sea of Thieves Soft Aim Settings for Pistol and Blunderbuss Fights",
-		metaDescription: "Tune Sea of Thieves soft aim — smoothing, FOV, and bone priority for naval combat on PC. Natural assist settings bundled with ESP and radar at seaofthievescheats.com.",
+		title: "Sea of Thieves Soft Aim Settings 2026 | FOV Guide",
+		metaDescription: "Sea of Thieves soft aim settings — FOV, smoothing, and bone priority for pistol, blunderbuss, and eye of reach. Natural aim assist configs for undetected PC naval combat in 2026.",
 		h1: "Sea of Thieves Soft Aim Settings Guide",
 		intro: "Soft aim is the setting most Sea of Thieves players actually want: help tracking a moving pirate without snap-locking through a whole galleon crew. Here is how to tune smoothing and FOV for pistol, sniper, and blunderbuss fights.",
-		keywords: ["sea of thieves soft aim","sea of thieves soft aim settings","sea of thieves aimbot settings"],
+		keywords: ["sea of thieves soft aim settings","sea of thieves soft aim","sea of thieves aimbot settings","sea of thieves aim assist"],
 		imageAlt: "Sea of Thieves soft aim smoothing and FOV sliders on Windows PC",
 		sections: [
 			{
@@ -963,17 +963,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-ship-esp-tracking",
 		imageKey: "espWallhack",
 		published: "2026-08-24",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "ESP",
 		featured: true,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-ship-esp-tracking",
-		title: "Sea of Thieves Ship ESP: Track Brigantines and Galleons at Range",
-		metaDescription: "Sea of Thieves ship ESP explained — distance tags, approaching vessel alerts, and crew readouts for open-water PvP on PC. Part of Sea of Thieves Cheats at seaofthievescheats.com.",
+		title: "Sea of Thieves Ship ESP 2026 | Track Ships at Range",
+		metaDescription: "Sea of Thieves ship ESP — distance tags, approaching vessel alerts, and crew readouts before sails appear. Track brigantines and galleons for PvP, Reaper, and voyages on PC.",
 		h1: "Sea of Thieves Ship ESP Tracking Guide",
 		intro: "Player ESP wins duels; ship ESP wins sessions. Knowing a brig is closing from the south-east while you are halfway through a fort lets you reset the fight on your terms instead of getting sandwiched.",
-		keywords: ["sea of thieves ship esp","sea of thieves esp tracking","ship tracking sot"],
+		keywords: ["sea of thieves ship esp","sea of thieves ship tracking","sea of thieves esp tracking","sea of thieves cheats esp"],
 		imageAlt: "Sea of Thieves ship ESP showing brigantine distance markers and alerts",
 		sections: [
 			{
@@ -1015,17 +1015,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-cannon-aimbot-guide",
 		imageKey: "aimbotCombat",
 		published: "2026-08-26",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "Aimbot",
 		featured: false,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-cannon-aimbot-guide",
-		title: "Sea of Thieves Cannon Aimbot: Trajectory and Lead Settings",
-		metaDescription: "Sea of Thieves cannon aimbot guide — trajectory lines, lead markers, and tuning for naval broadsides on PC. Bundled with ESP in Sea of Thieves Cheats from seaofthievescheats.com.",
+		title: "Sea of Thieves Cannon Aimbot 2026 | Lead & Trajectory",
+		metaDescription: "Sea of Thieves cannon aimbot settings — trajectory lines, lead prediction, and broadside tuning for naval fights. PC guide with ship ESP pairing and undetected combat cheats for 2026.",
 		h1: "Sea of Thieves Cannon Aimbot Guide",
 		intro: "Cannon fights are geometry problems at speed. A cannon aimbot overlay shows where your shot will land relative to a moving hull — not magic hits, but faster corrections while your crew reloads.",
-		keywords: ["sea of thieves cannon aimbot","sot cannon trajectory","sea of thieves combat cheats"],
+		keywords: ["sea of thieves cannon aimbot","sea of thieves aimbot cannon","sot cannon trajectory","sea of thieves cheats combat"],
 		imageAlt: "Sea of Thieves cannon aimbot trajectory line on a broadside approach",
 		sections: [
 			{
@@ -1066,17 +1066,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-esp-skeleton-guide",
 		imageKey: "playerEsp",
 		published: "2026-08-27",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "ESP",
 		featured: false,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-esp-skeleton-explained",
-		title: "Sea of Thieves ESP Skeleton Explained: Player Boxes and Bones",
-		metaDescription: "Sea of Thieves ESP explained — player skeleton, bone boxes, crew tags, and distance readouts for island fights on PC. Guide from seaofthievescheats.com.",
+		title: "Sea of Thieves ESP Explained 2026 | Skeleton & Wallhack",
+		metaDescription: "Sea of Thieves ESP explained — player skeleton overlays, bone boxes, crew tags, and wallhack through decks. Distance filters and fort PvP settings for undetected PC cheats in 2026.",
 		h1: "Sea of Thieves ESP Skeleton Explained",
 		intro: "\"ESP explained\" usually means one thing to buyers: can I see enemy pirates through trees, decks, and fog? Skeleton overlays, player boxes, and crew tags are the three layers that answer that question.",
-		keywords: ["sea of thieves esp explained","sea of thieves esp skeleton","sea of thieves player esp"],
+		keywords: ["sea of thieves esp explained","sea of thieves esp skeleton","sea of thieves player esp","sea of thieves wallhack"],
 		imageAlt: "Sea of Thieves ESP skeleton overlay on enemy pirates during an island fight",
 		sections: [
 			{
@@ -1118,17 +1118,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-pvp-hacks-guide",
 		imageKey: "raidCombat",
 		published: "2026-08-28",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "PvP",
 		featured: false,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-hacks-for-pvp",
-		title: "Sea of Thieves Hacks for PvP: ESP, Radar, and Soft Aim Stack",
-		metaDescription: "Best Sea of Thieves hacks for PvP — ship tracking, island ESP, radar flanks, and soft aim for Reaper fights on PC. One license at seaofthievescheats.com.",
+		title: "Sea of Thieves Hacks for PvP 2026 | ESP & Soft Aim",
+		metaDescription: "Best Sea of Thieves hacks for PvP — ship ESP, player skeleton, radar flanks, and soft aim for Reaper fights. Undetected cheat stack, hotkey profiles, and settings for PC in 2026.",
 		h1: "Sea of Thieves Hacks for PvP",
 		intro: "PvP in Sea of Thieves is information warfare with cannons attached. The hacks that actually matter are the ones that tell you who is rotating, who is swimming, and who is one shot from death — not flashy rage features.",
-		keywords: ["sea of thieves hacks for pvp","sea of thieves pvp cheats","sot reaper cheats"],
+		keywords: ["sea of thieves hacks for pvp","sea of thieves pvp cheats","sea of thieves reaper cheats","sea of thieves cheats pvp"],
 		imageAlt: "Sea of Thieves PvP fight with ESP and radar overlays on PC",
 		sections: [
 			{
@@ -1170,17 +1170,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-mod-menu-guide",
 		imageKey: "hacksPackage",
 		published: "2026-08-29",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "Features",
 		featured: false,
 		translations: {
 		en: {
 		slug: "sea-of-thieves-mod-menu-guide",
-		title: "Sea of Thieves Mod Menu: ESP, Aimbot, and Radar Toggles",
-		metaDescription: "Sea of Thieves mod menu guide — in-match toggles for ESP, soft aim, radar, and ship tracking on PC. Included in Sea of Thieves Cheats at seaofthievescheats.com.",
+		title: "Sea of Thieves Mod Menu 2026 | ESP, Aimbot & Radar",
+		metaDescription: "Sea of Thieves mod menu guide — ESP, soft aim, radar, and ship tracking toggles with hotkeys. Build PvP and PvE profiles on Windows PC with undetected cheats in 2026.",
 		h1: "Sea of Thieves Mod Menu Guide",
 		intro: "Players say mod menu when they mean the in-game overlay that lets you flip ESP, aim assist, and radar without restarting the client. Here is what each toggle does and which ones to leave off by default.",
-		keywords: ["sea of thieves mod menu","sea of thieves cheat menu","sot hacks menu"],
+		keywords: ["sea of thieves mod menu","sea of thieves cheat menu","sea of thieves hacks menu","sea of thieves mod menu 2026"],
 		imageAlt: "Sea of Thieves mod menu with ESP aimbot and radar toggles on PC",
 		sections: [
 			{
@@ -1221,17 +1221,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		id: "sot-cheat-setup-windows",
 		imageKey: "headerArt",
 		published: "2026-08-30",
-		updated: "2026-08-17",
+		updated: "2026-09-01",
 		category: "Setup",
 		featured: false,
 		translations: {
 		en: {
 		slug: "how-to-install-sea-of-thieves-cheats",
-		title: "How to Install Sea of Thieves Cheats on Windows PC (2026)",
-		metaDescription: "Install Sea of Thieves cheats on Windows 10 and 11 — loader steps, EAC notes, first-launch ESP and aimbot toggles. Setup guide at seaofthievescheats.com.",
+		title: "How to Install Sea of Thieves Cheats 2026 | PC Setup",
+		metaDescription: "How to install Sea of Thieves cheats on Windows 10 and 11 — loader steps, EAC notes, and first-launch ESP plus aimbot toggles. Full undetected PC setup guide for 2026.",
 		h1: "How to Install Sea of Thieves Cheats on Windows",
 		intro: "Most failed installs are environment issues, not broken software — overlays still running, wrong Windows build, or launching before the loader finishes. This is the short 2026 checklist we send buyers who email support.",
-		keywords: ["how to install sea of thieves cheats","sea of thieves cheats setup","sea of thieves cheat download"],
+		keywords: ["how to install sea of thieves cheats","sea of thieves cheat download","sea of thieves cheats setup","install sea of thieves hacks"],
 		imageAlt: "Sea of Thieves cheats setup and install steps on Windows PC",
 		sections: [
 			{

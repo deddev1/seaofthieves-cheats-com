@@ -1272,12 +1272,30 @@ const POST_META = {
 		keywords: ['sea of thieves cheats 2026', 'EAC updates', 'hack status'],
 	},
 	'sea-of-thieves-aimbot-settings-guide': {
+		title: 'Sea of Thieves Aimbot Settings 2026 | FOV & Soft Aim',
+		metaDescription:
+			'Sea of Thieves aimbot settings for 2026 — FOV, smoothing, bone priority, and pistol or blunderbuss profiles. Tune soft aim that looks natural and stays undetected on PC.',
 		h1: 'Sea of Thieves Aimbot Settings Guide',
-		keywords: ['sea of thieves aimbot', 'soft aim', 'aimbot fov'],
+		keywords: [
+			'sea of thieves aimbot settings',
+			'sea of thieves aimbot',
+			'sea of thieves soft aim',
+			'sea of thieves aimbot hack',
+		],
+		updated: '2026-09-01',
 	},
 	'sea-of-thieves-esp-wallhack-explained': {
+		title: 'Sea of Thieves ESP Explained 2026 | Wallhack Guide',
+		metaDescription:
+			'Sea of Thieves ESP explained — player wallhack, loot ESP, skeleton overlays, and distance tags for island PvP. Readable overlay settings and radar pairing for PC in 2026.',
 		h1: 'Sea of Thieves ESP and Wallhack Guide',
-		keywords: ['sea of thieves esp', 'sea of thieves wallhack', 'sea of thieves cheats'],
+		keywords: [
+			'sea of thieves esp explained',
+			'sea of thieves esp',
+			'sea of thieves wallhack',
+			'sea of thieves esp hack',
+		],
+		updated: '2026-09-01',
 	},
 	'undetected-sea-of-thieves-cheats-eac': {
 		h1: 'Undetected Sea of Thieves Cheats Explained',
@@ -1296,36 +1314,108 @@ const POST_META = {
 		keywords: ['sea of thieves esp cheat', 'full stack hacks', 'radar vs esp'],
 	},
 	'sot-radar-hack-guide': {
+		title: 'Sea of Thieves Radar Hack 2026 | 2D Ship & Player Radar',
+		metaDescription:
+			'Sea of Thieves radar hack guide — 2D ship blips, player dots, and island flank warnings on PC. Best radar settings, ESP pairing tips, and undetected cheat setup for 2026.',
 		h1: 'Sea of Thieves Radar Hack Guide',
-		keywords: ['sea of thieves radar hack', 'sot 2d radar', 'sea of thieves cheats radar'],
+		keywords: [
+			'sea of thieves radar hack',
+			'sea of thieves 2d radar',
+			'sea of thieves cheats radar',
+			'sot radar cheat',
+		],
+		updated: '2026-09-01',
 	},
 	'sot-soft-aim-settings': {
+		title: 'Sea of Thieves Soft Aim Settings 2026 | FOV Guide',
+		metaDescription:
+			'Sea of Thieves soft aim settings — FOV, smoothing, and bone priority for pistol, blunderbuss, and eye of reach. Natural aim assist configs for undetected PC naval combat in 2026.',
 		h1: 'Sea of Thieves Soft Aim Settings Guide',
-		keywords: ['sea of thieves soft aim', 'sea of thieves soft aim settings', 'sea of thieves aimbot settings'],
+		keywords: [
+			'sea of thieves soft aim settings',
+			'sea of thieves soft aim',
+			'sea of thieves aimbot settings',
+			'sea of thieves aim assist',
+		],
+		updated: '2026-09-01',
 	},
 	'sot-ship-esp-tracking': {
+		title: 'Sea of Thieves Ship ESP 2026 | Track Ships at Range',
+		metaDescription:
+			'Sea of Thieves ship ESP — distance tags, approaching vessel alerts, and crew readouts before sails appear. Track brigantines and galleons for PvP, Reaper, and voyages on PC.',
 		h1: 'Sea of Thieves Ship ESP Tracking Guide',
-		keywords: ['sea of thieves ship esp', 'sea of thieves esp tracking', 'ship tracking sot'],
+		keywords: [
+			'sea of thieves ship esp',
+			'sea of thieves ship tracking',
+			'sea of thieves esp tracking',
+			'sea of thieves cheats esp',
+		],
+		updated: '2026-09-01',
 	},
 	'sot-cannon-aimbot-guide': {
+		title: 'Sea of Thieves Cannon Aimbot 2026 | Lead & Trajectory',
+		metaDescription:
+			'Sea of Thieves cannon aimbot settings — trajectory lines, lead prediction, and broadside tuning for naval fights. PC guide with ship ESP pairing and undetected combat cheats for 2026.',
 		h1: 'Sea of Thieves Cannon Aimbot Guide',
-		keywords: ['sea of thieves cannon aimbot', 'sot cannon trajectory', 'sea of thieves combat cheats'],
+		keywords: [
+			'sea of thieves cannon aimbot',
+			'sea of thieves aimbot cannon',
+			'sot cannon trajectory',
+			'sea of thieves cheats combat',
+		],
+		updated: '2026-09-01',
 	},
 	'sot-esp-skeleton-guide': {
+		title: 'Sea of Thieves ESP Explained 2026 | Skeleton & Wallhack',
+		metaDescription:
+			'Sea of Thieves ESP explained — player skeleton overlays, bone boxes, crew tags, and wallhack through decks. Distance filters and fort PvP settings for undetected PC cheats in 2026.',
 		h1: 'Sea of Thieves ESP Skeleton Explained',
-		keywords: ['sea of thieves esp explained', 'sea of thieves esp skeleton', 'sea of thieves player esp'],
+		keywords: [
+			'sea of thieves esp explained',
+			'sea of thieves esp skeleton',
+			'sea of thieves player esp',
+			'sea of thieves wallhack',
+		],
+		updated: '2026-09-01',
 	},
 	'sot-pvp-hacks-guide': {
+		title: 'Sea of Thieves Hacks for PvP 2026 | ESP & Soft Aim',
+		metaDescription:
+			'Best Sea of Thieves hacks for PvP — ship ESP, player skeleton, radar flanks, and soft aim for Reaper fights. Undetected cheat stack, hotkey profiles, and settings for PC in 2026.',
 		h1: 'Sea of Thieves Hacks for PvP',
-		keywords: ['sea of thieves hacks for pvp', 'sea of thieves pvp cheats', 'sot reaper cheats'],
+		keywords: [
+			'sea of thieves hacks for pvp',
+			'sea of thieves pvp cheats',
+			'sea of thieves reaper cheats',
+			'sea of thieves cheats pvp',
+		],
+		updated: '2026-09-01',
 	},
 	'sot-mod-menu-guide': {
+		title: 'Sea of Thieves Mod Menu 2026 | ESP, Aimbot & Radar',
+		metaDescription:
+			'Sea of Thieves mod menu guide — ESP, soft aim, radar, and ship tracking toggles with hotkeys. Build PvP and PvE profiles on Windows PC with undetected cheats in 2026.',
 		h1: 'Sea of Thieves Mod Menu Guide',
-		keywords: ['sea of thieves mod menu', 'sea of thieves cheat menu', 'sot hacks menu'],
+		keywords: [
+			'sea of thieves mod menu',
+			'sea of thieves cheat menu',
+			'sea of thieves hacks menu',
+			'sea of thieves mod menu 2026',
+		],
+		updated: '2026-09-01',
 	},
 	'sot-cheat-setup-windows': {
+		title: 'How to Install Sea of Thieves Cheats 2026 | PC Setup',
+		metaDescription:
+			'How to install Sea of Thieves cheats on Windows 10 and 11 — loader steps, EAC notes, and first-launch ESP plus aimbot toggles. Full undetected PC setup guide for 2026.',
 		h1: 'How to Install Sea of Thieves Cheats on Windows',
-		keywords: ['how to install sea of thieves cheats', 'sea of thieves cheats setup', 'sea of thieves cheat download'],
+		keywords: [
+			'how to install sea of thieves cheats',
+			'sea of thieves cheat download',
+			'sea of thieves cheats setup',
+			'install sea of thieves hacks',
+		],
+		updated: '2026-09-01',
 	},
 };
 
@@ -1563,10 +1653,12 @@ function finalizePost(src) {
 	const extras = EXTRA_SECTIONS[src.id] ?? [];
 	return {
 		...src,
+		title: meta.title ?? src.title,
+		metaDescription: meta.metaDescription ?? src.metaDescription,
 		h1: meta.h1 ?? src.h1,
 		keywords: normalizeKeywords(meta.keywords ?? src.keywords),
 		sections: [...src.sections, ...extras],
-		updated: '2026-08-17',
+		updated: meta.updated ?? src.updated ?? '2026-08-31',
 	};
 }
 
