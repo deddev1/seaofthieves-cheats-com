@@ -13,7 +13,7 @@ export const brand = {
 	locale: 'en',
 	market: 'Worldwide',
 	supportEmail: 'support@seaofthievescheats.com',
-	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Fsea-of-thieves-novaxware',
+	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Fsea-of-thieves',
 
 	/** Public profiles for Organization sameAs + Twitter cards (edit in Brand Studio). */
 	social: {
