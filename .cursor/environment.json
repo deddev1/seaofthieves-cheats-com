@@ -6,13 +6,22 @@
     {
       "name": "Sea of Thieves Cheats site",
       "port": 5173
+    },
+    {
+      "name": "Sea of Thieves Cheats dev (hot reload)",
+      "port": 4321
     }
   ],
   "terminals": [
     {
       "name": "localhost",
       "command": "npm run localhost",
-      "description": "Site preview at http://localhost:5173"
+      "description": "Production preview at http://localhost:5173"
+    },
+    {
+      "name": "localhost-dev",
+      "command": "npm run localhost:dev",
+      "description": "Dev server with hot reload at http://localhost:4321"
     }
   ]
 }
