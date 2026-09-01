@@ -172,7 +172,7 @@ for (const asset of KEYWORD_ASSETS) {
 }
 
 if (heroBuffer) {
-	console.log('Skipping logo/favicon generation — run: node scripts/import-zadeyo-favicon.mjs');
+	console.log('Skipping logo/favicon generation — run: npm run generate:favicon');
 }
 
 console.log(`\nDone — ${saved}/${KEYWORD_ASSETS.length} sea of thieves cheats images (IGN base + ESP/aimbot overlays).`);
