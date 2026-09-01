@@ -172,8 +172,7 @@ for (const asset of KEYWORD_ASSETS) {
 }
 
 if (heroBuffer) {
-	await generateBrandAssets(heroBuffer);
-	console.log('Generated logo + favicons from hero.');
+	console.log('Skipping logo/favicon generation — run: npm run generate:favicon');
 }
 
 console.log(`\nDone — ${saved}/${KEYWORD_ASSETS.length} sea of thieves cheats images (IGN base + ESP/aimbot overlays).`);

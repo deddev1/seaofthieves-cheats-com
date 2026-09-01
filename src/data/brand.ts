@@ -37,6 +37,8 @@ export const brand = {
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
 	logoAlt: 'Sea of Thieves Cheats logo',
+	/** Bump when favicon/logo rasters change — busts immutable CDN/browser cache. */
+	faviconVersion: '3',
 	defaultOgImage: '/images/sea-of-thieves-cheats-hero-1600w.webp',
 	heroImage: '/images/sea-of-thieves-cheats-hero-1600w.webp',
 	/** Product demo clip — lazy-loaded on homepage; fetched only after play */

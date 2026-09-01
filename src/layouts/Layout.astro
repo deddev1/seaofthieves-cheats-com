@@ -63,6 +63,7 @@ const pageDescription = seoDescription(description);
 const canonicalURL = buildCanonicalUrl(canonicalPath);
 const ogImageURL = new URL(ogImage, siteConfig.url).href;
 const logoURL = new URL(siteConfig.logoRaster, siteConfig.url).href;
+const faviconQuery = `?v=${siteConfig.faviconVersion}`;
 const ogImageIsLogo = ogImage === siteConfig.logo;
 const ogImageType = ogImage.endsWith('.webp') ? 'image/webp' : 'image/png';
 const ogImageWidth = ogImageIsLogo ? '512' : String(heroWidth);
@@ -259,11 +260,11 @@ if (aboutNode) {
 		)}
 
 		<title>{pageTitle}</title>
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-		<link rel="icon" type="image/png" sizes="192x192" href="/favicon.png" />
-		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href={`/favicon-32x32.png${faviconQuery}`} />
+		<link rel="icon" type="image/png" sizes="16x16" href={`/favicon-16x16.png${faviconQuery}`} />
+		<link rel="icon" type="image/png" sizes="192x192" href={`/favicon.png${faviconQuery}`} />
+		<link rel="shortcut icon" href={`/favicon.ico${faviconQuery}`} />
+		<link rel="apple-touch-icon" sizes="180x180" href={`/apple-touch-icon.png${faviconQuery}`} />
 		<link rel="manifest" href="/site.webmanifest" />
 		<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 		<Analytics />
