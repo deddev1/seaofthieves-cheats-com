@@ -52,7 +52,7 @@ async function resolveDistRoot() {
 const SITE = readBrandUrl();
 const IMAGE_SITEMAP_ENTRIES = countBrandSitemapImages();
 
-const BLOG_PAGES = 18; // /blog/ index + 17 posts
+const BLOG_PAGES = 26; // /blog/ index + 25 posts
 const REVIEW_PAGES = 11; // /reviews/ index + 10 review detail pages
 const FAQ_PAGES = 26; // standalone FAQ answer pages (index is in product pages)
 const GUIDE_SITEMAP_PAGES = 3; // /guides/ hub + 2 indexable SOT guide posts
@@ -72,7 +72,7 @@ const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
 /** Full EN HTML may still emit redirect stubs for cannibal URLs; sitemaps omit them */
 const ENGLISH_HTML_PAGES = 25 + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_HTML_PAGES + STANDALONE_PAGES;
 /** Locale HTML = product pages + blog redirect stubs (index + 17 posts) that are omitted from sitemaps */
-const LOCALE_BLOG_REDIRECT_PAGES = 18;
+const LOCALE_BLOG_REDIRECT_PAGES = 26;
 const TOTAL_HTML_PAGES =
 	ENGLISH_HTML_PAGES + I18N_LOCALES * (PRODUCT_PAGES_PER_LOCALE + LOCALE_BLOG_REDIRECT_PAGES);
 const HREFLANG_PER_URL = 23;
@@ -149,6 +149,14 @@ const ENGLISH_PATHS = [
 	'/blog/sea-of-thieves-cheats-vs-cheatvault-comparison/',
 	'/blog/elitefn-vs-sea-of-thieves-cheats-two-week-test/',
 	'/blog/sea-of-thieves-cheats-vs-ghostware-features-pricing/',
+	'/blog/sea-of-thieves-radar-hack-guide/',
+	'/blog/sea-of-thieves-soft-aim-settings/',
+	'/blog/sea-of-thieves-ship-esp-tracking/',
+	'/blog/sea-of-thieves-cannon-aimbot-guide/',
+	'/blog/sea-of-thieves-esp-skeleton-explained/',
+	'/blog/sea-of-thieves-hacks-for-pvp/',
+	'/blog/sea-of-thieves-mod-menu-guide/',
+	'/blog/how-to-install-sea-of-thieves-cheats/',
 	'/reviews/',
 	'/reviews/sea-of-thieves-soft-aim-review-xkrypt0/',
 	'/reviews/sea-of-thieves-esp-growth-run-review-buildsr4k/',

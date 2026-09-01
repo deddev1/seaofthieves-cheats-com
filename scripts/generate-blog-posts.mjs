@@ -830,6 +830,385 @@ const sources = [
 			},
 		],
 	},
+	{
+		id: 'sot-radar-hack-guide',
+		imageKey: 'playerEsp',
+		published: '2026-08-20',
+		updated: '2026-08-31',
+		category: 'Radar',
+		featured: false,
+		slug: 'sea-of-thieves-radar-hack-guide',
+		title: 'Sea of Thieves Radar Hack: 2D Threat Map for Ship Fights',
+		metaDescription:
+			'How a Sea of Thieves radar hack works — off-screen ships, island flanks, and crew rotations on PC. Pair radar with ESP for voyages and PvP at seaofthievescheats.com.',
+		h1: 'Sea of Thieves Radar Hack — 2D Map for Rotations',
+		intro:
+			'Most Sea of Thieves fights are lost before the first cannon shot because someone did not know a brig was wrapping the island. A 2D radar overlay fixes that blind spot without replacing map knowledge.',
+		keywords: [
+			'sea of thieves radar hack',
+			'sea of thieves 2d radar',
+			'sea of thieves cheats radar',
+			'sot radar esp',
+		],
+		imageAlt: 'Sea of Thieves radar hack overlay showing ship and player blips on PC',
+		sections: [
+			{
+				h2: 'What a Sea of Thieves radar hack actually shows',
+				paragraphs: [
+					'A radar hack draws a flat threat map around your ship — other vessels, nearby players, and sometimes outpost distances as blips you can read while sailing. It is not a replacement for the in-game map; it is a fast compass for “who is close right now.”',
+					'Good radar filters noise: distant AI skeletons and low-value loot pings stay off so your overlay stays readable during storm chases and fort pushes.',
+					'The maintained stack on <a href="/sea-of-thieves-radar-hack/">Sea of Thieves radar</a> ships inside the same license as <a href="/sea-of-thieves-esp/">ESP</a> and <a href="/sea-of-thieves-aimbot/">soft aim</a>.',
+				],
+			},
+			{
+				h2: 'When radar matters more than wallhack boxes',
+				paragraphs: [
+					'Open-water PvP and Reaper’s Bones routes punish tunnel vision. Radar catches a sloop tucking behind a rock while your crew is focused on a skull fort timer. Island fights benefit too — you see swimmers and boarders the moment they leave the water line.',
+					'Pair radar with conservative ESP categories so you are not staring at two overlays during a cannon exchange. Toggle player ESP for boarding and radar for macro rotation.',
+					`After ${EXT.eac} or Rare client updates, confirm <a href="/updates/">status</a> before you trust last week’s radar offsets.`,
+				],
+			},
+			{
+				h2: 'Settings that keep radar useful instead of noisy',
+				paragraphs: [
+					'Start with ships and player blips only. Add outpost or island markers after you trust the scale. Shrink draw distance on crowded servers so the mini-map does not look like static.',
+					'Use hotkeys to hide radar during social outpost stops if you stream or clip content — same discipline as ESP toggles.',
+					'Compare full feature toggles on <a href="/features/">Features</a> and plans on <a href="/pricing/">Pricing</a> before you buy a radar-only shop that lacks ESP filters.',
+				],
+			},
+		],
+	},
+	{
+		id: 'sot-soft-aim-settings',
+		imageKey: 'aimbotSkeleton',
+		published: '2026-08-22',
+		updated: '2026-08-31',
+		category: 'Aimbot',
+		featured: false,
+		slug: 'sea-of-thieves-soft-aim-settings',
+		title: 'Sea of Thieves Soft Aim Settings for Pistol and Blunderbuss Fights',
+		metaDescription:
+			'Tune Sea of Thieves soft aim — smoothing, FOV, and bone priority for naval combat on PC. Natural assist settings bundled with ESP and radar at seaofthievescheats.com.',
+		h1: 'Sea of Thieves Soft Aim Settings That Stay Legit',
+		intro:
+			'Soft aim is the setting most Sea of Thieves players actually want: help tracking a moving pirate without snap-locking through a whole galleon crew. Here is how to tune smoothing and FOV for pistol, sniper, and blunderbuss fights.',
+		keywords: [
+			'sea of thieves soft aim',
+			'sea of thieves soft aim settings',
+			'sea of thieves aimbot settings',
+			'sea of thieves aim assist',
+		],
+		imageAlt: 'Sea of Thieves soft aim smoothing and FOV sliders on Windows PC',
+		sections: [
+			{
+				h2: 'Soft aim vs full aimbot on Sea of Thieves',
+				paragraphs: [
+					'Full snap aim looks obvious in kill cams and attracts reports even on clean builds. Soft aim nudges your crosshair toward a target inside a small FOV circle — enough to win duels you already started, not enough to 360 no-scope a deck from the crow’s nest.',
+					'Start with high smoothness and a tight FOV. Widen FOV only after five sessions where you never feel the assist “pull” you into shots you did not mean to take.',
+					'Control reference: <a href="/sea-of-thieves-aimbot/">Sea of Thieves aimbot</a> and the deeper <a href="/blog/sea-of-thieves-aimbot-settings-guide/">aimbot settings guide</a>.',
+				],
+			},
+			{
+				h2: 'Weapon profiles for naval combat',
+				paragraphs: [
+					'Pistols and eye of reach want lower smoothness and medium FOV — you are tracking one pirate on a moving deck. Blunderbuss fights need wider FOV but gentler pull because targets appear and vanish in milliseconds.',
+					'Cannon aim is a separate profile: longer smooth windows, larger FOV, and bone priority aimed at hull weak points rather than player skeletons.',
+					'Save profiles per weapon class so you are not fighting a sword duel with cannon sliders still active.',
+				],
+			},
+			{
+				h2: 'Pair soft aim with information tools',
+				paragraphs: [
+					'Soft aim finishes fights that <a href="/sea-of-thieves-esp/">ESP</a> helps you choose. If you cannot see the boarder, perfect smoothing will not save you.',
+					'After patches, read <a href="/updates/">Updates</a> before retuning. Checkout includes the full stack on <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a> from $35/month.',
+				],
+			},
+		],
+	},
+	{
+		id: 'sot-ship-esp-tracking',
+		imageKey: 'espWallhack',
+		published: '2026-08-24',
+		updated: '2026-08-31',
+		category: 'ESP',
+		featured: true,
+		slug: 'sea-of-thieves-ship-esp-tracking',
+		title: 'Sea of Thieves Ship ESP: Track Brigantines and Galleons at Range',
+		metaDescription:
+			'Sea of Thieves ship ESP explained — distance tags, approaching vessel alerts, and crew readouts for open-water PvP on PC. Part of Sea of Thieves Cheats at seaofthievescheats.com.',
+		h1: 'Sea of Thieves Ship ESP and Distance Tracking',
+		intro:
+			'Player ESP wins duels; ship ESP wins sessions. Knowing a brig is closing from the south-east while you are halfway through a fort lets you reset the fight on your terms instead of getting sandwiched.',
+		keywords: [
+			'sea of thieves ship esp',
+			'sea of thieves esp tracking',
+			'sea of thieves ship tracking',
+			'sea of thieves cheats esp',
+		],
+		imageAlt: 'Sea of Thieves ship ESP showing brigantine distance markers and alerts',
+		sections: [
+			{
+				h2: 'What ship ESP shows that the vanilla compass hides',
+				paragraphs: [
+					'Ship ESP overlays distance readouts, vessel type hints, and approaching-ship warnings before you hear cannon audio. On foggy servers that is often the only early warning you get.',
+					'Crew lists tied to a vessel help you decide whether to engage — three pirates on a sloop reads differently than a solo fisherman.',
+					'See live examples on <a href="/sea-of-thieves-esp/">ESP features</a> and the pillar at <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a>.',
+				],
+			},
+			{
+				h2: 'Ship ESP for voyages vs Reaper PvP',
+				paragraphs: [
+					'On PvE voyages, ship ESP stops surprise merges during skull fort hand-ins and chest turns. Filter AI and low-threat pings so you only react to player crew.',
+					'In Reaper or open-flag sessions, combine ship ESP with <a href="/sea-of-thieves-radar-hack/">radar</a> for island wraps and swimmer boarders. Turn down player skeleton ESP when you are only hunting vessels.',
+					`Rare balance changes ship HP and cannon damage — read ${EXT.finals} patch notes, then check our <a href="/updates/">status page</a> if overlays feel offset.`,
+				],
+			},
+			{
+				h2: 'Toggles that keep ship ESP readable',
+				paragraphs: [
+					'Use distance caps so far-away AI sloops do not paint the horizon. Color-code hostile vs passive vessels if your build supports it.',
+					'Pair ship tags with outpost distance ESP when planning sell routes — fewer wrong turns into waiting galleons.',
+					'Full toggle list: <a href="/features/">Features</a> · Setup: <a href="/setup/">install guide</a> · Buy: <a href="/pricing/">Pricing</a>.',
+				],
+			},
+		],
+	},
+	{
+		id: 'sot-cannon-aimbot-guide',
+		imageKey: 'aimbotCombat',
+		published: '2026-08-26',
+		updated: '2026-08-31',
+		category: 'Aimbot',
+		featured: false,
+		slug: 'sea-of-thieves-cannon-aimbot-guide',
+		title: 'Sea of Thieves Cannon Aimbot: Trajectory and Lead Settings',
+		metaDescription:
+			'Sea of Thieves cannon aimbot guide — trajectory lines, lead markers, and tuning for naval broadsides on PC. Bundled with ESP in Sea of Thieves Cheats from seaofthievescheats.com.',
+		h1: 'Sea of Thieves Cannon Aimbot Settings',
+		intro:
+			'Cannon fights are geometry problems at speed. A cannon aimbot overlay shows where your shot will land relative to a moving hull — not magic hits, but faster corrections while your crew reloads.',
+		keywords: [
+			'sea of thieves cannon aimbot',
+			'sea of thieves aimbot cannon',
+			'sea of thieves cheats combat',
+			'sot cannon trajectory',
+		],
+		imageAlt: 'Sea of Thieves cannon aimbot trajectory line on a broadside approach',
+		sections: [
+			{
+				h2: 'How cannon assist differs from pistol soft aim',
+				paragraphs: [
+					'Cannon aim focuses on lead and drop over hundreds of meters. Good overlays draw a predicted impact line instead of snapping your view — you still choose when to fire.',
+					'Profiles should account for ship speed, wave height, and cursed cannonball types. One global slider will feel wrong on both a static fort and a running galleon.',
+					'Combat screenshots and controls: <a href="/sea-of-thieves-aimbot/">aimbot page</a> and <a href="/blog/sea-of-thieves-aimbot-settings-guide/">settings guide</a>.',
+				],
+			},
+			{
+				h2: 'Practical tuning for broadside fights',
+				paragraphs: [
+					'Practice on a willing friend ship before you roll into Reaper fights. Note how much lead the overlay adds at 100m vs 300m and save two profiles.',
+					'Lower assist strength when you fight in rocks — over-correction sends shots into islands. Raise it slightly in open water where hull shots matter more than deck snipes.',
+					'Combine cannon ESP with <a href="/blog/sea-of-thieves-ship-esp-tracking/">ship tracking</a> so you know when to disengage before a double merge.',
+				],
+			},
+			{
+				h2: 'Maintenance and patch-week habits',
+				paragraphs: [
+					`Cannon ballistics and ship physics change when Rare patches combat. After ${EXT.eac} updates, verify <a href="/updates/">Updates</a> before trusting last month’s trajectory offsets.`,
+					'Buy the full combat stack on <a href="/pricing/">Pricing</a> — ESP, radar, pistol soft aim, and cannon profiles in one license.',
+				],
+			},
+		],
+	},
+	{
+		id: 'sot-esp-skeleton-guide',
+		imageKey: 'playerEsp',
+		published: '2026-08-27',
+		updated: '2026-08-31',
+		category: 'ESP',
+		featured: false,
+		slug: 'sea-of-thieves-esp-skeleton-explained',
+		title: 'Sea of Thieves ESP Skeleton Explained: Player Boxes and Bones',
+		metaDescription:
+			'Sea of Thieves ESP explained — player skeleton, bone boxes, crew tags, and distance readouts for island fights on PC. Guide from seaofthievescheats.com.',
+		h1: 'Sea of Thieves ESP Skeleton and Player Boxes Explained',
+		intro:
+			'"ESP explained" usually means one thing to buyers: can I see enemy pirates through trees, decks, and fog? Skeleton overlays, player boxes, and crew tags are the three layers that answer that question.',
+		keywords: [
+			'sea of thieves esp explained',
+			'sea of thieves esp skeleton',
+			'sea of thieves player esp',
+			'sea of thieves wallhack',
+		],
+		imageAlt: 'Sea of Thieves ESP skeleton overlay on enemy pirates during an island fight',
+		sections: [
+			{
+				h2: 'Skeleton ESP vs simple player boxes',
+				paragraphs: [
+					'Box ESP draws a rectangle around a pirate. Skeleton ESP adds bone lines so you see stance — sword raised, sniper aiming, or revive in progress. Skeletons cost more screen space but win close fights where posture matters.',
+					'Distance tags sit beside either style so you know whether to push a duel or save ammo for the merge.',
+					'For a broader wallhack primer, read <a href="/blog/sea-of-thieves-esp-wallhack-explained/">ESP and wallhack explained</a>.',
+				],
+			},
+			{
+				h2: 'Crew tags and threat coloring',
+				paragraphs: [
+					'Crew lists group ESP by ship name so a four-stack on a galleon does not look like four random blips. Color hostile crews differently from alliance or passive players when your session allows.',
+					'On forts, filter skeleton ESP to human players only — AI skeletons clutter the overlay during PvE phases.',
+					'Category breakdown: <a href="/sea-of-thieves-esp/">Sea of Thieves ESP</a> · Compare: <a href="/features/">Features</a>.',
+				],
+			},
+			{
+				h2: 'Keep ESP readable during island pushes',
+				paragraphs: [
+					'Turn off loot and barrel ESP during PvP pushes. You need pirates, not treasure pings. Re-enable loot filters when the island is clear.',
+					'Match ESP density to your PC — heavy skeleton draws on weak GPUs cause FPS dips that hurt aim more than the overlay helps.',
+					'Get the maintained build on <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a> with post-patch notes on <a href="/updates/">Updates</a>.',
+				],
+			},
+		],
+	},
+	{
+		id: 'sot-pvp-hacks-guide',
+		imageKey: 'raidCombat',
+		published: '2026-08-28',
+		updated: '2026-08-31',
+		category: 'PvP',
+		featured: false,
+		slug: 'sea-of-thieves-hacks-for-pvp',
+		title: 'Sea of Thieves Hacks for PvP: ESP, Radar, and Soft Aim Stack',
+		metaDescription:
+			'Best Sea of Thieves hacks for PvP — ship tracking, island ESP, radar flanks, and soft aim for Reaper fights on PC. One license at seaofthievescheats.com.',
+		h1: 'Sea of Thieves Hacks for PvP Sessions',
+		intro:
+			'PvP in Sea of Thieves is information warfare with cannons attached. The hacks that actually matter are the ones that tell you who is rotating, who is swimming, and who is one shot from death — not flashy rage features.',
+		keywords: [
+			'sea of thieves hacks for pvp',
+			'sea of thieves pvp cheats',
+			'sea of thieves reaper cheats',
+			'sea of thieves cheats pvp',
+		],
+		imageAlt: 'Sea of Thieves PvP fight with ESP and radar overlays on PC',
+		sections: [
+			{
+				h2: 'The PvP information stack that wins fights',
+				paragraphs: [
+					'Open water: ship ESP plus radar for merges. Island fights: player skeleton ESP plus audio discipline. Boarding: soft aim with tight FOV and high smoothness.',
+					'Trying to run every toggle at once creates tunnel vision. Build three profiles — sailing, fort contest, and boarding — and switch with hotkeys.',
+					'Stack overview: <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a> · Undetected notes: <a href="/undetected-sea-of-thieves-cheats/">undetected guide</a>.',
+				],
+			},
+			{
+				h2: 'Reaper and emissary fights without rage settings',
+				paragraphs: [
+					'Reaper flags attract attention. Conservative ESP and soft aim keep you alive longer than loud aim that gets reported after one clip.',
+					'Use ship tracking to disengage when a second vessel enters render — the best PvP hack is sometimes leaving with the loot.',
+					`Check ${EXT.status} health before long PvP nights and read <a href="/updates/">EAC maintenance</a> on patch weeks.`,
+				],
+			},
+			{
+				h2: 'Crew coordination with overlays',
+				paragraphs: [
+					'One crewmate on radar callouts and one on cannon assist beats two players with identical noisy ESP. Split overlay duties if you trio stack.',
+					'Review <a href="/blog/sea-of-thieves-ship-esp-tracking/">ship ESP</a> and <a href="/blog/sea-of-thieves-soft-aim-settings/">soft aim settings</a> before your first flagged session.',
+					'Plans from $35/month on <a href="/pricing/">Pricing</a>.',
+				],
+			},
+		],
+	},
+	{
+		id: 'sot-mod-menu-guide',
+		imageKey: 'hacksPackage',
+		published: '2026-08-29',
+		updated: '2026-08-31',
+		category: 'Features',
+		featured: false,
+		slug: 'sea-of-thieves-mod-menu-guide',
+		title: 'Sea of Thieves Mod Menu: ESP, Aimbot, and Radar Toggles',
+		metaDescription:
+			'Sea of Thieves mod menu guide — in-match toggles for ESP, soft aim, radar, and ship tracking on PC. Included in Sea of Thieves Cheats at seaofthievescheats.com.',
+		h1: 'Sea of Thieves Mod Menu Toggles Explained',
+		intro:
+			'Players say mod menu when they mean the in-game overlay that lets you flip ESP, aim assist, and radar without restarting the client. Here is what each toggle does and which ones to leave off by default.',
+		keywords: [
+			'sea of thieves mod menu',
+			'sea of thieves cheat menu',
+			'sea of thieves hacks menu',
+			'sea of thieves cheats toggles',
+		],
+		imageAlt: 'Sea of Thieves mod menu with ESP aimbot and radar toggles on PC',
+		sections: [
+			{
+				h2: 'Core mod menu categories',
+				paragraphs: [
+					'Player ESP: skeletons, boxes, distance. Ship ESP: vessels, alerts, crew tags. Radar: 2D threat ring. Aim: soft aim profiles and cannon trajectory. Each category should have master toggles plus sub-filters.',
+					'Start with player and ship ESP off, radar on, aim off — then enable what the session needs.',
+					'Full menu map: <a href="/features/">Features</a> · Mod menu FAQ: <a href="/faq/what-is-sea-of-thieves-mod-menu/">what is a mod menu</a>.',
+				],
+			},
+			{
+				h2: 'Hotkeys and stream-safe profiles',
+				paragraphs: [
+					'Bind panic-off to one key that disables all overlays for clips or screenshots. Bind profile swap for sailing vs island combat.',
+					'Save stream-safe presets with radar only or ship ESP only if you create content.',
+					'Setup walkthrough: <a href="/setup/">install guide</a> · Support: <a href="/support/">help desk</a>.',
+				],
+			},
+			{
+				h2: 'After patches — reset your menu once',
+				paragraphs: [
+					'Client updates can reset offsets. Re-import defaults from <a href="/updates/">Updates</a>, then reapply your profiles instead of guessing slider positions.',
+					'Buy once: <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a> includes the full mod menu with EAC maintenance.',
+				],
+			},
+		],
+	},
+	{
+		id: 'sot-cheat-setup-windows',
+		imageKey: 'headerArt',
+		published: '2026-08-30',
+		updated: '2026-08-31',
+		category: 'Setup',
+		featured: false,
+		slug: 'how-to-install-sea-of-thieves-cheats',
+		title: 'How to Install Sea of Thieves Cheats on Windows PC (2026)',
+		metaDescription:
+			'Install Sea of Thieves cheats on Windows 10 and 11 — loader steps, EAC notes, first-launch ESP and aimbot toggles. Setup guide at seaofthievescheats.com.',
+		h1: 'How to Install Sea of Thieves Cheats on Windows PC',
+		intro:
+			'Most failed installs are environment issues, not broken software — overlays still running, wrong Windows build, or launching before the loader finishes. This is the short 2026 checklist we send buyers who email support.',
+		keywords: [
+			'how to install sea of thieves cheats',
+			'sea of thieves cheat download',
+			'sea of thieves cheats setup',
+			'install sea of thieves hacks',
+		],
+		imageAlt: 'Sea of Thieves cheats setup and install steps on Windows PC',
+		sections: [
+			{
+				h2: 'Before you download the loader',
+				paragraphs: [
+					'Close GeForce overlay, Discord overlay, and other injection-heavy tools. Run Windows Update so you are on a supported 10 or 11 build. Confirm Sea of Thieves itself launches cleanly without mods first.',
+					'Read <a href="/updates/">status</a> — installing during an active EAC rebuild wastes time.',
+					'Official game page: ' + EXT.finals + '.',
+				],
+			},
+			{
+				h2: 'First launch: ESP, radar, then soft aim',
+				paragraphs: [
+					'Enable ship ESP and radar in harbor first. Sail one empty route to confirm blips match reality. Add player skeleton ESP on an island with AI only. Enable soft aim last with conservative FOV.',
+					'Detailed steps: <a href="/setup/">Setup guide</a> · Video-style walkthrough in <a href="/blog/sea-of-thieves-mod-menu-guide/">mod menu guide</a>.',
+				],
+			},
+			{
+				h2: 'When install fails — quick fixes',
+				paragraphs: [
+					'Run loader as administrator once. Whitelist the folder in Windows Defender if your license email says to. Reboot after graphics driver updates.',
+					'Still stuck? Email support with your order ID via <a href="/support/">Support</a>. Buy access on <a href="/pricing/">Pricing</a> if you have not checked out yet.',
+				],
+			},
+		],
+	},
 ];
 
 /** Trim keywords to 3–4 short, unique phrases for meta and schema. */
@@ -915,6 +1294,38 @@ const POST_META = {
 	'sea-of-thieves-cheats-vs-ghostware': {
 		h1: 'Full-Stack vs ESP-Only Sea of Thieves Cheats',
 		keywords: ['sea of thieves esp cheat', 'full stack hacks', 'radar vs esp'],
+	},
+	'sot-radar-hack-guide': {
+		h1: 'Sea of Thieves Radar Hack Guide',
+		keywords: ['sea of thieves radar hack', 'sot 2d radar', 'sea of thieves cheats radar'],
+	},
+	'sot-soft-aim-settings': {
+		h1: 'Sea of Thieves Soft Aim Settings Guide',
+		keywords: ['sea of thieves soft aim', 'sea of thieves soft aim settings', 'sea of thieves aimbot settings'],
+	},
+	'sot-ship-esp-tracking': {
+		h1: 'Sea of Thieves Ship ESP Tracking Guide',
+		keywords: ['sea of thieves ship esp', 'sea of thieves esp tracking', 'ship tracking sot'],
+	},
+	'sot-cannon-aimbot-guide': {
+		h1: 'Sea of Thieves Cannon Aimbot Guide',
+		keywords: ['sea of thieves cannon aimbot', 'sot cannon trajectory', 'sea of thieves combat cheats'],
+	},
+	'sot-esp-skeleton-guide': {
+		h1: 'Sea of Thieves ESP Skeleton Explained',
+		keywords: ['sea of thieves esp explained', 'sea of thieves esp skeleton', 'sea of thieves player esp'],
+	},
+	'sot-pvp-hacks-guide': {
+		h1: 'Sea of Thieves Hacks for PvP',
+		keywords: ['sea of thieves hacks for pvp', 'sea of thieves pvp cheats', 'sot reaper cheats'],
+	},
+	'sot-mod-menu-guide': {
+		h1: 'Sea of Thieves Mod Menu Guide',
+		keywords: ['sea of thieves mod menu', 'sea of thieves cheat menu', 'sot hacks menu'],
+	},
+	'sot-cheat-setup-windows': {
+		h1: 'How to Install Sea of Thieves Cheats on Windows',
+		keywords: ['how to install sea of thieves cheats', 'sea of thieves cheats setup', 'sea of thieves cheat download'],
 	},
 };
 
@@ -1070,6 +1481,78 @@ const EXTRA_SECTIONS = {
 			paragraphs: [
 				'Casual outline-only players may tolerate minimal ESP. Players who rotate, loot, and hold bases usually need radar and filters in one menu — that is the full-stack case for <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a>.',
 				'Compare <a href="/sea-of-thieves-esp/">ESP</a>, <a href="/sea-of-thieves-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/updates/">undetected notes</a> on whichever path you choose.',
+			],
+		},
+	],
+	'sot-radar-hack-guide': [
+		{
+			h2: 'Radar in your daily sailing loop',
+			paragraphs: [
+				'Keep radar on during open-water legs and toggle it off in social outposts if you clip content. Pair with <a href="/blog/sea-of-thieves-ship-esp-tracking/">ship ESP</a> when you expect a merge.',
+				'Buy the full stack on <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a> — radar ships with ESP and soft aim under one license. Patch notes: <a href="/updates/">Updates</a>.',
+			],
+		},
+	],
+	'sot-soft-aim-settings': [
+		{
+			h2: 'Dial in soft aim over a full week',
+			paragraphs: [
+				'Change one slider per session — FOV first, then smoothness, then bone priority. Jumping all three at once makes it impossible to know what helped.',
+				'Cross-read <a href="/blog/sea-of-thieves-aimbot-settings-guide/">aimbot settings</a> and <a href="/sea-of-thieves-aimbot/">the aimbot page</a>. After Rare patches, confirm <a href="/updates/">status</a> before retuning.',
+			],
+		},
+	],
+	'sot-ship-esp-tracking': [
+		{
+			h2: 'Ship ESP for crews who split roles',
+			paragraphs: [
+				'Helmsman watches ship blips; boarders run player skeleton ESP. One noisy overlay on every screen slows callouts.',
+				'Stack details on <a href="/sea-of-thieves-esp/">ESP</a> and <a href="/features/">Features</a>. Plans from $35/month on <a href="/pricing/">Pricing</a>.',
+			],
+		},
+	],
+	'sot-cannon-aimbot-guide': [
+		{
+			h2: 'Cannon practice without wasting supplies',
+			paragraphs: [
+				'Run friendly broadside drills before Reaper nights. Save two profiles — open water and rocks — so you are not guessing lead in a real fight.',
+				'Full combat bundle: <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a> · Pistol tuning: <a href="/blog/sea-of-thieves-soft-aim-settings/">soft aim guide</a> · Status: <a href="/updates/">Updates</a>.',
+			],
+		},
+	],
+	'sot-esp-skeleton-guide': [
+		{
+			h2: 'ESP explained — what to enable first',
+			paragraphs: [
+				'New buyers should start with player boxes and distance, add skeletons for fort PvP, and leave loot ESP off until the island is clear.',
+				'Compare categories on <a href="/sea-of-thieves-esp/">ESP</a> and the primer <a href="/blog/sea-of-thieves-esp-wallhack-explained/">wallhack explained</a>. Checkout: <a href="/pricing/">Pricing</a>.',
+			],
+		},
+	],
+	'sot-pvp-hacks-guide': [
+		{
+			h2: 'PvP profiles worth saving',
+			paragraphs: [
+				'Profile one: sailing (ship ESP + radar). Profile two: fort (skeleton ESP, soft aim off). Profile three: boarding (tight soft aim, loot ESP off).',
+				'Undetected habits: <a href="/undetected-sea-of-thieves-cheats/">EAC guide</a> · Full stack: <a href="/sea-of-thieves-cheats/">Sea of Thieves Cheats</a>.',
+			],
+		},
+	],
+	'sot-mod-menu-guide': [
+		{
+			h2: 'Mod menu hygiene after every patch',
+			paragraphs: [
+				'Export your profiles before client updates. Re-import defaults from <a href="/updates/">Updates</a>, then layer your custom toggles back on.',
+				'First-time buyers: <a href="/setup/">Setup</a> · Feature map: <a href="/features/">Features</a> · FAQ: <a href="/faq/what-is-sea-of-thieves-mod-menu/">what is a mod menu</a>.',
+			],
+		},
+	],
+	'sot-cheat-setup-windows': [
+		{
+			h2: 'Install checklist you can reuse every patch',
+			paragraphs: [
+				'Close overlays → check status → run loader → harbor test with ship ESP → island test with player ESP → enable soft aim last.',
+				'Stuck? <a href="/support/">Support</a> with your order ID. New license: <a href="/pricing/">Pricing</a> · Menu tour: <a href="/blog/sea-of-thieves-mod-menu-guide/">mod menu guide</a>.',
 			],
 		},
 	],
