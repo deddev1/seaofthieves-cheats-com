@@ -17,12 +17,13 @@ const { locale } = Astro.props;
 const t = getT(locale);
 const guides = getAllGuides();
 const mixedGuides = getMixedGuides();
+const guideCount = guides.length;
 const canonicalPath = getGuidesBasePath();
 const homeHref = getLocalizedPath('home', locale);
 
 const pageTitle = 'Game Guides Hub | Sea of Thieves Cheats';
 const pageDescription =
-	'Free PC game guides for Fortnite, Tarkov, Warzone & more — plus Sea of Thieves cheat tips. Browse 80+ guides at seaofthievescheats.com/guides.';
+	`Free PC game guides for Fortnite, Tarkov, Warzone & more — plus Sea of Thieves cheat tips. Browse ${guideCount}+ guides at seaofthievescheats.com/guides.`;
 
 const collectionSchema = {
 	'@type': 'CollectionPage',

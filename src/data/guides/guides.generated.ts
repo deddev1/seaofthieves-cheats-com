@@ -3,13 +3,105 @@ import type { GuideDefinition } from './types';
 
 export const guides: GuideDefinition[] = [
 	{
+	id: "ark-survival-ascended-arkascendedcheats-com-guide",
+	slug: "ark-survival-ascended-arkascendedcheats-com-guide",
+	game: "ARK: Survival Ascended",
+	gameSlug: "ark-survival-ascended",
+	externalUrl: "https://arkascendedcheats.com",
+	anchorText: "related resources",
+	published: "2026-01-05",
+	updated: "2026-03-15",
+	title: "ARK: Survival Ascended Guide: Anti-Cheat Awareness (2026)",
+	metaDescription: "A practical ARK: Survival Ascended guide covering survival sandbox fundamentals, base raids, and remastered ARK islands with dinosaurs and tribe wars — updated for 2026 PC players.",
+	h1: "ARK: Survival Ascended Anti-Cheat Awareness Guide",
+	intro: "ARK: Survival Ascended remains one of the most discussed survival sandbox titles on PC, especially for players who want sharper reads in remastered ARK islands with dinosaurs and tribe wars. This guide focuses on anti-cheat awareness without skipping the basics: how rounds flow, where teams win fights, and why base raids often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2023/04/01/arkascended-1680312404931.jpg",
+	imageAlt: "ARK: Survival Ascended gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How ARK: Survival Ascended matches actually play out",
+			paragraphs: [
+				"Most ARK: Survival Ascended sessions are won in the minutes before a fight starts. Learn the default routes players take through remastered ARK islands with dinosaurs and tribe wars, which angles give free information, and when to disengage. In survival sandbox titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat base raids as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "boss ascensions and mid-game decisions",
+			paragraphs: [
+				"boss ascensions separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In ARK: Survival Ascended, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic survival sandbox lobbies, disciplined spacing around remastered ARK islands with dinosaurs and tribe wars creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in ARK: Survival Ascended. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"ARK: Survival Ascended uses BattlEye with server enforcement. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: base raids, boss ascensions, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://arkascendedcheats.com\" target=\"_blank\" rel=\"noopener noreferrer\">related resources</a>."
+			]
+		}
+	]
+},
+	{
+	id: "deadside-deadsidecheats-net-guide",
+	slug: "deadside-deadsidecheats-net-guide",
+	game: "Deadside",
+	gameSlug: "deadside",
+	externalUrl: "https://deadsidecheats.net",
+	anchorText: "more game information",
+	published: "2026-02-06",
+	updated: "2026-03-15",
+	title: "Deadside Guide: Ranked Climb Strategy (2026)",
+	metaDescription: "A practical Deadside guide covering post-apocalyptic survival fundamentals, vehicle ambushes, and open-world PvPvE with military loot and convoys — updated for 2026 PC players.",
+	h1: "Deadside Ranked Climb Strategy Guide",
+	intro: "Deadside remains one of the most discussed post-apocalyptic survival titles on PC, especially for players who want sharper reads in open-world PvPvE with military loot and convoys. This guide focuses on ranked climb strategy without skipping the basics: how rounds flow, where teams win fights, and why vehicle ambushes often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2022/11/16/deadside-1668635482936.jpg",
+	imageAlt: "Deadside gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Deadside matches actually play out",
+			paragraphs: [
+				"Most Deadside sessions are won in the minutes before a fight starts. Learn the default routes players take through open-world PvPvE with military loot and convoys, which angles give free information, and when to disengage. In post-apocalyptic survival titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat vehicle ambushes as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "safe-zone trading and mid-game decisions",
+			paragraphs: [
+				"safe-zone trading separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Deadside, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic post-apocalyptic survival lobbies, disciplined spacing around open-world PvPvE with military loot and convoys creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Deadside. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Deadside uses Easy Anti-Cheat on official shards. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: vehicle ambushes, safe-zone trading, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://deadsidecheats.net\" target=\"_blank\" rel=\"noopener noreferrer\">more game information</a>."
+			]
+		}
+	]
+},
+	{
 	id: "arc-raiders-arcraiderscheat-net-guide",
 	slug: "arc-raiders-arcraiderscheat-net-guide",
 	game: "ARC Raiders",
 	gameSlug: "arc-raiders",
 	externalUrl: "https://arcraiderscheat.net",
 	anchorText: "more game information",
-	published: "2026-01-05",
+	published: "2026-03-07",
 	updated: "2026-03-15",
 	title: "ARC Raiders Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical ARC Raiders guide covering extraction shooter fundamentals, gear durability, and collapsing industrial zones and rival salvage crews — updated for 2026 PC players.",
@@ -55,7 +147,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "genshin-impact",
 	externalUrl: "https://genshincheats.net",
 	anchorText: "additional guides",
-	published: "2026-02-06",
+	published: "2026-04-08",
 	updated: "2026-03-15",
 	title: "Genshin Impact Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical Genshin Impact guide covering action RPG fundamentals, world boss timers, and Teyvat open world with elemental combat puzzles — updated for 2026 PC players.",
@@ -101,7 +193,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "dead-by-daylight",
 	externalUrl: "https://dbdcheats.net",
 	anchorText: "additional guides",
-	published: "2026-03-07",
+	published: "2026-05-09",
 	updated: "2026-03-15",
 	title: "Dead by Daylight Guide: Map Control Fundamentals (2026)",
 	metaDescription: "A practical Dead by Daylight guide covering asymmetric horror fundamentals, perk synergies, and trial maps with generators, hooks, and chase loops — updated for 2026 PC players.",
@@ -147,7 +239,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "escape-from-tarkov",
 	externalUrl: "https://tarkovcheats.net",
 	anchorText: "related resources",
-	published: "2026-04-08",
+	published: "2026-06-10",
 	updated: "2026-03-15",
 	title: "Escape from Tarkov Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, flea market economy, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
@@ -193,7 +285,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "unturned",
 	externalUrl: "https://unturnedcheats.net",
 	anchorText: "related resources",
-	published: "2026-05-09",
+	published: "2026-07-11",
 	updated: "2026-03-15",
 	title: "Unturned Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Unturned guide covering survival sandbox fundamentals, resource farming, and zombie-infested maps with base building and PvP zones — updated for 2026 PC players.",
@@ -239,7 +331,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "unturned",
 	externalUrl: "https://unturnedcheats.com",
 	anchorText: "related resources",
-	published: "2026-06-10",
+	published: "2026-08-12",
 	updated: "2026-03-15",
 	title: "Unturned Guide: Anti-Cheat Awareness (2026)",
 	metaDescription: "A practical Unturned guide covering survival sandbox fundamentals, base raids, and zombie-infested maps with base building and PvP zones — updated for 2026 PC players.",
@@ -285,7 +377,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "war-thunder",
 	externalUrl: "https://warthundercheats.com",
 	anchorText: "additional guides",
-	published: "2026-07-11",
+	published: "2026-01-13",
 	updated: "2026-03-15",
 	title: "War Thunder Guide: Map Control Fundamentals (2026)",
 	metaDescription: "A practical War Thunder guide covering combined-arms simulator fundamentals, armor weak spots, and WWII and modern vehicle battles across air, ground, and sea — updated for 2026 PC players.",
@@ -331,7 +423,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "fortnite",
 	externalUrl: "https://fortniteaimbot.com",
 	anchorText: "related resources",
-	published: "2026-08-12",
+	published: "2026-02-14",
 	updated: "2026-03-15",
 	title: "Fortnite Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Fortnite guide covering battle royale builder fundamentals, edit plays, and 100-player island drops with storm circles and build fights — updated for 2026 PC players.",
@@ -377,7 +469,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "marathon",
 	externalUrl: "https://marathoncheats.org",
 	anchorText: "related resources",
-	published: "2026-01-13",
+	published: "2026-03-15",
 	updated: "2026-03-15",
 	title: "Marathon Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Marathon guide covering extraction shooter fundamentals, contract routing, and mysterious off-world colony runs with runner classes — updated for 2026 PC players.",
@@ -423,7 +515,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "battlefield",
 	externalUrl: "https://battlefieldcheats.org",
 	anchorText: "more game information",
-	published: "2026-02-14",
+	published: "2026-04-16",
 	updated: "2026-03-15",
 	title: "Battlefield Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical Battlefield guide covering large-scale FPS fundamentals, capture point flow, and 64v128-player zones with vehicles and destruction — updated for 2026 PC players.",
@@ -469,7 +561,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "league-of-legends",
 	externalUrl: "https://lolcheats.org",
 	anchorText: "this resource",
-	published: "2026-03-15",
+	published: "2026-05-17",
 	updated: "2026-03-15",
 	title: "League of Legends Guide: Beginner Onboarding (2026)",
 	metaDescription: "A practical League of Legends guide covering MOBA fundamentals, wave management, and Summoners Rift with five roles and objective timers — updated for 2026 PC players.",
@@ -515,7 +607,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "call-of-duty-warzone",
 	externalUrl: "https://warzonecheats.org",
 	anchorText: "related resources",
-	published: "2026-04-16",
+	published: "2026-06-18",
 	updated: "2026-03-15",
 	title: "Call of Duty: Warzone Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Call of Duty: Warzone guide covering battle royale fundamentals, loadout metas, and Verdansk, Rebirth, and Urzikstan drops with loadout customisation — updated for 2026 PC players.",
@@ -561,7 +653,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "valorant",
 	externalUrl: "https://valocheats.com",
 	anchorText: "this resource",
-	published: "2026-05-17",
+	published: "2026-07-19",
 	updated: "2026-03-15",
 	title: "Valorant Guide: Beginner Onboarding (2026)",
 	metaDescription: "A practical Valorant guide covering tactical FPS fundamentals, ability combos, and 5v5 rounds with agent abilities and spike plants — updated for 2026 PC players.",
@@ -607,7 +699,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "gray-zone-warfare",
 	externalUrl: "https://grayzonecheats.com",
 	anchorText: "more game information",
-	published: "2026-06-18",
+	published: "2026-08-20",
 	updated: "2026-03-15",
 	title: "Gray Zone Warfare Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical Gray Zone Warfare guide covering open-world tactical FPS fundamentals, extraction contracts, and Lamang Island with faction missions and realistic ballistics — updated for 2026 PC players.",
@@ -653,7 +745,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "arc-raiders",
 	externalUrl: "https://arcraiderscheats.org",
 	anchorText: "related resources",
-	published: "2026-07-19",
+	published: "2026-01-21",
 	updated: "2026-03-15",
 	title: "ARC Raiders Guide: Anti-Cheat Awareness (2026)",
 	metaDescription: "A practical ARC Raiders guide covering extraction shooter fundamentals, loot extraction windows, and collapsing industrial zones and rival salvage crews — updated for 2026 PC players.",
@@ -699,7 +791,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "escape-from-tarkov",
 	externalUrl: "https://tarkovcheats.org",
 	anchorText: "additional guides",
-	published: "2026-08-20",
+	published: "2026-02-22",
 	updated: "2026-03-15",
 	title: "Escape from Tarkov Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, ammo types and armor classes, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
@@ -745,7 +837,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "overwatch-2",
 	externalUrl: "https://overwatchhacks.com",
 	anchorText: "more game information",
-	published: "2026-01-21",
+	published: "2026-03-23",
 	updated: "2026-03-15",
 	title: "Overwatch 2 Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical Overwatch 2 guide covering pirate shooter fundamentals, cooldown tracking, and 5v5 role-queue matches with ultimate combos — updated for 2026 PC players.",
@@ -791,7 +883,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "dead-by-daylight",
 	externalUrl: "https://dbdcheats.org",
 	anchorText: "more game information",
-	published: "2026-02-22",
+	published: "2026-04-24",
 	updated: "2026-03-15",
 	title: "Dead by Daylight Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Dead by Daylight guide covering asymmetric horror fundamentals, generator pacing, and trial maps with generators, hooks, and chase loops — updated for 2026 PC players.",
@@ -837,7 +929,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "the-isle",
 	externalUrl: "https://theislehacks.org",
 	anchorText: "related resources",
-	published: "2026-03-23",
+	published: "2026-05-05",
 	updated: "2026-03-15",
 	title: "The Isle Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical The Isle guide covering dinosaur survival fundamentals, nest spawning, and open island growth cycles with carnivore and herbivore paths — updated for 2026 PC players.",
@@ -883,7 +975,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "the-isle",
 	externalUrl: "https://islecheats.net",
 	anchorText: "more game information",
-	published: "2026-04-24",
+	published: "2026-06-06",
 	updated: "2026-03-15",
 	title: "The Isle Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical The Isle guide covering dinosaur survival fundamentals, nest spawning, and open island growth cycles with carnivore and herbivore paths — updated for 2026 PC players.",
@@ -929,7 +1021,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "war-thunder",
 	externalUrl: "https://warthunderhacks.com",
 	anchorText: "additional guides",
-	published: "2026-05-05",
+	published: "2026-07-07",
 	updated: "2026-03-15",
 	title: "War Thunder Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical War Thunder guide covering combined-arms simulator fundamentals, armor weak spots, and WWII and modern vehicle battles across air, ground, and sea — updated for 2026 PC players.",
@@ -975,7 +1067,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "marathon",
 	externalUrl: "https://marathoncheats.cc",
 	anchorText: "more game information",
-	published: "2026-06-06",
+	published: "2026-08-08",
 	updated: "2026-03-15",
 	title: "Marathon Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical Marathon guide covering extraction shooter fundamentals, extraction timing, and mysterious off-world colony runs with runner classes — updated for 2026 PC players.",
@@ -1021,7 +1113,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "escape-from-tarkov",
 	externalUrl: "https://besttarkovcheats.com",
 	anchorText: "related resources",
-	published: "2026-07-07",
+	published: "2026-01-09",
 	updated: "2026-03-15",
 	title: "Escape from Tarkov Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, ammo types and armor classes, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
@@ -1067,7 +1159,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "the-finals",
 	externalUrl: "https://thefinalscheats.org",
 	anchorText: "more game information",
-	published: "2026-08-08",
+	published: "2026-02-10",
 	updated: "2026-03-15",
 	title: "The Finals Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical The Finals guide covering destruction-based FPS fundamentals, team cash-outs, and game-show arenas with cash-out objectives — updated for 2026 PC players.",
@@ -1113,7 +1205,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "dayz",
 	externalUrl: "https://dayzcheat.net",
 	anchorText: "more game information",
-	published: "2026-01-09",
+	published: "2026-03-11",
 	updated: "2026-03-15",
 	title: "DayZ Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical DayZ guide covering hardcore survival fundamentals, coastal spawns, and Chernarus wilderness with infected, players, and base raids — updated for 2026 PC players.",
@@ -1159,7 +1251,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "fortnite",
 	externalUrl: "https://fncheats.net",
 	anchorText: "additional guides",
-	published: "2026-02-10",
+	published: "2026-04-12",
 	updated: "2026-03-15",
 	title: "Fortnite Guide: Map Control Fundamentals (2026)",
 	metaDescription: "A practical Fortnite guide covering battle royale builder fundamentals, loadout rotations, and 100-player island drops with storm circles and build fights — updated for 2026 PC players.",
@@ -1205,7 +1297,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "the-isle",
 	externalUrl: "https://islecheat.com",
 	anchorText: "this resource",
-	published: "2026-03-11",
+	published: "2026-05-13",
 	updated: "2026-03-15",
 	title: "The Isle Guide: Squad Coordination (2026)",
 	metaDescription: "A practical The Isle guide covering dinosaur survival fundamentals, pack hunting, and open island growth cycles with carnivore and herbivore paths — updated for 2026 PC players.",
@@ -1245,13 +1337,59 @@ export const guides: GuideDefinition[] = [
 	]
 },
 	{
+	id: "deadside-deadsidecheats-com-guide",
+	slug: "deadside-deadsidecheats-com-guide",
+	game: "Deadside",
+	gameSlug: "deadside",
+	externalUrl: "https://deadsidecheats.com",
+	anchorText: "more game information",
+	published: "2026-06-14",
+	updated: "2026-03-15",
+	title: "Deadside Guide: Economy And Loadout Planning (2026)",
+	metaDescription: "A practical Deadside guide covering post-apocalyptic survival fundamentals, safe-zone trading, and open-world PvPvE with military loot and convoys — updated for 2026 PC players.",
+	h1: "Deadside Economy And Loadout Planning Guide",
+	intro: "Deadside remains one of the most discussed post-apocalyptic survival titles on PC, especially for players who want sharper reads in open-world PvPvE with military loot and convoys. This guide focuses on economy and loadout planning without skipping the basics: how rounds flow, where teams win fights, and why safe-zone trading often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2022/11/16/deadside-1668635482936.jpg",
+	imageAlt: "Deadside gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Deadside matches actually play out",
+			paragraphs: [
+				"Most Deadside sessions are won in the minutes before a fight starts. Learn the default routes players take through open-world PvPvE with military loot and convoys, which angles give free information, and when to disengage. In post-apocalyptic survival titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat safe-zone trading as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "loot routes and mid-game decisions",
+			paragraphs: [
+				"loot routes separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Deadside, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic post-apocalyptic survival lobbies, disciplined spacing around open-world PvPvE with military loot and convoys creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Deadside. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Deadside uses Easy Anti-Cheat on official shards. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: safe-zone trading, loot routes, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://deadsidecheats.com\" target=\"_blank\" rel=\"noopener noreferrer\">more game information</a>."
+			]
+		}
+	]
+},
+	{
 	id: "marvel-rivals-marvelrivalscheat-net-guide",
 	slug: "marvel-rivals-marvelrivalscheat-net-guide",
 	game: "Marvel Rivals",
 	gameSlug: "marvel-rivals",
 	externalUrl: "https://marvelrivalscheat.net",
 	anchorText: "related resources",
-	published: "2026-04-12",
+	published: "2026-07-15",
 	updated: "2026-03-15",
 	title: "Marvel Rivals Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Marvel Rivals guide covering pirate shooter fundamentals, role synergy, and Marvel roster 6v6 team fights with ultimate chains — updated for 2026 PC players.",
@@ -1297,7 +1435,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "mecha-break",
 	externalUrl: "https://meccacheats.com",
 	anchorText: "more game information",
-	published: "2026-05-13",
+	published: "2026-08-16",
 	updated: "2026-03-15",
 	title: "Mecha BREAK Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Mecha BREAK guide covering mecha pirate shooter fundamentals, mech loadouts, and stylised mech arenas with ability cooldown duels — updated for 2026 PC players.",
@@ -1343,7 +1481,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "rust",
 	externalUrl: "https://rusthack.net",
 	anchorText: "related resources",
-	published: "2026-06-14",
+	published: "2026-01-17",
 	updated: "2026-03-15",
 	title: "Rust Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Rust guide covering survival sandbox fundamentals, raid timing, and wipe cycles with monuments, raids, and helicopter events — updated for 2026 PC players.",
@@ -1383,59 +1521,13 @@ export const guides: GuideDefinition[] = [
 	]
 },
 	{
-	id: "call-of-duty-warzone-warzonecheat-org-guide",
-	slug: "call-of-duty-warzone-warzonecheat-org-guide",
-	game: "Call of Duty: Warzone",
-	gameSlug: "call-of-duty-warzone",
-	externalUrl: "https://warzonecheat.org",
-	anchorText: "this resource",
-	published: "2026-07-15",
-	updated: "2026-03-15",
-	title: "Call of Duty: Warzone Guide: Squad Coordination (2026)",
-	metaDescription: "A practical Call of Duty: Warzone guide covering battle royale fundamentals, loadout metas, and Verdansk, Rebirth, and Urzikstan drops with loadout customisation — updated for 2026 PC players.",
-	h1: "Call of Duty: Warzone Squad Coordination Guide",
-	intro: "Call of Duty: Warzone remains one of the most discussed battle royale titles on PC, especially for players who want sharper reads in Verdansk, Rebirth, and Urzikstan drops with loadout customisation. This guide focuses on squad coordination without skipping the basics: how rounds flow, where teams win fights, and why loadout metas often decides outcomes before aim ever matters.",
-	imageUrl: "https://sm.ign.com/t/ign_pk/screenshot/default/wz-verdansksubway-1601169413816_x2hg.1400.jpg",
-	imageAlt: "Call of Duty: Warzone gameplay — IGN screenshot",
-	sections: [
-		{
-			h2: "How Call of Duty: Warzone matches actually play out",
-			paragraphs: [
-				"Most Call of Duty: Warzone sessions are won in the minutes before a fight starts. Learn the default routes players take through Verdansk, Rebirth, and Urzikstan drops with loadout customisation, which angles give free information, and when to disengage. In battle royale titles, map timing beats raw reflexes more often than new players expect.",
-				"Treat loadout metas as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
-			]
-		},
-		{
-			h2: "buy stations and mid-game decisions",
-			paragraphs: [
-				"buy stations separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Call of Duty: Warzone, the team that recognizes a committed enemy first usually wins the exchange.",
-				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic battle royale lobbies, disciplined spacing around Verdansk, Rebirth, and Urzikstan drops with loadout customisation creates openings that raw aggression cannot."
-			]
-		},
-		{
-			h2: "Performance, settings, and fair-play context",
-			paragraphs: [
-				"Stable FPS and clean audio matter in Call of Duty: Warzone. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
-				"Call of Duty: Warzone uses Ricochet anti-cheat with kernel-level monitoring. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
-			]
-		},
-		{
-			h2: "Putting the guide into practice",
-			paragraphs: [
-				"Pick one focus per session: loadout metas, buy stations, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
-				"For more game updates, guides, and related resources, you can also explore <a href=\"https://warzonecheat.org\" target=\"_blank\" rel=\"noopener noreferrer\">this resource</a>."
-			]
-		}
-	]
-},
-	{
 	id: "gray-zone-warfare-grayzonecheats-net-guide",
 	slug: "gray-zone-warfare-grayzonecheats-net-guide",
 	game: "Gray Zone Warfare",
 	gameSlug: "gray-zone-warfare",
 	externalUrl: "https://grayzonecheats.net",
 	anchorText: "more game information",
-	published: "2026-08-16",
+	published: "2026-02-18",
 	updated: "2026-03-15",
 	title: "Gray Zone Warfare Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Gray Zone Warfare guide covering open-world tactical FPS fundamentals, squad comms, and Lamang Island with faction missions and realistic ballistics — updated for 2026 PC players.",
@@ -1475,13 +1567,59 @@ export const guides: GuideDefinition[] = [
 	]
 },
 	{
+	id: "unturned-unturnedhacks-com-guide",
+	slug: "unturned-unturnedhacks-com-guide",
+	game: "Unturned",
+	gameSlug: "unturned",
+	externalUrl: "https://unturnedhacks.com",
+	anchorText: "more game information",
+	published: "2026-03-19",
+	updated: "2026-03-15",
+	title: "Unturned Guide: Ranked Climb Strategy (2026)",
+	metaDescription: "A practical Unturned guide covering survival sandbox fundamentals, base raids, and zombie-infested maps with base building and PvP zones — updated for 2026 PC players.",
+	h1: "Unturned Ranked Climb Strategy Guide",
+	intro: "Unturned remains one of the most discussed survival sandbox titles on PC, especially for players who want sharper reads in zombie-infested maps with base building and PvP zones. This guide focuses on ranked climb strategy without skipping the basics: how rounds flow, where teams win fights, and why base raids often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2020/12/10/unturned-button-fin-1607643147558.jpg",
+	imageAlt: "Unturned gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Unturned matches actually play out",
+			paragraphs: [
+				"Most Unturned sessions are won in the minutes before a fight starts. Learn the default routes players take through zombie-infested maps with base building and PvP zones, which angles give free information, and when to disengage. In survival sandbox titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat base raids as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "vehicle logistics and mid-game decisions",
+			paragraphs: [
+				"vehicle logistics separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Unturned, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic survival sandbox lobbies, disciplined spacing around zombie-infested maps with base building and PvP zones creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Unturned. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Unturned uses VAC-enabled servers with admin tooling. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: base raids, vehicle logistics, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://unturnedhacks.com\" target=\"_blank\" rel=\"noopener noreferrer\">more game information</a>."
+			]
+		}
+	]
+},
+	{
 	id: "palworld-palworldhack-net-guide",
 	slug: "palworld-palworldhack-net-guide",
 	game: "Palworld",
 	gameSlug: "palworld",
 	externalUrl: "https://palworldhack.net",
 	anchorText: "additional guides",
-	published: "2026-01-17",
+	published: "2026-04-20",
 	updated: "2026-03-15",
 	title: "Palworld Guide: Map Control Fundamentals (2026)",
 	metaDescription: "A practical Palworld guide covering creature survival fundamentals, base raids, and Palpagos Island with base building and Pal teams — updated for 2026 PC players.",
@@ -1527,7 +1665,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "rainbow-six-siege",
 	externalUrl: "https://r6siegecheats.net",
 	anchorText: "more game information",
-	published: "2026-02-18",
+	published: "2026-05-21",
 	updated: "2026-03-15",
 	title: "Rainbow Six Siege Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical Rainbow Six Siege guide covering tactical FPS fundamentals, reinforcement setups, and destructible ranked sites with operator gadgets — updated for 2026 PC players.",
@@ -1573,7 +1711,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "escape-from-tarkov",
 	externalUrl: "https://eftcheat.net",
 	anchorText: "additional guides",
-	published: "2026-03-19",
+	published: "2026-06-22",
 	updated: "2026-03-15",
 	title: "Escape from Tarkov Guide: Map Control Fundamentals (2026)",
 	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, insurance and hideout, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
@@ -1619,7 +1757,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "caliber",
 	externalUrl: "https://calibercheats.com",
 	anchorText: "this resource",
-	published: "2026-04-20",
+	published: "2026-07-23",
 	updated: "2026-03-15",
 	title: "Caliber Guide: Beginner Onboarding (2026)",
 	metaDescription: "A practical Caliber guide covering tactical third-person shooter fundamentals, mission routing, and squad-based PvPvE missions with class roles — updated for 2026 PC players.",
@@ -1665,7 +1803,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "call-of-duty-warzone",
 	externalUrl: "https://codcheats.net",
 	anchorText: "this resource",
-	published: "2026-05-21",
+	published: "2026-08-24",
 	updated: "2026-03-15",
 	title: "Call of Duty: Warzone Guide: Beginner Onboarding (2026)",
 	metaDescription: "A practical Call of Duty: Warzone guide covering battle royale fundamentals, loadout metas, and Verdansk, Rebirth, and Urzikstan drops with loadout customisation — updated for 2026 PC players.",
@@ -1705,13 +1843,13 @@ export const guides: GuideDefinition[] = [
 	]
 },
 	{
-	id: "hunt-showdown-huntcheats-com-guide",
-	slug: "hunt-showdown-huntcheats-com-guide",
+	id: "hunt-arena-huntcheats-com-guide",
+	slug: "hunt-arena-huntcheats-com-guide",
 	game: "Hunt: Arena",
-	gameSlug: "hunt-showdown",
+	gameSlug: "hunt-arena",
 	externalUrl: "https://huntcheats.com",
 	anchorText: "more game information",
-	published: "2026-06-22",
+	published: "2026-01-05",
 	updated: "2026-03-15",
 	title: "Hunt: Arena Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Hunt: Arena guide covering extraction bounty hunter fundamentals, extract ambushes, and Louisiana bayou with boss bounties and rival hunters — updated for 2026 PC players.",
@@ -1757,7 +1895,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "league-of-legends",
 	externalUrl: "https://lolcheat.net",
 	anchorText: "this resource",
-	published: "2026-07-23",
+	published: "2026-02-06",
 	updated: "2026-03-15",
 	title: "League of Legends Guide: Beginner Onboarding (2026)",
 	metaDescription: "A practical League of Legends guide covering MOBA fundamentals, teamfight positioning, and Summoners Rift with five roles and objective timers — updated for 2026 PC players.",
@@ -1803,7 +1941,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "marathon",
 	externalUrl: "https://marathonhacks.net",
 	anchorText: "this resource",
-	published: "2026-08-24",
+	published: "2026-03-07",
 	updated: "2026-03-15",
 	title: "Marathon Guide: Squad Coordination (2026)",
 	metaDescription: "A practical Marathon guide covering extraction shooter fundamentals, runner builds, and mysterious off-world colony runs with runner classes — updated for 2026 PC players.",
@@ -1849,7 +1987,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "mecha-break",
 	externalUrl: "https://mecchahacks.com",
 	anchorText: "more game information",
-	published: "2026-01-05",
+	published: "2026-04-08",
 	updated: "2026-03-15",
 	title: "Mecha BREAK Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Mecha BREAK guide covering mecha pirate shooter fundamentals, ultimate timing, and stylised mech arenas with ability cooldown duels — updated for 2026 PC players.",
@@ -1895,7 +2033,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "palworld",
 	externalUrl: "https://palworldhack.com",
 	anchorText: "additional guides",
-	published: "2026-02-06",
+	published: "2026-05-09",
 	updated: "2026-03-15",
 	title: "Palworld Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical Palworld guide covering creature survival fundamentals, dungeon clears, and Palpagos Island with base building and Pal teams — updated for 2026 PC players.",
@@ -1941,7 +2079,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "escape-from-tarkov",
 	externalUrl: "https://tarkovhack.net",
 	anchorText: "this resource",
-	published: "2026-03-07",
+	published: "2026-06-10",
 	updated: "2026-03-15",
 	title: "Escape from Tarkov Guide: Squad Coordination (2026)",
 	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, ammo types and armor classes, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
@@ -1987,7 +2125,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "war-thunder",
 	externalUrl: "https://warthundercheats.net",
 	anchorText: "additional guides",
-	published: "2026-04-08",
+	published: "2026-07-11",
 	updated: "2026-03-15",
 	title: "War Thunder Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical War Thunder guide covering combined-arms simulator fundamentals, line-of-sight spotting, and WWII and modern vehicle battles across air, ground, and sea — updated for 2026 PC players.",
@@ -2027,13 +2165,13 @@ export const guides: GuideDefinition[] = [
 	]
 },
 	{
-	id: "hunt-showdown-huntshowdowncheats-com-guide",
-	slug: "hunt-showdown-huntshowdowncheats-com-guide",
+	id: "hunt-arena-huntshowdowncheats-com-guide",
+	slug: "hunt-arena-huntshowdowncheats-com-guide",
 	game: "Hunt: Arena",
-	gameSlug: "hunt-showdown",
+	gameSlug: "hunt-arena",
 	externalUrl: "https://huntshowdowncheats.com",
 	anchorText: "this resource",
-	published: "2026-05-09",
+	published: "2026-08-12",
 	updated: "2026-03-15",
 	title: "Hunt: Arena Guide: Squad Coordination (2026)",
 	metaDescription: "A practical Hunt: Arena guide covering extraction bounty hunter fundamentals, extract ambushes, and Louisiana bayou with boss bounties and rival hunters — updated for 2026 PC players.",
@@ -2079,7 +2217,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "destiny-2",
 	externalUrl: "https://destiny2cheats.com",
 	anchorText: "additional guides",
-	published: "2026-06-10",
+	published: "2026-01-13",
 	updated: "2026-03-15",
 	title: "Destiny 2 Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical Destiny 2 guide covering looter shooter MMO fundamentals, DPS phases, and strikes, raids, and Crucible PvP with buildcrafting — updated for 2026 PC players.",
@@ -2125,7 +2263,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "escape-from-tarkov",
 	externalUrl: "https://tarkovhacks.net",
 	anchorText: "more game information",
-	published: "2026-07-11",
+	published: "2026-02-14",
 	updated: "2026-03-15",
 	title: "Escape from Tarkov Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, ammo types and armor classes, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
@@ -2171,7 +2309,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "rainbow-six-siege",
 	externalUrl: "https://r6siegecheats.com",
 	anchorText: "more game information",
-	published: "2026-08-12",
+	published: "2026-03-15",
 	updated: "2026-03-15",
 	title: "Rainbow Six Siege Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Rainbow Six Siege guide covering tactical FPS fundamentals, drone clears, and destructible ranked sites with operator gadgets — updated for 2026 PC players.",
@@ -2217,7 +2355,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "sand-raiders",
 	externalUrl: "https://sandraiderscheat.com",
 	anchorText: "more game information",
-	published: "2026-01-13",
+	published: "2026-04-16",
 	updated: "2026-03-15",
 	title: "Sand Raiders Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Sand Raiders guide covering action adventure fundamentals, combo routes, and desert ruins with traversal puzzles and combat arenas — updated for 2026 PC players.",
@@ -2263,7 +2401,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "palworld",
 	externalUrl: "https://palworldhacks.com",
 	anchorText: "related resources",
-	published: "2026-02-14",
+	published: "2026-05-17",
 	updated: "2026-03-15",
 	title: "Palworld Guide: Anti-Cheat Awareness (2026)",
 	metaDescription: "A practical Palworld guide covering creature survival fundamentals, dungeon clears, and Palpagos Island with base building and Pal teams — updated for 2026 PC players.",
@@ -2309,7 +2447,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "squad",
 	externalUrl: "https://squadhacks.com",
 	anchorText: "additional guides",
-	published: "2026-03-15",
+	published: "2026-06-18",
 	updated: "2026-03-15",
 	title: "Squad Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical Squad guide covering military tactical FPS fundamentals, vehicle logistics, and 50v50 combined-arms with logistics and comms — updated for 2026 PC players.",
@@ -2355,7 +2493,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "escape-from-tarkov",
 	externalUrl: "https://eftcheats.net",
 	anchorText: "related resources",
-	published: "2026-04-16",
+	published: "2026-07-19",
 	updated: "2026-03-15",
 	title: "Escape from Tarkov Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, insurance and hideout, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
@@ -2401,7 +2539,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "marathon",
 	externalUrl: "https://marathonhack.net",
 	anchorText: "more game information",
-	published: "2026-05-17",
+	published: "2026-08-20",
 	updated: "2026-03-15",
 	title: "Marathon Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Marathon guide covering extraction shooter fundamentals, extraction timing, and mysterious off-world colony runs with runner classes — updated for 2026 PC players.",
@@ -2447,7 +2585,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "arena-breakout-infinite",
 	externalUrl: "https://abicheats.com",
 	anchorText: "this resource",
-	published: "2026-06-18",
+	published: "2026-01-21",
 	updated: "2026-03-15",
 	title: "Arena Breakout Infinite Guide: Squad Coordination (2026)",
 	metaDescription: "A practical Arena Breakout Infinite guide covering tactical extraction FPS fundamentals, ammo types, and high-fidelity raids with gear fear and insurance — updated for 2026 PC players.",
@@ -2493,7 +2631,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "bodycam",
 	externalUrl: "https://bodycamcheats.com",
 	anchorText: "more game information",
-	published: "2026-07-19",
+	published: "2026-02-22",
 	updated: "2026-03-15",
 	title: "Bodycam Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical Bodycam guide covering realistic FPS fundamentals, peek timing, and body-worn camera perspective raids with lethal TTK — updated for 2026 PC players.",
@@ -2539,7 +2677,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "gray-zone-warfare",
 	externalUrl: "https://grayzonehacks.com",
 	anchorText: "related resources",
-	published: "2026-08-20",
+	published: "2026-03-23",
 	updated: "2026-03-15",
 	title: "Gray Zone Warfare Guide: Anti-Cheat Awareness (2026)",
 	metaDescription: "A practical Gray Zone Warfare guide covering open-world tactical FPS fundamentals, NVG night raids, and Lamang Island with faction missions and realistic ballistics — updated for 2026 PC players.",
@@ -2585,7 +2723,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "league-of-legends",
 	externalUrl: "https://lolcheats.net",
 	anchorText: "more game information",
-	published: "2026-01-21",
+	published: "2026-04-24",
 	updated: "2026-03-15",
 	title: "League of Legends Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical League of Legends guide covering MOBA fundamentals, teamfight positioning, and Summoners Rift with five roles and objective timers — updated for 2026 PC players.",
@@ -2631,7 +2769,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "once-human",
 	externalUrl: "https://oncehumanhacks.com",
 	anchorText: "this resource",
-	published: "2026-02-22",
+	published: "2026-05-05",
 	updated: "2026-03-15",
 	title: "Once Human Guide: Beginner Onboarding (2026)",
 	metaDescription: "A practical Once Human guide covering survival sandbox fundamentals, season wipes, and post-apocalyptic zones with deviants and base building — updated for 2026 PC players.",
@@ -2677,7 +2815,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "palworld",
 	externalUrl: "https://palworldhacks.net",
 	anchorText: "related resources",
-	published: "2026-03-23",
+	published: "2026-06-06",
 	updated: "2026-03-15",
 	title: "Palworld Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Palworld guide covering creature survival fundamentals, base raids, and Palpagos Island with base building and Pal teams — updated for 2026 PC players.",
@@ -2723,7 +2861,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "arma-reforger",
 	externalUrl: "https://reforgercheats.com",
 	anchorText: "this resource",
-	published: "2026-04-24",
+	published: "2026-07-07",
 	updated: "2026-03-15",
 	title: "Arma Reforger Guide: Beginner Onboarding (2026)",
 	metaDescription: "A practical Arma Reforger guide covering military sandbox fundamentals, sector control, and Cold War Everon with combined arms and Game Master — updated for 2026 PC players.",
@@ -2769,7 +2907,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "marvel-rivals",
 	externalUrl: "https://rivalshacks.com",
 	anchorText: "more game information",
-	published: "2026-05-05",
+	published: "2026-08-08",
 	updated: "2026-03-15",
 	title: "Marvel Rivals Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Marvel Rivals guide covering pirate shooter fundamentals, ultimate combos, and Marvel roster 6v6 team fights with ultimate chains — updated for 2026 PC players.",
@@ -2815,7 +2953,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "once-human",
 	externalUrl: "https://oncehumancheats.net",
 	anchorText: "this resource",
-	published: "2026-06-06",
+	published: "2026-01-09",
 	updated: "2026-03-15",
 	title: "Once Human Guide: Squad Coordination (2026)",
 	metaDescription: "A practical Once Human guide covering survival sandbox fundamentals, deviant capture, and post-apocalyptic zones with deviants and base building — updated for 2026 PC players.",
@@ -2861,7 +2999,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "overwatch-2",
 	externalUrl: "https://overwatchcheat.net",
 	anchorText: "additional guides",
-	published: "2026-07-07",
+	published: "2026-02-10",
 	updated: "2026-03-15",
 	title: "Overwatch 2 Guide: Map Control Fundamentals (2026)",
 	metaDescription: "A practical Overwatch 2 guide covering pirate shooter fundamentals, map control, and 5v5 role-queue matches with ultimate combos — updated for 2026 PC players.",
@@ -2907,7 +3045,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "dayz",
 	externalUrl: "https://dayzhack.net",
 	anchorText: "more game information",
-	published: "2026-08-08",
+	published: "2026-03-11",
 	updated: "2026-03-15",
 	title: "DayZ Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical DayZ guide covering hardcore survival fundamentals, coastal spawns, and Chernarus wilderness with infected, players, and base raids — updated for 2026 PC players.",
@@ -2953,7 +3091,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "battlefield",
 	externalUrl: "https://battlefieldcheat.com",
 	anchorText: "related resources",
-	published: "2026-01-09",
+	published: "2026-04-12",
 	updated: "2026-03-15",
 	title: "Battlefield Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Battlefield guide covering large-scale FPS fundamentals, class gadgets, and 64v128-player zones with vehicles and destruction — updated for 2026 PC players.",
@@ -2999,7 +3137,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "arena-breakout-infinite",
 	externalUrl: "https://abihacks.com",
 	anchorText: "this resource",
-	published: "2026-02-10",
+	published: "2026-05-13",
 	updated: "2026-03-15",
 	title: "Arena Breakout Infinite Guide: Squad Coordination (2026)",
 	metaDescription: "A practical Arena Breakout Infinite guide covering tactical extraction FPS fundamentals, insurance returns, and high-fidelity raids with gear fear and insurance — updated for 2026 PC players.",
@@ -3045,7 +3183,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "arc-raiders",
 	externalUrl: "https://arcraidershack.com",
 	anchorText: "more game information",
-	published: "2026-03-11",
+	published: "2026-06-14",
 	updated: "2026-03-15",
 	title: "ARC Raiders Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical ARC Raiders guide covering extraction shooter fundamentals, gear durability, and collapsing industrial zones and rival salvage crews — updated for 2026 PC players.",
@@ -3091,7 +3229,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "backrooms",
 	externalUrl: "https://backroomscheats.com",
 	anchorText: "more game information",
-	published: "2026-04-12",
+	published: "2026-07-15",
 	updated: "2026-03-15",
 	title: "Backrooms Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Backrooms guide covering horror exploration fundamentals, entity sound cues, and liminal maze levels with entity evasion — updated for 2026 PC players.",
@@ -3137,7 +3275,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "marvel-rivals",
 	externalUrl: "https://marvelrivalshacks.net",
 	anchorText: "additional guides",
-	published: "2026-05-13",
+	published: "2026-08-16",
 	updated: "2026-03-15",
 	title: "Marvel Rivals Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical Marvel Rivals guide covering pirate shooter fundamentals, map verticality, and Marvel roster 6v6 team fights with ultimate chains — updated for 2026 PC players.",
@@ -3183,7 +3321,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "mecha-break",
 	externalUrl: "https://mecchachameleonhacks.com",
 	anchorText: "more game information",
-	published: "2026-06-14",
+	published: "2026-01-17",
 	updated: "2026-03-15",
 	title: "Mecha BREAK Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical Mecha BREAK guide covering mecha pirate shooter fundamentals, mech loadouts, and stylised mech arenas with ability cooldown duels — updated for 2026 PC players.",
@@ -3229,7 +3367,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "mecha-break",
 	externalUrl: "https://mecchachameleonhacks.net",
 	anchorText: "more game information",
-	published: "2026-07-15",
+	published: "2026-02-18",
 	updated: "2026-03-15",
 	title: "Mecha BREAK Guide: Economy And Loadout Planning (2026)",
 	metaDescription: "A practical Mecha BREAK guide covering mecha pirate shooter fundamentals, ultimate timing, and stylised mech arenas with ability cooldown duels — updated for 2026 PC players.",
@@ -3275,7 +3413,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "overwatch-2",
 	externalUrl: "https://overwatch2cheats.com",
 	anchorText: "more game information",
-	published: "2026-08-16",
+	published: "2026-03-19",
 	updated: "2026-03-15",
 	title: "Overwatch 2 Guide: Ranked Climb Strategy (2026)",
 	metaDescription: "A practical Overwatch 2 guide covering pirate shooter fundamentals, map control, and 5v5 role-queue matches with ultimate combos — updated for 2026 PC players.",
@@ -3321,7 +3459,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "sand-raiders",
 	externalUrl: "https://sandraiderscheats.com",
 	anchorText: "this resource",
-	published: "2026-01-17",
+	published: "2026-04-20",
 	updated: "2026-03-15",
 	title: "Sand Raiders Guide: Squad Coordination (2026)",
 	metaDescription: "A practical Sand Raiders guide covering action adventure fundamentals, combo routes, and desert ruins with traversal puzzles and combat arenas — updated for 2026 PC players.",
@@ -3367,7 +3505,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "marvel-rivals",
 	externalUrl: "https://rivalscheats.net",
 	anchorText: "related resources",
-	published: "2026-02-18",
+	published: "2026-05-21",
 	updated: "2026-03-15",
 	title: "Marvel Rivals Guide: Anti-Cheat Awareness (2026)",
 	metaDescription: "A practical Marvel Rivals guide covering pirate shooter fundamentals, ultimate combos, and Marvel roster 6v6 team fights with ultimate chains — updated for 2026 PC players.",
@@ -3413,7 +3551,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "squad",
 	externalUrl: "https://squadcheat.com",
 	anchorText: "related resources",
-	published: "2026-03-19",
+	published: "2026-06-22",
 	updated: "2026-03-15",
 	title: "Squad Guide: Solo Queue Survival (2026)",
 	metaDescription: "A practical Squad guide covering military tactical FPS fundamentals, FOB placement, and 50v50 combined-arms with logistics and comms — updated for 2026 PC players.",
@@ -3459,7 +3597,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "sand-raiders",
 	externalUrl: "https://sandraidersofsophiecheats.net",
 	anchorText: "related resources",
-	published: "2026-04-20",
+	published: "2026-07-23",
 	updated: "2026-03-15",
 	title: "Sand Raiders Guide: Anti-Cheat Awareness (2026)",
 	metaDescription: "A practical Sand Raiders guide covering action adventure fundamentals, gear unlocks, and desert ruins with traversal puzzles and combat arenas — updated for 2026 PC players.",
@@ -3505,7 +3643,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "escape-from-tarkov",
 	externalUrl: "https://tarkovcheat.net",
 	anchorText: "additional guides",
-	published: "2026-05-21",
+	published: "2026-08-24",
 	updated: "2026-03-15",
 	title: "Escape from Tarkov Guide: Map Control Fundamentals (2026)",
 	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, ammo types and armor classes, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
@@ -3551,7 +3689,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "the-finals",
 	externalUrl: "https://thefinalscheats.net",
 	anchorText: "additional guides",
-	published: "2026-06-22",
+	published: "2026-01-05",
 	updated: "2026-03-15",
 	title: "The Finals Guide: Map Control Fundamentals (2026)",
 	metaDescription: "A practical The Finals guide covering destruction-based FPS fundamentals, environmental destruction, and game-show arenas with cash-out objectives — updated for 2026 PC players.",
@@ -3597,7 +3735,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "the-isle",
 	externalUrl: "https://theislehacks.net",
 	anchorText: "this resource",
-	published: "2026-07-23",
+	published: "2026-02-06",
 	updated: "2026-03-15",
 	title: "The Isle Guide: Squad Coordination (2026)",
 	metaDescription: "A practical The Isle guide covering dinosaur survival fundamentals, growth stages, and open island growth cycles with carnivore and herbivore paths — updated for 2026 PC players.",
@@ -3643,7 +3781,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "valorant",
 	externalUrl: "https://valoranthack.net",
 	anchorText: "additional guides",
-	published: "2026-08-24",
+	published: "2026-03-07",
 	updated: "2026-03-15",
 	title: "Valorant Guide: Patch-Day Preparation (2026)",
 	metaDescription: "A practical Valorant guide covering tactical FPS fundamentals, crosshair placement, and 5v5 rounds with agent abilities and spike plants — updated for 2026 PC players.",
@@ -3689,7 +3827,7 @@ export const guides: GuideDefinition[] = [
 	gameSlug: "call-of-duty-warzone",
 	externalUrl: "https://warzonehacks.net",
 	anchorText: "this resource",
-	published: "2026-01-05",
+	published: "2026-04-08",
 	updated: "2026-03-15",
 	title: "Call of Duty: Warzone Guide: Squad Coordination (2026)",
 	metaDescription: "A practical Call of Duty: Warzone guide covering battle royale fundamentals, buy stations, and Verdansk, Rebirth, and Urzikstan drops with loadout customisation — updated for 2026 PC players.",
@@ -3724,6 +3862,1432 @@ export const guides: GuideDefinition[] = [
 			paragraphs: [
 				"Pick one focus per session: buy stations, gulag resets, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
 				"For more game updates, guides, and related resources, you can also explore <a href=\"https://warzonehacks.net\" target=\"_blank\" rel=\"noopener noreferrer\">this resource</a>."
+			]
+		}
+	]
+},
+	{
+	id: "the-front-thefrontcheats-com-guide",
+	slug: "the-front-thefrontcheats-com-guide",
+	game: "The Front",
+	gameSlug: "the-front",
+	externalUrl: "https://thefrontcheats.com",
+	anchorText: "additional guides",
+	published: "2026-05-09",
+	updated: "2026-03-15",
+	title: "The Front Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical The Front guide covering survival sandbox fundamentals, resource convoys, and war-torn frontier with base building and raids — updated for 2026 PC players.",
+	h1: "The Front Patch-Day Preparation Guide",
+	intro: "The Front remains one of the most discussed survival sandbox titles on PC, especially for players who want sharper reads in war-torn frontier with base building and raids. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why resource convoys often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2023/02/27/thefront-1677525834490.jpg",
+	imageAlt: "The Front gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How The Front matches actually play out",
+			paragraphs: [
+				"Most The Front sessions are won in the minutes before a fight starts. Learn the default routes players take through war-torn frontier with base building and raids, which angles give free information, and when to disengage. In survival sandbox titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat resource convoys as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "base blueprints and mid-game decisions",
+			paragraphs: [
+				"base blueprints separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In The Front, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic survival sandbox lobbies, disciplined spacing around war-torn frontier with base building and raids creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in The Front. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"The Front uses Easy Anti-Cheat with periodic rebuilds. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: resource convoys, base blueprints, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://thefrontcheats.com\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "ark-survival-evolved-lostarkcheats-net-guide",
+	slug: "ark-survival-evolved-lostarkcheats-net-guide",
+	game: "ARK: Survival Evolved",
+	gameSlug: "ark-survival-evolved",
+	externalUrl: "https://lostarkcheats.net",
+	anchorText: "additional guides",
+	published: "2026-06-10",
+	updated: "2026-03-15",
+	title: "ARK: Survival Evolved Guide: Map Control Fundamentals (2026)",
+	metaDescription: "A practical ARK: Survival Evolved guide covering survival sandbox fundamentals, breeding lines, and prehistoric islands with tribes and boss arenas — updated for 2026 PC players.",
+	h1: "ARK: Survival Evolved Map Control Fundamentals Guide",
+	intro: "ARK: Survival Evolved remains one of the most discussed survival sandbox titles on PC, especially for players who want sharper reads in prehistoric islands with tribes and boss arenas. This guide focuses on map control fundamentals without skipping the basics: how rounds flow, where teams win fights, and why breeding lines often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/15/ark-survival-evolved-button-fin-1639607697385.jpg",
+	imageAlt: "ARK: Survival Evolved gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How ARK: Survival Evolved matches actually play out",
+			paragraphs: [
+				"Most ARK: Survival Evolved sessions are won in the minutes before a fight starts. Learn the default routes players take through prehistoric islands with tribes and boss arenas, which angles give free information, and when to disengage. In survival sandbox titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat breeding lines as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "turret soaking and mid-game decisions",
+			paragraphs: [
+				"turret soaking separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In ARK: Survival Evolved, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic survival sandbox lobbies, disciplined spacing around prehistoric islands with tribes and boss arenas creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in ARK: Survival Evolved. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"ARK: Survival Evolved uses BattlEye with legacy server mods. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: breeding lines, turret soaking, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://lostarkcheats.net\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "valorant-valoranthacks-org-guide",
+	slug: "valorant-valoranthacks-org-guide",
+	game: "Valorant",
+	gameSlug: "valorant",
+	externalUrl: "https://valoranthacks.org",
+	anchorText: "additional guides",
+	published: "2026-07-11",
+	updated: "2026-03-15",
+	title: "Valorant Guide: Map Control Fundamentals (2026)",
+	metaDescription: "A practical Valorant guide covering tactical FPS fundamentals, crosshair placement, and 5v5 rounds with agent abilities and spike plants — updated for 2026 PC players.",
+	h1: "Valorant Map Control Fundamentals Guide",
+	intro: "Valorant remains one of the most discussed tactical FPS titles on PC, especially for players who want sharper reads in 5v5 rounds with agent abilities and spike plants. This guide focuses on map control fundamentals without skipping the basics: how rounds flow, where teams win fights, and why crosshair placement often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/21/valorant-1640045685890.jpg",
+	imageAlt: "Valorant gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Valorant matches actually play out",
+			paragraphs: [
+				"Most Valorant sessions are won in the minutes before a fight starts. Learn the default routes players take through 5v5 rounds with agent abilities and spike plants, which angles give free information, and when to disengage. In tactical FPS titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat crosshair placement as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "economy rounds and mid-game decisions",
+			paragraphs: [
+				"economy rounds separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Valorant, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic tactical FPS lobbies, disciplined spacing around 5v5 rounds with agent abilities and spike plants creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Valorant. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Valorant uses Vanguard kernel driver running at boot. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: crosshair placement, economy rounds, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://valoranthacks.org\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "rainbow-six-siege-siegehacks-com-guide",
+	slug: "rainbow-six-siege-siegehacks-com-guide",
+	game: "Rainbow Six Siege",
+	gameSlug: "rainbow-six-siege",
+	externalUrl: "https://siegehacks.com",
+	anchorText: "related resources",
+	published: "2026-08-12",
+	updated: "2026-03-15",
+	title: "Rainbow Six Siege Guide: Anti-Cheat Awareness (2026)",
+	metaDescription: "A practical Rainbow Six Siege guide covering tactical FPS fundamentals, drone clears, and destructible ranked sites with operator gadgets — updated for 2026 PC players.",
+	h1: "Rainbow Six Siege Anti-Cheat Awareness Guide",
+	intro: "Rainbow Six Siege remains one of the most discussed tactical FPS titles on PC, especially for players who want sharper reads in destructible ranked sites with operator gadgets. This guide focuses on anti-cheat awareness without skipping the basics: how rounds flow, where teams win fights, and why drone clears often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2025/06/30/siegex-1751319986948.jpg",
+	imageAlt: "Rainbow Six Siege gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Rainbow Six Siege matches actually play out",
+			paragraphs: [
+				"Most Rainbow Six Siege sessions are won in the minutes before a fight starts. Learn the default routes players take through destructible ranked sites with operator gadgets, which angles give free information, and when to disengage. In tactical FPS titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat drone clears as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "clutch rounds and mid-game decisions",
+			paragraphs: [
+				"clutch rounds separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Rainbow Six Siege, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic tactical FPS lobbies, disciplined spacing around destructible ranked sites with operator gadgets creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Rainbow Six Siege. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Rainbow Six Siege uses BattlEye with replay review on reports. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: drone clears, clutch rounds, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://siegehacks.com\" target=\"_blank\" rel=\"noopener noreferrer\">related resources</a>."
+			]
+		}
+	]
+},
+	{
+	id: "warframe-warframehacks-com-guide",
+	slug: "warframe-warframehacks-com-guide",
+	game: "Warframe",
+	gameSlug: "warframe",
+	externalUrl: "https://warframehacks.com",
+	anchorText: "more game information",
+	published: "2026-01-13",
+	updated: "2026-03-15",
+	title: "Warframe Guide: Ranked Climb Strategy (2026)",
+	metaDescription: "A practical Warframe guide covering looter shooter fundamentals, ability combos, and Origin System missions with Warframe builds — updated for 2026 PC players.",
+	h1: "Warframe Ranked Climb Strategy Guide",
+	intro: "Warframe remains one of the most discussed looter shooter titles on PC, especially for players who want sharper reads in Origin System missions with Warframe builds. This guide focuses on ranked climb strategy without skipping the basics: how rounds flow, where teams win fights, and why ability combos often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets1.ignimgs.com/2019/02/22/warframe---button-1550875935085.jpg",
+	imageAlt: "Warframe gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Warframe matches actually play out",
+			paragraphs: [
+				"Most Warframe sessions are won in the minutes before a fight starts. Learn the default routes players take through Origin System missions with Warframe builds, which angles give free information, and when to disengage. In looter shooter titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat ability combos as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "steel path scaling and mid-game decisions",
+			paragraphs: [
+				"steel path scaling separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Warframe, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic looter shooter lobbies, disciplined spacing around Origin System missions with Warframe builds creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Warframe. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Warframe uses Easy Anti-Cheat with manual review. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: ability combos, steel path scaling, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://warframehacks.com\" target=\"_blank\" rel=\"noopener noreferrer\">more game information</a>."
+			]
+		}
+	]
+},
+	{
+	id: "warframe-warframecheat-com-guide",
+	slug: "warframe-warframecheat-com-guide",
+	game: "Warframe",
+	gameSlug: "warframe",
+	externalUrl: "https://warframecheat.com",
+	anchorText: "additional guides",
+	published: "2026-02-14",
+	updated: "2026-03-15",
+	title: "Warframe Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical Warframe guide covering looter shooter fundamentals, steel path scaling, and Origin System missions with Warframe builds — updated for 2026 PC players.",
+	h1: "Warframe Patch-Day Preparation Guide",
+	intro: "Warframe remains one of the most discussed looter shooter titles on PC, especially for players who want sharper reads in Origin System missions with Warframe builds. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why steel path scaling often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets1.ignimgs.com/2019/02/22/warframe---button-1550875935085.jpg",
+	imageAlt: "Warframe gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Warframe matches actually play out",
+			paragraphs: [
+				"Most Warframe sessions are won in the minutes before a fight starts. Learn the default routes players take through Origin System missions with Warframe builds, which angles give free information, and when to disengage. In looter shooter titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat steel path scaling as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "mod polarities and mid-game decisions",
+			paragraphs: [
+				"mod polarities separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Warframe, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic looter shooter lobbies, disciplined spacing around Origin System missions with Warframe builds creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Warframe. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Warframe uses Easy Anti-Cheat with manual review. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: steel path scaling, mod polarities, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://warframecheat.com\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "naraka-bladepoint-narakacheats-org-guide",
+	slug: "naraka-bladepoint-narakacheats-org-guide",
+	game: "Naraka: Bladepoint",
+	gameSlug: "naraka-bladepoint",
+	externalUrl: "https://narakacheats.org",
+	anchorText: "more game information",
+	published: "2026-03-15",
+	updated: "2026-03-15",
+	title: "Naraka: Bladepoint Guide: Economy And Loadout Planning (2026)",
+	metaDescription: "A practical Naraka: Bladepoint guide covering battle royale melee fundamentals, grapple mobility, and Naraka Valley duos and trios with parry combat — updated for 2026 PC players.",
+	h1: "Naraka: Bladepoint Economy And Loadout Planning Guide",
+	intro: "Naraka: Bladepoint remains one of the most discussed battle royale melee titles on PC, especially for players who want sharper reads in Naraka Valley duos and trios with parry combat. This guide focuses on economy and loadout planning without skipping the basics: how rounds flow, where teams win fights, and why grapple mobility often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets1.ignimgs.com/2019/12/13/naraka---button-00-1576208838937.jpg",
+	imageAlt: "Naraka: Bladepoint gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Naraka: Bladepoint matches actually play out",
+			paragraphs: [
+				"Most Naraka: Bladepoint sessions are won in the minutes before a fight starts. Learn the default routes players take through Naraka Valley duos and trios with parry combat, which angles give free information, and when to disengage. In battle royale melee titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat grapple mobility as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "soul jade economy and mid-game decisions",
+			paragraphs: [
+				"soul jade economy separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Naraka: Bladepoint, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic battle royale melee lobbies, disciplined spacing around Naraka Valley duos and trios with parry combat creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Naraka: Bladepoint. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Naraka: Bladepoint uses NetEase anti-cheat with replay review. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: grapple mobility, soul jade economy, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://narakacheats.org\" target=\"_blank\" rel=\"noopener noreferrer\">more game information</a>."
+			]
+		}
+	]
+},
+	{
+	id: "minecraft-minecraftcheat-com-guide",
+	slug: "minecraft-minecraftcheat-com-guide",
+	game: "Minecraft",
+	gameSlug: "minecraft",
+	externalUrl: "https://minecraftcheat.com",
+	anchorText: "this resource",
+	published: "2026-04-16",
+	updated: "2026-03-15",
+	title: "Minecraft Guide: Beginner Onboarding (2026)",
+	metaDescription: "A practical Minecraft guide covering sandbox survival fundamentals, faction raiding, and procedural worlds with PvP factions and minigames — updated for 2026 PC players.",
+	h1: "Minecraft Beginner Onboarding Guide",
+	intro: "Minecraft remains one of the most discussed sandbox survival titles on PC, especially for players who want sharper reads in procedural worlds with PvP factions and minigames. This guide focuses on beginner onboarding without skipping the basics: how rounds flow, where teams win fights, and why faction raiding often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/14/minecraft-1639513933156.jpg",
+	imageAlt: "Minecraft gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Minecraft matches actually play out",
+			paragraphs: [
+				"Most Minecraft sessions are won in the minutes before a fight starts. Learn the default routes players take through procedural worlds with PvP factions and minigames, which angles give free information, and when to disengage. In sandbox survival titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat faction raiding as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "redstone traps and mid-game decisions",
+			paragraphs: [
+				"redstone traps separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Minecraft, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic sandbox survival lobbies, disciplined spacing around procedural worlds with PvP factions and minigames creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Minecraft. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Minecraft uses server-side plugins and client checks. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: faction raiding, redstone traps, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://minecraftcheat.com\" target=\"_blank\" rel=\"noopener noreferrer\">this resource</a>."
+			]
+		}
+	]
+},
+	{
+	id: "destiny-2-destiny2hack-com-guide",
+	slug: "destiny-2-destiny2hack-com-guide",
+	game: "Destiny 2",
+	gameSlug: "destiny-2",
+	externalUrl: "https://destiny2hack.com",
+	anchorText: "related resources",
+	published: "2026-05-17",
+	updated: "2026-03-15",
+	title: "Destiny 2 Guide: Solo Queue Survival (2026)",
+	metaDescription: "A practical Destiny 2 guide covering looter shooter MMO fundamentals, champion mods, and strikes, raids, and Crucible PvP with buildcrafting — updated for 2026 PC players.",
+	h1: "Destiny 2 Solo Queue Survival Guide",
+	intro: "Destiny 2 remains one of the most discussed looter shooter MMO titles on PC, especially for players who want sharper reads in strikes, raids, and Crucible PvP with buildcrafting. This guide focuses on solo queue survival without skipping the basics: how rounds flow, where teams win fights, and why champion mods often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2025/03/12/destiny2heresy-1741800139522.jpg",
+	imageAlt: "Destiny 2 gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Destiny 2 matches actually play out",
+			paragraphs: [
+				"Most Destiny 2 sessions are won in the minutes before a fight starts. Learn the default routes players take through strikes, raids, and Crucible PvP with buildcrafting, which angles give free information, and when to disengage. In looter shooter MMO titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat champion mods as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "DPS phases and mid-game decisions",
+			paragraphs: [
+				"DPS phases separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Destiny 2, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic looter shooter MMO lobbies, disciplined spacing around strikes, raids, and Crucible PvP with buildcrafting creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Destiny 2. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Destiny 2 uses BattlEye on PC with activity restrictions. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: champion mods, DPS phases, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://destiny2hack.com\" target=\"_blank\" rel=\"noopener noreferrer\">related resources</a>."
+			]
+		}
+	]
+},
+	{
+	id: "path-of-exile-poecheats-com-guide",
+	slug: "path-of-exile-poecheats-com-guide",
+	game: "Path of Exile",
+	gameSlug: "path-of-exile",
+	externalUrl: "https://poecheats.com",
+	anchorText: "additional guides",
+	published: "2026-06-18",
+	updated: "2026-03-15",
+	title: "Path of Exile Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical Path of Exile guide covering action RPG fundamentals, league mechanics, and Wraeclast leagues with deep skill trees — updated for 2026 PC players.",
+	h1: "Path of Exile Patch-Day Preparation Guide",
+	intro: "Path of Exile remains one of the most discussed action RPG titles on PC, especially for players who want sharper reads in Wraeclast leagues with deep skill trees. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why league mechanics often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets1.ignimgs.com/2017/08/24/path-of-exile---button-1503612705551.jpg",
+	imageAlt: "Path of Exile gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Path of Exile matches actually play out",
+			paragraphs: [
+				"Most Path of Exile sessions are won in the minutes before a fight starts. Learn the default routes players take through Wraeclast leagues with deep skill trees, which angles give free information, and when to disengage. In action RPG titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat league mechanics as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "boss damage scaling and mid-game decisions",
+			paragraphs: [
+				"boss damage scaling separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Path of Exile, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic action RPG lobbies, disciplined spacing around Wraeclast leagues with deep skill trees creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Path of Exile. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Path of Exile uses server-side validation with periodic ban waves. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: league mechanics, boss damage scaling, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://poecheats.com\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "genshin-impact-genshinhacks-com-guide",
+	slug: "genshin-impact-genshinhacks-com-guide",
+	game: "Genshin Impact",
+	gameSlug: "genshin-impact",
+	externalUrl: "https://genshinhacks.com",
+	anchorText: "additional guides",
+	published: "2026-07-19",
+	updated: "2026-03-15",
+	title: "Genshin Impact Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical Genshin Impact guide covering action RPG fundamentals, elemental reactions, and Teyvat open world with elemental combat puzzles — updated for 2026 PC players.",
+	h1: "Genshin Impact Patch-Day Preparation Guide",
+	intro: "Genshin Impact remains one of the most discussed action RPG titles on PC, especially for players who want sharper reads in Teyvat open world with elemental combat puzzles. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why elemental reactions often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2020/09/29/genshin-impact-button-fin-1601346152039.jpg",
+	imageAlt: "Genshin Impact gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Genshin Impact matches actually play out",
+			paragraphs: [
+				"Most Genshin Impact sessions are won in the minutes before a fight starts. Learn the default routes players take through Teyvat open world with elemental combat puzzles, which angles give free information, and when to disengage. In action RPG titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat elemental reactions as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "domain rotations and mid-game decisions",
+			paragraphs: [
+				"domain rotations separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Genshin Impact, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic action RPG lobbies, disciplined spacing around Teyvat open world with elemental combat puzzles creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Genshin Impact. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Genshin Impact uses server-side validation and client integrity checks. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: elemental reactions, domain rotations, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://genshinhacks.com\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "arc-raiders-arcraiderscheat-org-guide",
+	slug: "arc-raiders-arcraiderscheat-org-guide",
+	game: "ARC Raiders",
+	gameSlug: "arc-raiders",
+	externalUrl: "https://arcraiderscheat.org",
+	anchorText: "this resource",
+	published: "2026-08-20",
+	updated: "2026-03-15",
+	title: "ARC Raiders Guide: Beginner Onboarding (2026)",
+	metaDescription: "A practical ARC Raiders guide covering extraction shooter fundamentals, loot extraction windows, and collapsing industrial zones and rival salvage crews — updated for 2026 PC players.",
+	h1: "ARC Raiders Beginner Onboarding Guide",
+	intro: "ARC Raiders remains one of the most discussed extraction shooter titles on PC, especially for players who want sharper reads in collapsing industrial zones and rival salvage crews. This guide focuses on beginner onboarding without skipping the basics: how rounds flow, where teams win fights, and why loot extraction windows often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/15/arc-raiders-button-01-1639552157827.jpg",
+	imageAlt: "ARC Raiders gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How ARC Raiders matches actually play out",
+			paragraphs: [
+				"Most ARC Raiders sessions are won in the minutes before a fight starts. Learn the default routes players take through collapsing industrial zones and rival salvage crews, which angles give free information, and when to disengage. In extraction shooter titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat loot extraction windows as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "PvPvE patrol routes and mid-game decisions",
+			paragraphs: [
+				"PvPvE patrol routes separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In ARC Raiders, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic extraction shooter lobbies, disciplined spacing around collapsing industrial zones and rival salvage crews creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in ARC Raiders. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"ARC Raiders uses kernel-level anti-cheat with frequent signature sweeps. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: loot extraction windows, PvPvE patrol routes, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://arcraiderscheat.org\" target=\"_blank\" rel=\"noopener noreferrer\">this resource</a>."
+			]
+		}
+	]
+},
+	{
+	id: "palworld-palworldcheats-org-guide",
+	slug: "palworld-palworldcheats-org-guide",
+	game: "Palworld",
+	gameSlug: "palworld",
+	externalUrl: "https://palworldcheats.org",
+	anchorText: "this resource",
+	published: "2026-01-21",
+	updated: "2026-03-15",
+	title: "Palworld Guide: Squad Coordination (2026)",
+	metaDescription: "A practical Palworld guide covering creature survival fundamentals, base raids, and Palpagos Island with base building and Pal teams — updated for 2026 PC players.",
+	h1: "Palworld Squad Coordination Guide",
+	intro: "Palworld remains one of the most discussed creature survival titles on PC, especially for players who want sharper reads in Palpagos Island with base building and Pal teams. This guide focuses on squad coordination without skipping the basics: how rounds flow, where teams win fights, and why base raids often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2024/01/19/palworld-1705691572614.jpg",
+	imageAlt: "Palworld gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Palworld matches actually play out",
+			paragraphs: [
+				"Most Palworld sessions are won in the minutes before a fight starts. Learn the default routes players take through Palpagos Island with base building and Pal teams, which angles give free information, and when to disengage. In creature survival titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat base raids as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "dungeon clears and mid-game decisions",
+			paragraphs: [
+				"dungeon clears separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Palworld, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic creature survival lobbies, disciplined spacing around Palpagos Island with base building and Pal teams creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Palworld. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Palworld uses Easy Anti-Cheat on official servers. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: base raids, dungeon clears, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://palworldcheats.org\" target=\"_blank\" rel=\"noopener noreferrer\">this resource</a>."
+			]
+		}
+	]
+},
+	{
+	id: "the-isle-theislecheat-net-guide",
+	slug: "the-isle-theislecheat-net-guide",
+	game: "The Isle",
+	gameSlug: "the-isle",
+	externalUrl: "https://theislecheat.net",
+	anchorText: "more game information",
+	published: "2026-02-22",
+	updated: "2026-03-15",
+	title: "The Isle Guide: Economy And Loadout Planning (2026)",
+	metaDescription: "A practical The Isle guide covering dinosaur survival fundamentals, nest spawning, and open island growth cycles with carnivore and herbivore paths — updated for 2026 PC players.",
+	h1: "The Isle Economy And Loadout Planning Guide",
+	intro: "The Isle remains one of the most discussed dinosaur survival titles on PC, especially for players who want sharper reads in open island growth cycles with carnivore and herbivore paths. This guide focuses on economy and loadout planning without skipping the basics: how rounds flow, where teams win fights, and why nest spawning often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2023/09/12/library-600x900-1694540297721.jpg",
+	imageAlt: "The Isle gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How The Isle matches actually play out",
+			paragraphs: [
+				"Most The Isle sessions are won in the minutes before a fight starts. Learn the default routes players take through open island growth cycles with carnivore and herbivore paths, which angles give free information, and when to disengage. In dinosaur survival titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat nest spawning as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "pack hunting and mid-game decisions",
+			paragraphs: [
+				"pack hunting separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In The Isle, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic dinosaur survival lobbies, disciplined spacing around open island growth cycles with carnivore and herbivore paths creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in The Isle. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"The Isle uses EAC on official servers with admin logs. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: nest spawning, pack hunting, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://theislecheat.net\" target=\"_blank\" rel=\"noopener noreferrer\">more game information</a>."
+			]
+		}
+	]
+},
+	{
+	id: "escape-from-tarkov-tarkovcheat-org-guide",
+	slug: "escape-from-tarkov-tarkovcheat-org-guide",
+	game: "Escape from Tarkov",
+	gameSlug: "escape-from-tarkov",
+	externalUrl: "https://tarkovcheat.org",
+	anchorText: "more game information",
+	published: "2026-03-23",
+	updated: "2026-03-15",
+	title: "Escape from Tarkov Guide: Economy And Loadout Planning (2026)",
+	metaDescription: "A practical Escape from Tarkov guide covering hardcore extraction FPS fundamentals, insurance and hideout, and Raid maps with Scav AI, PMC squads, and high-stakes loot — updated for 2026 PC players.",
+	h1: "Escape from Tarkov Economy And Loadout Planning Guide",
+	intro: "Escape from Tarkov remains one of the most discussed hardcore extraction FPS titles on PC, especially for players who want sharper reads in Raid maps with Scav AI, PMC squads, and high-stakes loot. This guide focuses on economy and loadout planning without skipping the basics: how rounds flow, where teams win fights, and why insurance and hideout often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/07/escapefromtarkov-1638898094839.jpg",
+	imageAlt: "Escape from Tarkov gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Escape from Tarkov matches actually play out",
+			paragraphs: [
+				"Most Escape from Tarkov sessions are won in the minutes before a fight starts. Learn the default routes players take through Raid maps with Scav AI, PMC squads, and high-stakes loot, which angles give free information, and when to disengage. In hardcore extraction FPS titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat insurance and hideout as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "flea market economy and mid-game decisions",
+			paragraphs: [
+				"flea market economy separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Escape from Tarkov, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic hardcore extraction FPS lobbies, disciplined spacing around Raid maps with Scav AI, PMC squads, and high-stakes loot creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Escape from Tarkov. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Escape from Tarkov uses BattlEye with manual ban waves after patches. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: insurance and hideout, flea market economy, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://tarkovcheat.org\" target=\"_blank\" rel=\"noopener noreferrer\">more game information</a>."
+			]
+		}
+	]
+},
+	{
+	id: "the-isle-theislecheats-org-guide",
+	slug: "the-isle-theislecheats-org-guide",
+	game: "The Isle",
+	gameSlug: "the-isle",
+	externalUrl: "https://theislecheats.org",
+	anchorText: "related resources",
+	published: "2026-04-24",
+	updated: "2026-03-15",
+	title: "The Isle Guide: Solo Queue Survival (2026)",
+	metaDescription: "A practical The Isle guide covering dinosaur survival fundamentals, growth stages, and open island growth cycles with carnivore and herbivore paths — updated for 2026 PC players.",
+	h1: "The Isle Solo Queue Survival Guide",
+	intro: "The Isle remains one of the most discussed dinosaur survival titles on PC, especially for players who want sharper reads in open island growth cycles with carnivore and herbivore paths. This guide focuses on solo queue survival without skipping the basics: how rounds flow, where teams win fights, and why growth stages often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2023/09/12/library-600x900-1694540297721.jpg",
+	imageAlt: "The Isle gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How The Isle matches actually play out",
+			paragraphs: [
+				"Most The Isle sessions are won in the minutes before a fight starts. Learn the default routes players take through open island growth cycles with carnivore and herbivore paths, which angles give free information, and when to disengage. In dinosaur survival titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat growth stages as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "nest spawning and mid-game decisions",
+			paragraphs: [
+				"nest spawning separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In The Isle, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic dinosaur survival lobbies, disciplined spacing around open island growth cycles with carnivore and herbivore paths creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in The Isle. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"The Isle uses EAC on official servers with admin logs. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: growth stages, nest spawning, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://theislecheats.org\" target=\"_blank\" rel=\"noopener noreferrer\">related resources</a>."
+			]
+		}
+	]
+},
+	{
+	id: "raft-raftcheats-com-guide",
+	slug: "raft-raftcheats-com-guide",
+	game: "Raft",
+	gameSlug: "raft",
+	externalUrl: "https://raftcheats.com",
+	anchorText: "related resources",
+	published: "2026-05-05",
+	updated: "2026-03-15",
+	title: "Raft Guide: Anti-Cheat Awareness (2026)",
+	metaDescription: "A practical Raft guide covering co-op survival fundamentals, shark timing, and ocean raft expansion with story islands — updated for 2026 PC players.",
+	h1: "Raft Anti-Cheat Awareness Guide",
+	intro: "Raft remains one of the most discussed co-op survival titles on PC, especially for players who want sharper reads in ocean raft expansion with story islands. This guide focuses on anti-cheat awareness without skipping the basics: how rounds flow, where teams win fights, and why shark timing often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2022/07/29/raftfinal-1659126121018.jpg",
+	imageAlt: "Raft gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Raft matches actually play out",
+			paragraphs: [
+				"Most Raft sessions are won in the minutes before a fight starts. Learn the default routes players take through ocean raft expansion with story islands, which angles give free information, and when to disengage. In co-op survival titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat shark timing as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "resource hooks and mid-game decisions",
+			paragraphs: [
+				"resource hooks separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Raft, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic co-op survival lobbies, disciplined spacing around ocean raft expansion with story islands creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Raft. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Raft uses light multiplayer validation. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: shark timing, resource hooks, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://raftcheats.com\" target=\"_blank\" rel=\"noopener noreferrer\">related resources</a>."
+			]
+		}
+	]
+},
+	{
+	id: "sand-sandhacks-com-guide",
+	slug: "sand-sandhacks-com-guide",
+	game: "Sand",
+	gameSlug: "sand",
+	externalUrl: "https://sandhacks.com",
+	anchorText: "additional guides",
+	published: "2026-06-06",
+	updated: "2026-03-15",
+	title: "Sand Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical Sand guide covering extraction adventure fundamentals, boss patterns, and desert ruins with traversal and combat arenas — updated for 2026 PC players.",
+	h1: "Sand Patch-Day Preparation Guide",
+	intro: "Sand remains one of the most discussed extraction adventure titles on PC, especially for players who want sharper reads in desert ruins with traversal and combat arenas. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why boss patterns often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2026/01/09/sand-raiders-of-sophie-button-1767971628115.jpg",
+	imageAlt: "Sand gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Sand matches actually play out",
+			paragraphs: [
+				"Most Sand sessions are won in the minutes before a fight starts. Learn the default routes players take through desert ruins with traversal and combat arenas, which angles give free information, and when to disengage. In extraction adventure titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat boss patterns as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "route planning and mid-game decisions",
+			paragraphs: [
+				"route planning separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Sand, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic extraction adventure lobbies, disciplined spacing around desert ruins with traversal and combat arenas creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Sand. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Sand uses standard PC anti-cheat at launch. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: boss patterns, route planning, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://sandhacks.com\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "sea-of-thieves-seaofthievescheats-net-guide",
+	slug: "sea-of-thieves-seaofthievescheats-net-guide",
+	game: "Sea of Thieves",
+	gameSlug: "sea-of-thieves",
+	externalUrl: "https://seaofthievescheats.net",
+	anchorText: "this resource",
+	published: "2026-07-07",
+	updated: "2026-03-15",
+	title: "Sea of Thieves Guide: Squad Coordination (2026)",
+	metaDescription: "A practical Sea of Thieves guide covering pirate adventure fundamentals, loot chains, and open seas with voyages, forts, and ship combat — updated for 2026 PC players.",
+	h1: "Sea of Thieves Squad Coordination Guide",
+	intro: "Sea of Thieves remains one of the most discussed pirate adventure titles on PC, especially for players who want sharper reads in open seas with voyages, forts, and ship combat. This guide focuses on squad coordination without skipping the basics: how rounds flow, where teams win fights, and why loot chains often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2026/06/09/sot-customthieves-1781027869323.jpg",
+	imageAlt: "Sea of Thieves gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Sea of Thieves matches actually play out",
+			paragraphs: [
+				"Most Sea of Thieves sessions are won in the minutes before a fight starts. Learn the default routes players take through open seas with voyages, forts, and ship combat, which angles give free information, and when to disengage. In pirate adventure titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat loot chains as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "ship positioning and mid-game decisions",
+			paragraphs: [
+				"ship positioning separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Sea of Thieves, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic pirate adventure lobbies, disciplined spacing around open seas with voyages, forts, and ship combat creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Sea of Thieves. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Sea of Thieves uses Easy Anti-Cheat with Rare maintenance. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: loot chains, ship positioning, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://seaofthievescheats.net\" target=\"_blank\" rel=\"noopener noreferrer\">this resource</a>."
+			]
+		}
+	]
+},
+	{
+	id: "battlefield-battlefieldhacks-net-guide",
+	slug: "battlefield-battlefieldhacks-net-guide",
+	game: "Battlefield",
+	gameSlug: "battlefield",
+	externalUrl: "https://battlefieldhacks.net",
+	anchorText: "additional guides",
+	published: "2026-08-08",
+	updated: "2026-03-15",
+	title: "Battlefield Guide: Map Control Fundamentals (2026)",
+	metaDescription: "A practical Battlefield guide covering large-scale FPS fundamentals, capture point flow, and 64v128-player zones with vehicles and destruction — updated for 2026 PC players.",
+	h1: "Battlefield Map Control Fundamentals Guide",
+	intro: "Battlefield remains one of the most discussed large-scale FPS titles on PC, especially for players who want sharper reads in 64v128-player zones with vehicles and destruction. This guide focuses on map control fundamentals without skipping the basics: how rounds flow, where teams win fights, and why capture point flow often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2024/03/20/battlefields7-1710977997041.jpg",
+	imageAlt: "Battlefield gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Battlefield matches actually play out",
+			paragraphs: [
+				"Most Battlefield sessions are won in the minutes before a fight starts. Learn the default routes players take through 64v128-player zones with vehicles and destruction, which angles give free information, and when to disengage. In large-scale FPS titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat capture point flow as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "vehicle weak points and mid-game decisions",
+			paragraphs: [
+				"vehicle weak points separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Battlefield, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic large-scale FPS lobbies, disciplined spacing around 64v128-player zones with vehicles and destruction creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Battlefield. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Battlefield uses Javelin anti-cheat with kernel components. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: capture point flow, vehicle weak points, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://battlefieldhacks.net\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "the-finals-thefinalshacks-com-guide",
+	slug: "the-finals-thefinalshacks-com-guide",
+	game: "The Finals",
+	gameSlug: "the-finals",
+	externalUrl: "https://thefinalshacks.com",
+	anchorText: "additional guides",
+	published: "2026-01-09",
+	updated: "2026-03-15",
+	title: "The Finals Guide: Map Control Fundamentals (2026)",
+	metaDescription: "A practical The Finals guide covering destruction-based FPS fundamentals, gadget combos, and game-show arenas with cash-out objectives — updated for 2026 PC players.",
+	h1: "The Finals Map Control Fundamentals Guide",
+	intro: "The Finals remains one of the most discussed destruction-based FPS titles on PC, especially for players who want sharper reads in game-show arenas with cash-out objectives. This guide focuses on map control fundamentals without skipping the basics: how rounds flow, where teams win fights, and why gadget combos often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2022/08/23/the-finals-button-01-1661293340151.jpg",
+	imageAlt: "The Finals gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How The Finals matches actually play out",
+			paragraphs: [
+				"Most The Finals sessions are won in the minutes before a fight starts. Learn the default routes players take through game-show arenas with cash-out objectives, which angles give free information, and when to disengage. In destruction-based FPS titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat gadget combos as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "environmental destruction and mid-game decisions",
+			paragraphs: [
+				"environmental destruction separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In The Finals, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic destruction-based FPS lobbies, disciplined spacing around game-show arenas with cash-out objectives creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in The Finals. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"The Finals uses Easy Anti-Cheat with rebuilds after patches. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: gadget combos, environmental destruction, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://thefinalshacks.com\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "delta-force-deltaforcecheats-org-guide",
+	slug: "delta-force-deltaforcecheats-org-guide",
+	game: "Delta Force",
+	gameSlug: "delta-force",
+	externalUrl: "https://deltaforcecheats.org",
+	anchorText: "this resource",
+	published: "2026-02-10",
+	updated: "2026-03-15",
+	title: "Delta Force Guide: Beginner Onboarding (2026)",
+	metaDescription: "A practical Delta Force guide covering tactical FPS fundamentals, extraction timing, and large-scale operations with extraction modes — updated for 2026 PC players.",
+	h1: "Delta Force Beginner Onboarding Guide",
+	intro: "Delta Force remains one of the most discussed tactical FPS titles on PC, especially for players who want sharper reads in large-scale operations with extraction modes. This guide focuses on beginner onboarding without skipping the basics: how rounds flow, where teams win fights, and why extraction timing often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2024/08/28/delta-force-button-replacement-1724855313566.jpg",
+	imageAlt: "Delta Force gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Delta Force matches actually play out",
+			paragraphs: [
+				"Most Delta Force sessions are won in the minutes before a fight starts. Learn the default routes players take through large-scale operations with extraction modes, which angles give free information, and when to disengage. In tactical FPS titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat extraction timing as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "squad comms and mid-game decisions",
+			paragraphs: [
+				"squad comms separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Delta Force, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic tactical FPS lobbies, disciplined spacing around large-scale operations with extraction modes creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Delta Force. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Delta Force uses ACE anti-cheat with kernel module. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: extraction timing, squad comms, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://deltaforcecheats.org\" target=\"_blank\" rel=\"noopener noreferrer\">this resource</a>."
+			]
+		}
+	]
+},
+	{
+	id: "war-thunder-warthunderhacks-net-guide",
+	slug: "war-thunder-warthunderhacks-net-guide",
+	game: "War Thunder",
+	gameSlug: "war-thunder",
+	externalUrl: "https://warthunderhacks.net",
+	anchorText: "additional guides",
+	published: "2026-03-11",
+	updated: "2026-03-15",
+	title: "War Thunder Guide: Map Control Fundamentals (2026)",
+	metaDescription: "A practical War Thunder guide covering combined-arms simulator fundamentals, line-of-sight spotting, and WWII and modern vehicle battles across air, ground, and sea — updated for 2026 PC players.",
+	h1: "War Thunder Map Control Fundamentals Guide",
+	intro: "War Thunder remains one of the most discussed combined-arms simulator titles on PC, especially for players who want sharper reads in WWII and modern vehicle battles across air, ground, and sea. This guide focuses on map control fundamentals without skipping the basics: how rounds flow, where teams win fights, and why line-of-sight spotting often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/20/warthunder-1640044666858.jpg",
+	imageAlt: "War Thunder gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How War Thunder matches actually play out",
+			paragraphs: [
+				"Most War Thunder sessions are won in the minutes before a fight starts. Learn the default routes players take through WWII and modern vehicle battles across air, ground, and sea, which angles give free information, and when to disengage. In combined-arms simulator titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat line-of-sight spotting as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "armor weak spots and mid-game decisions",
+			paragraphs: [
+				"armor weak spots separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In War Thunder, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic combined-arms simulator lobbies, disciplined spacing around WWII and modern vehicle battles across air, ground, and sea creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in War Thunder. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"War Thunder uses server-side ballistics with client tamper detection. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: line-of-sight spotting, armor weak spots, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://warthunderhacks.net\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "valorant-valohacks-com-guide",
+	slug: "valorant-valohacks-com-guide",
+	game: "Valorant",
+	gameSlug: "valorant",
+	externalUrl: "https://valohacks.com",
+	anchorText: "this resource",
+	published: "2026-04-12",
+	updated: "2026-03-15",
+	title: "Valorant Guide: Beginner Onboarding (2026)",
+	metaDescription: "A practical Valorant guide covering tactical FPS fundamentals, ability combos, and 5v5 rounds with agent abilities and spike plants — updated for 2026 PC players.",
+	h1: "Valorant Beginner Onboarding Guide",
+	intro: "Valorant remains one of the most discussed tactical FPS titles on PC, especially for players who want sharper reads in 5v5 rounds with agent abilities and spike plants. This guide focuses on beginner onboarding without skipping the basics: how rounds flow, where teams win fights, and why ability combos often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/21/valorant-1640045685890.jpg",
+	imageAlt: "Valorant gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Valorant matches actually play out",
+			paragraphs: [
+				"Most Valorant sessions are won in the minutes before a fight starts. Learn the default routes players take through 5v5 rounds with agent abilities and spike plants, which angles give free information, and when to disengage. In tactical FPS titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat ability combos as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "crosshair placement and mid-game decisions",
+			paragraphs: [
+				"crosshair placement separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Valorant, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic tactical FPS lobbies, disciplined spacing around 5v5 rounds with agent abilities and spike plants creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Valorant. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Valorant uses Vanguard kernel driver running at boot. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: ability combos, crosshair placement, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://valohacks.com\" target=\"_blank\" rel=\"noopener noreferrer\">this resource</a>."
+			]
+		}
+	]
+},
+	{
+	id: "dead-by-daylight-dbdcheat-org-guide",
+	slug: "dead-by-daylight-dbdcheat-org-guide",
+	game: "Dead by Daylight",
+	gameSlug: "dead-by-daylight",
+	externalUrl: "https://dbdcheat.org",
+	anchorText: "additional guides",
+	published: "2026-05-13",
+	updated: "2026-03-15",
+	title: "Dead by Daylight Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical Dead by Daylight guide covering asymmetric horror fundamentals, perk synergies, and trial maps with generators, hooks, and chase loops — updated for 2026 PC players.",
+	h1: "Dead by Daylight Patch-Day Preparation Guide",
+	intro: "Dead by Daylight remains one of the most discussed asymmetric horror titles on PC, especially for players who want sharper reads in trial maps with generators, hooks, and chase loops. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why perk synergies often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2024/05/14/dead-by-daylight-button-replacement-1715713276872.jpg",
+	imageAlt: "Dead by Daylight gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Dead by Daylight matches actually play out",
+			paragraphs: [
+				"Most Dead by Daylight sessions are won in the minutes before a fight starts. Learn the default routes players take through trial maps with generators, hooks, and chase loops, which angles give free information, and when to disengage. In asymmetric horror titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat perk synergies as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "generator pacing and mid-game decisions",
+			paragraphs: [
+				"generator pacing separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Dead by Daylight, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic asymmetric horror lobbies, disciplined spacing around trial maps with generators, hooks, and chase loops creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Dead by Daylight. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Dead by Daylight uses Easy Anti-Cheat with post-match replay review. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: perk synergies, generator pacing, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://dbdcheat.org\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "ark-survival-evolved-arkcheats-net-guide",
+	slug: "ark-survival-evolved-arkcheats-net-guide",
+	game: "ARK: Survival Evolved",
+	gameSlug: "ark-survival-evolved",
+	externalUrl: "https://arkcheats.net",
+	anchorText: "additional guides",
+	published: "2026-06-14",
+	updated: "2026-03-15",
+	title: "ARK: Survival Evolved Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical ARK: Survival Evolved guide covering survival sandbox fundamentals, breeding lines, and prehistoric islands with tribes and boss arenas — updated for 2026 PC players.",
+	h1: "ARK: Survival Evolved Patch-Day Preparation Guide",
+	intro: "ARK: Survival Evolved remains one of the most discussed survival sandbox titles on PC, especially for players who want sharper reads in prehistoric islands with tribes and boss arenas. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why breeding lines often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/15/ark-survival-evolved-button-fin-1639607697385.jpg",
+	imageAlt: "ARK: Survival Evolved gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How ARK: Survival Evolved matches actually play out",
+			paragraphs: [
+				"Most ARK: Survival Evolved sessions are won in the minutes before a fight starts. Learn the default routes players take through prehistoric islands with tribes and boss arenas, which angles give free information, and when to disengage. In survival sandbox titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat breeding lines as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "turret soaking and mid-game decisions",
+			paragraphs: [
+				"turret soaking separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In ARK: Survival Evolved, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic survival sandbox lobbies, disciplined spacing around prehistoric islands with tribes and boss arenas creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in ARK: Survival Evolved. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"ARK: Survival Evolved uses BattlEye with legacy server mods. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: breeding lines, turret soaking, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://arkcheats.net\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "unturned-unturnedcheats-org-guide",
+	slug: "unturned-unturnedcheats-org-guide",
+	game: "Unturned",
+	gameSlug: "unturned",
+	externalUrl: "https://unturnedcheats.org",
+	anchorText: "additional guides",
+	published: "2026-07-15",
+	updated: "2026-03-15",
+	title: "Unturned Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical Unturned guide covering survival sandbox fundamentals, base raids, and zombie-infested maps with base building and PvP zones — updated for 2026 PC players.",
+	h1: "Unturned Patch-Day Preparation Guide",
+	intro: "Unturned remains one of the most discussed survival sandbox titles on PC, especially for players who want sharper reads in zombie-infested maps with base building and PvP zones. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why base raids often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2020/12/10/unturned-button-fin-1607643147558.jpg",
+	imageAlt: "Unturned gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Unturned matches actually play out",
+			paragraphs: [
+				"Most Unturned sessions are won in the minutes before a fight starts. Learn the default routes players take through zombie-infested maps with base building and PvP zones, which angles give free information, and when to disengage. In survival sandbox titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat base raids as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "vehicle logistics and mid-game decisions",
+			paragraphs: [
+				"vehicle logistics separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Unturned, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic survival sandbox lobbies, disciplined spacing around zombie-infested maps with base building and PvP zones creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Unturned. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Unturned uses VAC-enabled servers with admin tooling. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: base raids, vehicle logistics, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://unturnedcheats.org\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
+			]
+		}
+	]
+},
+	{
+	id: "war-thunder-warthundercheats-org-guide",
+	slug: "war-thunder-warthundercheats-org-guide",
+	game: "War Thunder",
+	gameSlug: "war-thunder",
+	externalUrl: "https://warthundercheats.org",
+	anchorText: "more game information",
+	published: "2026-08-16",
+	updated: "2026-03-15",
+	title: "War Thunder Guide: Ranked Climb Strategy (2026)",
+	metaDescription: "A practical War Thunder guide covering combined-arms simulator fundamentals, armor weak spots, and WWII and modern vehicle battles across air, ground, and sea — updated for 2026 PC players.",
+	h1: "War Thunder Ranked Climb Strategy Guide",
+	intro: "War Thunder remains one of the most discussed combined-arms simulator titles on PC, especially for players who want sharper reads in WWII and modern vehicle battles across air, ground, and sea. This guide focuses on ranked climb strategy without skipping the basics: how rounds flow, where teams win fights, and why armor weak spots often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2021/12/20/warthunder-1640044666858.jpg",
+	imageAlt: "War Thunder gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How War Thunder matches actually play out",
+			paragraphs: [
+				"Most War Thunder sessions are won in the minutes before a fight starts. Learn the default routes players take through WWII and modern vehicle battles across air, ground, and sea, which angles give free information, and when to disengage. In combined-arms simulator titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat armor weak spots as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "BR matchmaking and mid-game decisions",
+			paragraphs: [
+				"BR matchmaking separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In War Thunder, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic combined-arms simulator lobbies, disciplined spacing around WWII and modern vehicle battles across air, ground, and sea creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in War Thunder. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"War Thunder uses server-side ballistics with client tamper detection. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: armor weak spots, BR matchmaking, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://warthundercheats.org\" target=\"_blank\" rel=\"noopener noreferrer\">more game information</a>."
+			]
+		}
+	]
+},
+	{
+	id: "sea-of-thieves-seaofthievescheats-org-guide",
+	slug: "sea-of-thieves-seaofthievescheats-org-guide",
+	game: "Sea of Thieves",
+	gameSlug: "sea-of-thieves",
+	externalUrl: "https://seaofthievescheats.org",
+	anchorText: "related resources",
+	published: "2026-01-17",
+	updated: "2026-03-15",
+	title: "Sea of Thieves Guide: Solo Queue Survival (2026)",
+	metaDescription: "A practical Sea of Thieves guide covering pirate adventure fundamentals, ship positioning, and open seas with voyages, forts, and ship combat — updated for 2026 PC players.",
+	h1: "Sea of Thieves Solo Queue Survival Guide",
+	intro: "Sea of Thieves remains one of the most discussed pirate adventure titles on PC, especially for players who want sharper reads in open seas with voyages, forts, and ship combat. This guide focuses on solo queue survival without skipping the basics: how rounds flow, where teams win fights, and why ship positioning often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2026/06/09/sot-customthieves-1781027869323.jpg",
+	imageAlt: "Sea of Thieves gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Sea of Thieves matches actually play out",
+			paragraphs: [
+				"Most Sea of Thieves sessions are won in the minutes before a fight starts. Learn the default routes players take through open seas with voyages, forts, and ship combat, which angles give free information, and when to disengage. In pirate adventure titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat ship positioning as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "cannon angles and mid-game decisions",
+			paragraphs: [
+				"cannon angles separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Sea of Thieves, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic pirate adventure lobbies, disciplined spacing around open seas with voyages, forts, and ship combat creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Sea of Thieves. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Sea of Thieves uses Easy Anti-Cheat with Rare maintenance. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: ship positioning, cannon angles, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://seaofthievescheats.org\" target=\"_blank\" rel=\"noopener noreferrer\">related resources</a>."
+			]
+		}
+	]
+},
+	{
+	id: "warframe-warframecheats-net-guide",
+	slug: "warframe-warframecheats-net-guide",
+	game: "Warframe",
+	gameSlug: "warframe",
+	externalUrl: "https://warframecheats.net",
+	anchorText: "related resources",
+	published: "2026-02-18",
+	updated: "2026-03-15",
+	title: "Warframe Guide: Solo Queue Survival (2026)",
+	metaDescription: "A practical Warframe guide covering looter shooter fundamentals, steel path scaling, and Origin System missions with Warframe builds — updated for 2026 PC players.",
+	h1: "Warframe Solo Queue Survival Guide",
+	intro: "Warframe remains one of the most discussed looter shooter titles on PC, especially for players who want sharper reads in Origin System missions with Warframe builds. This guide focuses on solo queue survival without skipping the basics: how rounds flow, where teams win fights, and why steel path scaling often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets1.ignimgs.com/2019/02/22/warframe---button-1550875935085.jpg",
+	imageAlt: "Warframe gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Warframe matches actually play out",
+			paragraphs: [
+				"Most Warframe sessions are won in the minutes before a fight starts. Learn the default routes players take through Origin System missions with Warframe builds, which angles give free information, and when to disengage. In looter shooter titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat steel path scaling as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "mod polarities and mid-game decisions",
+			paragraphs: [
+				"mod polarities separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Warframe, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic looter shooter lobbies, disciplined spacing around Origin System missions with Warframe builds creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Warframe. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Warframe uses Easy Anti-Cheat with manual review. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: steel path scaling, mod polarities, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://warframecheats.net\" target=\"_blank\" rel=\"noopener noreferrer\">related resources</a>."
+			]
+		}
+	]
+},
+	{
+	id: "dune-awakening-dunecheats-com-guide",
+	slug: "dune-awakening-dunecheats-com-guide",
+	game: "Dune: Awakening",
+	gameSlug: "dune-awakening",
+	externalUrl: "https://dunecheats.com",
+	anchorText: "additional guides",
+	published: "2026-03-19",
+	updated: "2026-03-15",
+	title: "Dune: Awakening Guide: Patch-Day Preparation (2026)",
+	metaDescription: "A practical Dune: Awakening guide covering survival MMO fundamentals, spice runs, and Arrakis spice wars with sandworm threats — updated for 2026 PC players.",
+	h1: "Dune: Awakening Patch-Day Preparation Guide",
+	intro: "Dune: Awakening remains one of the most discussed survival MMO titles on PC, especially for players who want sharper reads in Arrakis spice wars with sandworm threats. This guide focuses on patch-day preparation without skipping the basics: how rounds flow, where teams win fights, and why spice runs often decides outcomes before aim ever matters.",
+	imageUrl: "https://assets-prd.ignimgs.com/2024/08/21/duneawak-1724235247826.jpg",
+	imageAlt: "Dune: Awakening gameplay — IGN screenshot",
+	sections: [
+		{
+			h2: "How Dune: Awakening matches actually play out",
+			paragraphs: [
+				"Most Dune: Awakening sessions are won in the minutes before a fight starts. Learn the default routes players take through Arrakis spice wars with sandworm threats, which angles give free information, and when to disengage. In survival MMO titles, map timing beats raw reflexes more often than new players expect.",
+				"Treat spice runs as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades."
+			]
+		},
+		{
+			h2: "faction control and mid-game decisions",
+			paragraphs: [
+				"faction control separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In Dune: Awakening, the team that recognizes a committed enemy first usually wins the exchange.",
+				"If you queue solo, ping information consistently and play for space instead of pirate plays. Even in chaotic survival MMO lobbies, disciplined spacing around Arrakis spice wars with sandworm threats creates openings that raw aggression cannot."
+			]
+		},
+		{
+			h2: "Performance, settings, and fair-play context",
+			paragraphs: [
+				"Stable FPS and clean audio matter in Dune: Awakening. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.",
+				"Dune: Awakening uses kernel anti-cheat at launch. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches."
+			]
+		},
+		{
+			h2: "Putting the guide into practice",
+			paragraphs: [
+				"Pick one focus per session: spice runs, faction control, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.",
+				"For more game updates, guides, and related resources, you can also explore <a href=\"https://dunecheats.com\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>."
 			]
 		}
 	]
