@@ -224,8 +224,9 @@ const useHomeHero =
 									<meta itemprop="contentUrl" content={image.url} />
 									<img
 										src={image.src}
-										srcset={contentSrcSet(image.src)}
-										sizes={galleryTileSizes}
+										{...(contentSrcSet(image.src)
+											? { srcset: contentSrcSet(image.src), sizes: galleryTileSizes }
+											: {})}
 										alt={image.alt}
 										itemprop="contentUrl"
 										width="800"
