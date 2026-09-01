@@ -4,7 +4,7 @@ type Props = {
 	className?: string;
 };
 
-/** NC monogram mark — Sea of Thieves Cheats. */
+/** Zadeyo checkout mark — used when a logo image is needed. */
 export default function BrandLogo({ alt = 'Sea of Thieves Cheats logo', className }: Props) {
 	return (
 		<img

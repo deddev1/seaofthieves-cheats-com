@@ -108,6 +108,7 @@ export const siteConfig = {
 	logoRasterWidth: brand.logoRasterWidth,
 	logoRasterHeight: brand.logoRasterHeight,
 	logoAlt: brand.logoAlt,
+	faviconVersion: brand.faviconVersion,
 	checkoutUrl: brand.checkoutUrl,
 	gameUrl: brand.gameUrl,
 	defaultOgImage: brand.defaultOgImage,

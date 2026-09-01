@@ -25,6 +25,7 @@
 		"fetch:steam-hero": "node scripts/fetch-steam-hero.mjs",
 		"fetch:screenshots": "node scripts/import-sot-screenshots.mjs",
 		"generate:brand": "node scripts/generate-brand-assets.mjs",
+		"import:zadeyo": "node scripts/import-zadeyo-favicon.mjs",
 		"preview": "astro preview --host 0.0.0.0 --port 3000",
 		"preview:4321": "astro preview --host 0.0.0.0 --port 4321",
 		"validate:sitemaps": "node scripts/validate-sitemaps.mjs && node scripts/audit-sitemap-deep.mjs",
