@@ -2,7 +2,7 @@
 export const CANONICAL_ORIGIN = 'https://seaofthievescheats.com';
 export const CANONICAL_HOST = 'seaofthievescheats.com';
 
-/** Legacy hosts that 301 to the canonical apex (see worker.ts LEGACY_HOSTS). */
+/** Legacy hosts that 301 to the canonical apex (see worker.ts). Excludes CANONICAL_HOST — apex must not self-redirect. */
 export const LEGACY_HOSTS = [
 	'valoranthacks.org',
 	'www.valoranthacks.org',
@@ -22,7 +22,6 @@ export const LEGACY_HOSTS = [
 	'www.theislehack.org',
 	'thefinalscheats.org',
 	'www.thefinalscheats.org',
-	'seaofthievescheats.com',
 	'www.seaofthievescheats.com',
 ] as const;
 

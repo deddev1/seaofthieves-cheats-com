@@ -41,3 +41,13 @@ validateFile('public/_redirects', REDIRECTS);
 if (existsSync(path.join(ROOT, 'dist'))) {
 	validateFile('dist/_redirects', DIST_REDIRECTS);
 }
+
+// Canonical apex must not be listed as a legacy host (causes infinite 301 on sitemaps).
+const canonicalSrc = readFileSync(path.join(ROOT, 'src/lib/canonical-origin.ts'), 'utf8');
+const canonicalHost = canonicalSrc.match(/export const CANONICAL_HOST = '([^']+)'/)?.[1];
+const legacyBlock = canonicalSrc.match(/export const LEGACY_HOSTS = \[([\s\S]*?)\] as const/)?.[1] ?? '';
+if (canonicalHost && legacyBlock.includes(`'${canonicalHost}'`)) {
+	console.error(`✗ canonical-origin.ts: CANONICAL_HOST "${canonicalHost}" must not appear in LEGACY_HOSTS (GSC sitemap 301 loop)`);
+	process.exit(1);
+}
+console.log(`✓ canonical-origin.ts: apex host not in LEGACY_HOSTS`);

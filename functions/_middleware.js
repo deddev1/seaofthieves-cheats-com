@@ -4,9 +4,8 @@ const CANONICAL_ORIGIN = 'https://seaofthievescheats.com';
 const APEX_HOST = 'seaofthievescheats.com';
 const WWW_HOST = 'www.seaofthievescheats.com';
 
-/** Legacy domains → canonical apex (301). */
+/** Legacy domains → canonical apex (301). Never list CANONICAL apex here — causes sitemap 301 loops. */
 const LEGACY_HOSTS = new Set([
-	'seaofthievescheats.com',
 	'www.seaofthievescheats.com',
 	'rustcheats.co',
 	'www.rustcheats.co',
@@ -228,7 +227,10 @@ export async function onRequest(context) {
 	const needsHostRedirect = host === WWW_HOST || isLegacyHost;
 	const needsHttpsRedirect = isProductionHost && proto === 'http';
 
-	if (needsHostRedirect || needsHttpsRedirect) {
+	// Apex on HTTPS must serve directly — no self-redirect (GSC sitemap fetch requires 200).
+	if (host === APEX_HOST && proto === 'https' && !needsHostRedirect) {
+		// fall through to path redirects + asset fetch
+	} else if (needsHostRedirect || needsHttpsRedirect) {
 		const mappedPath = PATH_REDIRECTS[url.pathname] ?? url.pathname;
 		const target = new URL(mappedPath + url.search, CANONICAL_ORIGIN);
 		const headers = new Headers({

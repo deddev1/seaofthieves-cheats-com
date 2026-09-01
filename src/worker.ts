@@ -52,9 +52,14 @@ function redirectResponse(target: string, status = 301): Response {
 
 function canonicalHostRedirect(request: Request, url: URL): Response | null {
 	const host = (request.headers.get('host') || url.hostname).split(':')[0].toLowerCase();
+	const isHttp = isInsecureRequest(request, url);
+	const isCanonicalApex = host === CANONICAL_HOST;
+
+	// Canonical apex on HTTPS must never 301 to itself (breaks GSC sitemap fetch).
+	if (isCanonicalApex && !isHttp) return null;
+
 	const isLegacy = LEGACY_HOST_SET.has(host);
 	const isWww = host === WWW_HOST || url.hostname === WWW_HOST;
-	const isHttp = isInsecureRequest(request, url);
 
 	if (!isLegacy && !isWww && !isHttp) return null;
 
