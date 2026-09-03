@@ -9,6 +9,7 @@ import { getSelfHreflangAlternates } from '../../data/i18n/routing';
 import { getReviewPath, reviewsBasePath } from '../../data/reviews';
 import { reviewsImageSrc } from '../../data/page-images';
 import { contentSrcSet, productMainSizes } from '../../lib/responsive-images';
+import { productGraphNode } from '../../lib/product-schema';
 
 const title = seoPageTitle(brandSeo.reviewsTitle);
 const description = seoDescription(brandSeo.reviewsDescription);
@@ -35,22 +36,7 @@ const canonicalURL = new URL(reviewsBasePath, siteConfig.url).href;
 const hreflangAlternates = getSelfHreflangAlternates(reviewsBasePath);
 
 const extraGraph: Record<string, unknown>[] = [
-	{
-		'@type': 'Product',
-		'@id': `${siteConfig.url}/#product`,
-		name: productInfo.name,
-		description: productInfo.summary,
-		image: new URL(reviewsImageSrc, siteConfig.url).href,
-		brand: { '@type': 'Brand', name: productInfo.brand },
-		url: new URL('/', siteConfig.url).href,
-		aggregateRating: {
-			'@type': 'AggregateRating',
-			ratingValue: customerReviewStats.averageRating.toFixed(1),
-			reviewCount: String(customerReviewStats.totalCount),
-			bestRating: '5',
-			worstRating: '1',
-		},
-	},
+	productGraphNode(new URL(reviewsImageSrc, siteConfig.url).href),
 	{
 		'@type': 'ItemList',
 		'@id': `${canonicalURL}#list`,

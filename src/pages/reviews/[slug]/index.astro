@@ -7,6 +7,7 @@ import { getSelfHreflangAlternates } from '../../../data/i18n/routing';
 import { getReviewPath, getReviewCrawlImage, reviewsBasePath } from '../../../data/reviews';
 import type { CustomerReview } from '../../../data/site';
 import { contentSrcSet, productMainSizes } from '../../../lib/responsive-images';
+import { productGraphId, productGraphNode } from '../../../lib/product-schema';
 import RelatedPages from '../../../components/RelatedPages.astro';
 import ExternalResources from '../../../components/ExternalResources.astro';
 
@@ -42,6 +43,7 @@ const moreReviews = [1, 2, 3].map(
 );
 
 const extraGraph: Record<string, unknown>[] = [
+	productGraphNode(photo.url),
 	{
 		'@type': 'Review',
 		'@id': `${canonicalURL}#review`,
@@ -56,7 +58,7 @@ const extraGraph: Record<string, unknown>[] = [
 			worstRating: '1',
 		},
 		reviewBody: review.text,
-		itemReviewed: { '@id': `${siteConfig.url}/#product` },
+		itemReviewed: { '@id': productGraphId },
 		publisher: { '@id': `${siteConfig.url}/#organization` },
 	},
 ];
